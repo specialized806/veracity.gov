@@ -6,6 +6,93 @@ type: training
 title: 'Interagency Accessibility Forum (IAAF) Archives'
 created: 1598578742
 --- 
+## 2022 Interagency Accessibility Forum
+The 2022 Interagency Accessibility Forum (IAAF) celebrated accessibility as a foundation for inclusion, diversity, and equity within the federal government with a focus on _Unlocking the Power of Accessibility_.
+
+For the first time, the forum included virtual workshops hosted by accessibility subject matter experts who work within their agency to ensure equivalent access to information and digital services by people living with disabilities. Following the first day of workshops, attendees enjoyed two days illed with inspirational speakers, presentations and panel discussions. 
+
+The 2022 Interagency Accessibility Forum (IAAF) is sponsored by the Federal Chief Information Officer Council’s (Federal CIO Council) Accessibility Community of Practice (ACOP) and hosted by the Government-wide IT Accessibility Program from the Office of Government-wide Policy (OGP) of the General Services Administration (GSA), and National Institutes of Health (NIH), in partnership with other federal agencies.
+
+<h3 class="site-preview-heading">Event Highlights</h3>
+<ul class="usa-card-group">
+  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-right">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">Oct 12 Keynote Address: Kimberly Knackstedt</h2>
+      </div>
+      <div class="usa-card__media usa-card__media--inset">
+        <div class="usa-card__img">
+          <a href="{{site.baseurl}}/training/presentations-workshops/keynote-kimberly-knackstedt/"><img src="https://assets.section508.gov/files/thumbnails/iaaf-2022-keynote-knackstedt-thumb.png" alt="Oct 12 Keynote Address: Kimberly Knackstedt" class="border-base radius-lg border-0px" /></a>
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>
+          Kimberly Knackstedt, Senior Fellow and Co-Director, Disability Economic Justice Collaborative at the Century Foundation, and Andrew Nielson, Director, Government-wide IT Accessibility Program, General Services Administration discuss... 
+        </p>
+      </div>
+      <div class="usa-card__footer">
+        <a class="usa-button" href="{{site.baseurl}}/training/presentations-workshops/keynote-kimberly-knackstedt/">Watch: Oct 12 Keynote</a>
+      </div>
+    </div>
+  </li>
+  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-right">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">Oct 13 Keynote Address: Day Al-Mohamed</h2>
+      </div>
+      <div class="usa-card__media usa-card__media--inset">
+        <div class="usa-card__img">
+          <a href="{{site.baseurl}}/training/presentations-workshops/keynote-day-al-mohamed/"><img src="https://assets.section508.gov/files/thumbnails/iaaf-2022-keynote-al-mohamed-thumb-02.png" alt="Oct 13 Keynote Address: Day Al-Mohamed" class="border-base radius-lg border-0px" /></a>
+        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>
+          Andrea M. O'Neal, Senior Advisor to the Administrator (Equity) at the General Services Administration, and Day Al-Mohamed, Director, Disability Policy, White House, Domestic Policy Council talked about ...
+        </p>
+      </div>
+      <div class="usa-card__footer">
+        <a class="usa-button" href="{{site.baseurl}}/training/presentations-workshops/keynote-day-al-mohamed/">Watch: Oct 13 Keynote</a>
+      </div>
+    </div>
+  </li>
+</ul>
+
+### Event Agenda & Speaker and Presenter Biographies
+The 2022 IAAF had three days filled with speakers, keynote addresses, breakout sessions, and discussions led by those on the forefront of accessibility in the federal, private, academic, international, and nonprofit sectors.
+
+For details, visit: [2022 IAAF Agenda]({{site.baseurl}}/iaaf/archives/agenda-2022/) and [2022 IAAF Speaker and Presenter Biographies]({{site.baseurl}}/iaaf/archives/biographies-2022).
+
+### General Sessions
+* Agency Co-host Panel Discussion
+* Using Technology to Enhance Intersectional Neurodiverse Accessibility at Work
+* Accessibility Maturity Models
+
+### Breakout Sessions
+* **Track A: Lead Our Agencies Towards Access**
+  * [Accessible Meetings: Integrating Captioning in Conference Platforms (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Accessible%20Meetings%20-%20Integrating%20Captioning%20in%20Conference%20Platforms%20-%20IAAF%202022.pptx)
+  * [The Human Reason for Accessibility (Part 1) (PPTX)](https://assets.section508.gov/files/presentations/iaaf/The%20Human%20Reason%20for%20Accessibility%20-%20Part%201%20-%20IAAF%202022.pptx)
+  * [The Human Reason for Accessibility (Part 2) (PPTX)](https://assets.section508.gov/files/presentations/iaaf/The%20Human%20Reason%20for%20Accessibility%20-%20Part%202%20-%20IAAF%202022.pptx)
+  * [Creating Accessible PDF Forms](https://assets.section508.gov/files/presentations/iaaf/Creating%20Accessible%20PDF%20Forms%20-%20IAAF%202022.pptx)
+  * Using Technology to Enhance Intersectional Neurodiverse Accessibility at Work
+  * [Workplace Mental Health - Why It's More Important Than Ever to Focus on the Mental Health of Your Employees (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Workplace%20Mental%20Health%20-%20IAAF%202022.pptx)
+  * [Beyond 508 Compliance: A Four-Point Hybrid Testing Approach (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Beyond%20508%20Compliance%20-%20A%20Four-Point%20Hybrid%20Testing%20Approach%20-%20IAAF%202022.pptx)
+  * [Phases of "Advancing Accessibility" in a Small Agency (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Advancing%20Accessibility%20within%20a%20Small%20Agency%20-%20IAAF%202022.pptx)
+  * [WCAG 3 - Current Status and Ways to Get Involved (PPTX)](https://assets.section508.gov/files/presentations/iaaf/WCAG%203%20-%20IAAF%202022.pptx)
+  * [A Different Perspective for Looking at Accessibility (PPTX)](https://assets.section508.gov/files/presentations/iaaf/A%20Different%20Perspective%20for%20Looking%20at%20Accessibility%20-%20IAAF%202022.pptx) 
+* **Track B: Create Amazing Content**
+  * [Videos for All: Strategies for Developing Audio Described Videos (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Videos%20for%20All%20-%20IAAF%202022.pptx)
+  * [Captioning Multimedia - Is It As Complicated As It Sounds? (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Captioning%20Multimedia%20-%20IAAF%202022.pptx)
+  * [Section 508 PMs - What You Need To Know (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Section%20508%20PMs%20-%20What%20You%20Need%20To%20Know%20-%20IAAF%202022.pptx)
+  * Section 508 PMs - Using What You Know
+  * [Striving for Universal Access: Image Descriptions (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Striving%20for%20Universal%20Access%20-%20IAAF%202022.pptx)
+  * [Mission Accessible Getting the Job Done (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Mission%20Accessible%20-%20IAAF%202022.pptx)
+  * [The UniDescription Project: Audio Describing the World, One Brochure at a Time](https://assets.section508.gov/files/presentations/iaaf/The%20UniDescription%20Project%20-%20IAAF%202022.pptx)
+* **Track C: Section 508 Wildcard**
+  * [Best Practices for Achieving Digital Accessibility (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Best%20Practices%20for%20Achieving%20Digital%20Accessibility%20-%20IAAF%202022.pptx)
+  * [Demystifying Section 508: Creating and Evaluating Accessibility Conformance Reports (PPTX)](https://assets.section508.gov/files/presentations/iaaf/Demystifying%20Section%20508%20-%20IAAF%202022.pptx)
+
+<hr>
+
 ## 2021 Interagency Accessibility Forum
 
 The 2021 Interagency Accessibility Forum celebrated the 75th observance of the National Disability Employment Awareness Month (NDEAM) and the 20th anniversary of Section 508 of the Rehabilitation Act becoming enforceable.
@@ -277,5 +364,5 @@ For details, visit: <a href="{{site.baseurl}}/iaaf/archives/agenda-2020/">2020 I
         <a href="https://assets.section508.gov/files/Authors%20and%20Developers%20Guidance%20for%20the%20Revised%20508%20Standards.pptx" target="_blank">Authors and Developers Guidance for the Revised 508 Standards</a> (PPT)
       </li>
     </ul>
-    <p><strong>Reviewed/Updated</strong>: August 2022</p>
+    <p><strong>Reviewed/Updated</strong>: November 2022</p>
 </div>
