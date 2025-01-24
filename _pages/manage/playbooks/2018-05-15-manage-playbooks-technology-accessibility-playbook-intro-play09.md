@@ -1,11 +1,22 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play09/
 type: manage
 layout: page
-title: 'Play 9: Integrate accessibility needs into development processes'
+title: 'Play 9: Integrate Accessibility Needs into Development Processes'
 created: 1526408870
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play09/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 Regardless of whether you use contractors or agency staff to develop digital services and technology, Section 508 compliance needs to be addressed. Whether using waterfall, agile, or any other development approach, achievement of Section 508 compliance is dependent upon your ability to incorporate accessibility needs from the very beginning of the development effort (conceptualization and planning) and on through design, development, testing, deployment, continuous enhancements, and maintenance activities. Failure to consider Section 508 compliance throughout development will likely relegate 508 conformance considerations to the end of the project, when it costs the most to fix accessibility problems.
@@ -59,6 +70,8 @@ Regardless of whether you use contractors or agency staff to develop digital ser
       href="{{site.baseurl}}/manage/playbooks/technology-accessibility-playbook-intro/play10"> Play 10 >
     </a>
 </div>
+
+**Reviewed/Updated:** November 2024
 
  [1]: {{site.baseurl}}/test
  [2]: https://www.federalregister.gov/documents/2000/12/21/00-32017/electronic-and-information-technology-accessibility-standards

@@ -6,6 +6,15 @@ type: acquisition
 title: 'Accessibility In Procurement II: Solicitation & Post-Solicitation'
 contributors: proctor, gsatts
 description: Accessibility in Procurement guide developed by TTS to ensure accessibility considerations are taken into account when purchasing ICT; including solicitation and post-soliciation activities. 
+topic: "Acquisition/Buy (buy)"
+sub-topic: "Accessible Acquisition Info, Guidance & Best Practices"
+audience:
+- "Acquisition (acq)"
+- "Chief Acquisition Officer (cao)"
+- "Agency Senior Procurement Executive (spe)"
+- "Agency Senior Procurement Executive (spe)"
+resource-type: "Process/How-to"
+format: "HTML (html)"
 ---
 
 ## Requests for Quotes (RFQs)/Request for Proposals (RFPs) - “Solicitations”
@@ -47,7 +56,7 @@ Item.
 <ol type="i">
     <li>Provide a description of the evaluation methods used to support Section 508 conformance claims. The agency reserves the right, prior to making an award decision, to perform testing on some or all of the vendor’s proposed ICT items to validate Section 508 conformance claims made in the ACR.</li>
         <ol type="A">
-        <li> Describe your approach to incorporating universal design principles to ensure ICTproducts or services are designed to support disabled users.</li>
+        <li> Describe your approach to incorporating universal design principles to ensure ICT products or services are designed to support disabled users.</li>
         <li> Describe plans for features that do not fully conform to the Section 508 Standards.</li>
         <li> Describe “typical” user scenarios and tasks, including individuals with disabilities, to ensure fair and accurate accessibility testing of the ICT product or service being offered.</li>
         </ol>

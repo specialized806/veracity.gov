@@ -236,7 +236,7 @@ iaaf_2022:
         time_end: 2022-10-12 12:30:00
         session_id: day2panel1
         subtitle: 'Using Technology to Enhance Intersectional Neurodiverse Accessibility at Work'
-        description: Neurodiversity/Neurodivergence has been defined the range of differences in individual brain function and behavioral traits, regarded as part of normal variation in the human population.  Neurodiversity also describes the idea that people experience and interact with the world around them in many different ways; there is no one "right" way of thinking, learning, and behaving, and differences are not viewed as deficits ( Singer 2016, Mottron 2004, Harvard 2022). As more companies broaden their investment in DEIA programs, more leaders are adding neuodiversity/neurodivergence to their business vocabularies and programming (DICE, 2021). However, while a growing number of companies are still refining HR processes to hire and retain neurodivere talent; at present, however,  there are still many barriers and more work needs to be done. This panel will briefly discuss what intersectional neurodiversity means, the business case for neurodiversity, how each panelist is expanding accessibility though technology for DEIA and for Neurodiverse people with the workplace, how success is measured, best practices and next steps to create  holistic inclusive workplaces.
+        description: Neurodiversity/Neurodivergence has been defined the range of differences in individual brain function and behavioral traits, regarded as part of normal variation in the human population.  Neurodiversity also describes the idea that people experience and interact with the world around them in many different ways; there is no one "right" way of thinking, learning, and behaving, and differences are not viewed as deficits ( Singer 2016, Mottron 2004, Harvard 2022). As more companies broaden their investment in programs, more leaders are adding neuodiversity/neurodivergence to their business vocabularies and programming (DICE, 2021). However, while a growing number of companies are still refining HR processes to hire and retain neurodivere talent; at present, however,  there are still many barriers and more work needs to be done. This panel will briefly discuss what intersectional neurodiversity means, the business case for neurodiversity, how each panelist is expanding accessibility though technology for Neurodiverse people with the workplace, how success is measured, best practices and next steps to create  holistic inclusive workplaces.
         roles: #list each roles as you intend the display on the page
           - name: Moderator #use in order, case-sensitive: Moderator, Speaker, Introduction, Presenter, Instructor, Panelist
             who: rhonda-moore #bio_id for this person 
@@ -527,7 +527,7 @@ iaaf_2022:
           - name: 'Track A: Lead Our Agencies Toward Access'
             name_breakout: 'A Different Perspective for Looking at Accessibility'
             track_id: day3breakout3a
-            description: 'In 2022 the 1-in-4 Americans with disabilities continue to experience inequities due to accessibility barriers to electronic information technology (EIT). Access to EIT is a civil right. Even when provided with a reasonable accommodation PWD must identify their own work-a-rounds to reduce barriers. Join us to experience the world from an alternative point of view as panelist share tips and tricks they use daily to increase their productivity and opportunities for inclusion in the workplace.'
+            description: 'In 2022 the 1-in-4 Americans with disabilities continue to experience inequities due to accessibility barriers to electronic information technology (EIT). Access to EIT is a civil right. Even when provided with a reasonable accommodation PWD must identify their own work-a-rounds to reduce barriers. Join us to experience the world from an alternative point of view as panelist share tips and tricks they use daily to increase their productivity and opportunities in the workplace.'
             roles: #list each roles as you intend the display on the page
               - name: Moderator
                 who: wilkes-martha
@@ -643,14 +643,14 @@ iaaf_2023:
               - name: Presenter
                 who: dansby-dee
             downloads:
-              - link_name: #Design PPT Templates for Accessibility - IAAF 2023.pptx (PPTX)
-                file_name: #Design%20PPT%20Templates%20for%20Accessibility%20-%20IAAF%202023.pptx
-              - link_name: #Design PPT Templates for Accessibility Design Catalog - IAAF 2023.pptx (PPTX)
-                file_name: #Design%20PPT%20Templates%20for%20Accessibility%20Design%20Catalog%20-%20IAAF%202023.pptx
-              - link_name: #Design PPT Templates for Accessibility Design Catalog Supplemental - IAAF2023.docx (PPTX)
-                file_name: #Design%20PPT%20Templates%20for%20Accessibility%20Design%20Catalog%20Supplemental%20-%20IAAF2023.docx
-              - link_name: #Design PPT Templates for Accessibility Workbook - IAAF2023.docx (PPTX)
-                file_name: #Design%20PPT%20Templates%20for%20Accessibility%20Workbook%20-%20IAAF2023.docx
+              - link_name: Design PPT Templates for Accessibility - IAAF 2023 (PPTX)
+                file_name: Design%20PPT%20Templates%20for%20Accessibility%20-%20IAAF%202023.pptx
+              - link_name: Design PPT Templates for Accessibility Design Catalog - IAAF 2023 (PPTX)
+                file_name: Design%20PPT%20Templates%20for%20Accessibility%20Design%20Catalog%20-%20IAAF%202023.pptx
+              - link_name: Design PPT Templates for Accessibility Design Catalog Supplemental - IAAF2023 (DOCX)
+                file_name: Design%20PPT%20Templates%20for%20Accessibility%20Design%20Catalog%20Supplemental%20-%20IAAF2023.docx
+              - link_name: Design PPT Templates for Accessibility Workbook - IAAF2023 (DOCX)
+                file_name: Design%20PPT%20Templates%20for%20Accessibility%20Workbook%20-%20IAAF2023.docx
           - name: 'Track B: Applied Accessibility Concepts'
             name_breakout: 'How to use ART'
             track_id: day1breakout1b
@@ -664,8 +664,8 @@ iaaf_2023:
               - name: Presenter
                 who: brunson-arthur
             downloads:
-              - link_name: #How to use ART - IAAF 2023.pptx (PPTX)
-                file_name: #How%20to%20use%20ART%20-%20IAAF%202023.pptx
+              - link_name: How to use ART - IAAF 2023 (PPTX)
+                file_name: How%20to%20use%20ART%20-%20IAAF%202023.pptx
       - name: 'Break'
         type: break
         time_start: 2023-11-07 11:15:00
@@ -691,8 +691,8 @@ iaaf_2023:
               - name: Presenter
                 who: guzman-danny
             downloads:
-              - link_name: #Testing Tools and Ease of Access - IAAF 2023.pptx (PPTX)
-                file_name: #Testing%20Tools%20and%20Ease%20of%20Access%20-%20IAAF%202023.pptx
+              - link_name: Testing Tools and Ease of Access - IAAF 2023 (PPTX)
+                file_name: Testing%20Tools%20and%20Ease%20of%20Access%20-%20IAAF%202023.pptx
           - name: 'Track B: Applied Accessibility Concepts'
             name_breakout: 'Remediation: The Next Step in an Effective 508 Program'
             track_id: day1breakout2b
@@ -704,8 +704,8 @@ iaaf_2023:
               - name: Presenter
                 who: crowell-pierce
             downloads:
-              - link_name: #File Name - IAAF 2022 (PPTX)
-                file_name: #File%20Name%20-%20IAAF%202022.pptx
+              - link_name: Remediation - The Next Step in an Effective 508 Program - IAAF 2023 (PPTX)
+                file_name: Remediation%20-%20The%20Next%20Step%20in%20an%20Effective%20508%20Program%20-%20IAAF%202023.pptx
       - name: 'Lunch'
         type: break
         time_start: 2023-11-07 12:30:00
@@ -732,8 +732,10 @@ iaaf_2023:
               - name: Presenter
                 who: vallarta-alfred
             downloads:
-              - link_name: #Section 508 Common Issues for Documents - IAAF 2023.pptx (PPTX)
-                file_name: #Section%20508%20Common%20Issues%20for%20Documents%20-%20IAAF%202023.pptx
+              - link_name: Section 508 Common Issues for Documents - IAAF 2023 (PPTX)
+                file_name: Section%20508%20Common%20Issues%20for%20Documents%20-%20IAAF%202023.pptx
+              - link_name: Sample Document 508 Compliance Demo - IAAF 2023 (DOCX)
+                file_name: Sample%20Document%20508%20Compliance%20Demo.docx
           - name: 'Track B: Applied Accessibility Concepts'
             name_breakout: 'Testing for Compliance: A Comparison of Tools and Methods'
             track_id: day1breakout3b
@@ -747,8 +749,8 @@ iaaf_2023:
               - name: Presenter
                 who: mcnally-alexandria
             downloads:
-              - link_name: #Testing for Compliance - IAAF 2023.pptx (PPTX)
-                file_name: #Testing%20for%20Compliance%20-%20IAAF%202023.pptx
+              - link_name: Testing for Compliance - IAAF 2023 (PPTX)
+                file_name: Testing%20for%20Compliance%20-%20IAAF%202023.pptx
       - name: 'Break'
         type: break
         time_start: 2023-11-07 14:45:00
@@ -772,8 +774,8 @@ iaaf_2023:
               - name: Presenter 
                 who: patrick-sheehan
             downloads:
-              - link_name: #File Name - IAAF 2022 (PPTX)
-                file_name: #File%20Name%20-%20IAAF%202022.pptx
+              - link_name: Creating Accessible PDF Documents with Signatures - IAAF 2023 (PPTX)
+                file_name: Creating%20Accessible%20PDF%20Documents%20with%20Signatures%20-%20IAAF%202023.pptx
           - name: 'Track B: Applied Accessibility Concepts'
             name_breakout: 'Accessible Customer Experience & Shared Services'
             track_id: day1breakout4b
@@ -785,12 +787,12 @@ iaaf_2023:
               - name: Panelist
                 who: rodriguez-karla
             downloads:
-              - link_name: #Accessible Customer Experience and Shared Services - IAAF 2023.pptx (PPTX)
-                file_name: #Accessible%20Customer%20Experience%20and%20Shared%20Services%20-%20IAAF%202023.pptx
+              - link_name: Accessible Customer Experience and Shared Services - IAAF 2023 (PPTX)
+                file_name: Accessible%20Customer%20Experience%20and%20Shared%20Services%20-%20IAAF%202023.pptx
       - name: 'Break'
         type: break
-        time_start: 2023-11-07 14:45:00
-        time_end: 2023-11-07 15:00:00
+        time_start: 2023-11-07 15:45:00
+        time_end: 2023-11-07 16:00:00
         session_id: day1break3
         description:
         room: 'Return to Bair Auditorium'
@@ -858,8 +860,6 @@ iaaf_2023:
         roles: #list each roles as you intend the display on the page
           - name: # Moderator #use in order, case-sensitive: Moderator, Speaker, Introduction, Presenter, Instructor, Panelist
             who: bradsher-tanya #bio_id for this person 
-          - name: #Speaker
-            who: #
         downloads:
           - link_name: 
             file_name:
@@ -891,8 +891,8 @@ iaaf_2023:
               - name: Presenter
                 who: wilson-alex                                 
             downloads:
-              - link_name: #File Name - IAAF 2022 (PPTX)
-                file_name: #File%20Name%20-%20IAAF%202022.pptx
+              - link_name: GWITAP Activity Update - IAAF 2023 (PPTX)
+                file_name: GWITAP%20Activity%20Update%20-%20IAAF%202023.pptx
           - name: 'Track B: Interactive & Emerging Technologies '
             name_breakout: 'User Research and Personas for BARD Mobile'
             track_id: day2breakout1b
@@ -925,8 +925,8 @@ iaaf_2023:
               - name: Panelist 
                 who: williams-daniel
             downloads:
-              - link_name: #Using USWDS Critical Checklists - IAAF 2023.pptx (PPTX)
-                file_name: #Using%20USWDS%20Critical%20Checklists%20-%20IAAF%202023.pptx
+              - link_name: Using USWDS Critical Checklists - IAAF 2023 (PPTX)
+                file_name: Using%20USWDS%20Critical%20Checklists%20-%20IAAF%202023.pptx
       - name: 'Break - Transition'
         type: break
         time_start: 2023-11-08 14:15:00
@@ -952,8 +952,8 @@ iaaf_2023:
               - name: Panelist
                 who: rolleman-benjamin                           
             downloads:
-              - link_name: #SSC Accessible ICT Procurement Update - IAAF 2023.pptx (PPTX)
-                file_name: #SSC%20Accessible%20ICT%20Procurement%20Update%20-%20IAAF%202023.pptx
+              - link_name: SSC Accessible ICT Procurement Update - IAAF 2023 (PPTX)
+                file_name: SSC%20Accessible%20ICT%20Procurement%20Update%20-%20IAAF%202023.pptx
           - name: 'Track B: Interactive & Emerging Technologies '
             name_breakout: 'Applying Radical Participatory Design in the Context of Digital Accessibility'
             track_id: day2breakout2b
@@ -984,8 +984,8 @@ iaaf_2023:
               - name: panelist                
                 who: liu-arlo
             downloads:
-              - link_name: #Improving Digital Accessibility - IAAF.pptx (PPTX)
-                file_name: #Improving%20Digital%20Accessibility%20-%20IAAF.pptx
+              - link_name: Improving Digital Accessibility - IAAF 2023 (PPTX)
+                file_name: Improving%20Digital%20Accessibility%20-%20IAAF%202023.pptx
       - name: 'Break - Transition'
         type: break
         time_start: 2023-11-08 15:10:00
@@ -1011,8 +1011,8 @@ iaaf_2023:
           - name: Panelist 
             who: mark-urban
         downloads:
-          - link_name: #Real Talk - A Conversation with Section 508 Program Managers - IAAF 2023 (PPTX)
-            file_name: #Real%20Talk%20-%20A%20Conversation%20with%20Section%20508%20Program%20Managers%20-%20IAAF%202023.pptx
+          - link_name: Real Talk - A Conversation with Section 508 Program Managers - IAAF 2023 (PPTX)
+            file_name: Real%20Talk%20-%20A%20Conversation%20with%20Section%20508%20Program%20Managers%20-%20IAAF%202023.pptx
       - name: 'Closing' 
         type: welcome
         time_start: 2023-11-08 16:20:00
@@ -1121,8 +1121,8 @@ iaaf_2023:
               - name: Presenter #use in order, case-sensitive: Moderator, Speaker, Introduction, Presenter, Instructor, Panelist
                 who: proctor-justen #bio_id for this person                              
             downloads:
-              - link_name: #File Name - IAAF 2022 (PPTX)
-                file_name: #File%20Name%20-%20IAAF%202022.pptx
+              - link_name: Accessibility in Procurement Guide - IAAF 2023 (DOCX)
+                file_name: Accessibility in Procurement Guide - IAAF 2023.docx
           - name: 'Track B: Interactive & Emerging Technologies '
             name_breakout: 'AI-generated Alt-text: The future of Image Accessibility?'
             track_id: day3breakout1b
@@ -1136,8 +1136,8 @@ iaaf_2023:
               - name: Presenters
                 who: verigan-teresa
             downloads:
-              - link_name: #AI-Generated Alt-Text - IAAF 2023 (PDF)
-                file_name: #AI-Generated%20Alt-Text%20-%20IAAF%202023.pdf
+              - link_name: AI-Generated Alt-Text - IAAF 2023 (PDF)
+                file_name: AI-Generated%20Alt-Text%20-%20IAAF%202023.pdf
           - name: 'Track C: Management & Leadership Principles in Accessibility'
             name_breakout: 'Should You Compromise on Your Greatest Abilities When You Have a Disability?'
             track_id: day3breakout1c
@@ -1149,8 +1149,8 @@ iaaf_2023:
               - name: Speaker 
                 who: shah-rajiv
             downloads:
-              - link_name: #Should You Compromise on Your Greatest Abilities When You Have a Disability - IAAF 2023 (PPTX)
-                file_name: #Should%20You%20Compromise%20on%20Your%20Greatest%20Abilities%20When%20You%20Have%20a%20Disability%20-%20IAAF%202023.pptx
+              - link_name: Should You Compromise on Your Greatest Abilities When You Have a Disability - IAAF 2023 (PPTX)
+                file_name: Should%20You%20Compromise%20on%20Your%20Greatest%20Abilities%20When%20You%20Have%20a%20Disability%20-%20IAAF%202023.pptx
       - name: 'Break - Transition'
         type: break
         time_start: 2023-11-08 14:20:00
@@ -1187,8 +1187,8 @@ iaaf_2023:
               - name: Presenter
                 who: bradley-montgomery-rachael
             downloads:
-              - link_name: #File Name - IAAF 2022 (PPTX)
-                file_name: #File%20Name%20-%20IAAF%202022.pptx
+              - link_name: 508 Missing WCAG 21-22 - IAAF 2023 (PPTX)
+                file_name: 508%20Missing%20WCAG%2021-22%20-%20IAAF%202023.pptx
           - name: 'Track C: Management & Leadership Principles in Accessibility'
             name_breakout: 'Cultivating & Managing an Inclusive Culture'
             track_id: day3breakout3c
@@ -1202,8 +1202,8 @@ iaaf_2023:
               - name: Presenter 
                 who: goldstein-lindsay
             downloads:
-              - link_name: #Cultivating and Managing an Inclusive Culture at ONRR - IAAF 2023 (PPTX)
-                file_name: #Cultivating%20and%20Managing%20an%20Inclusive%20Culture%20at%20ONRR%20-%20IAAF%202023.pptx
+              - link_name: Cultivating and Managing an Inclusive Culture at ONRR - IAAF 2023 (PPTX)
+                file_name: Cultivating%20and%20Managing%20an%20Inclusive%20Culture%20at%20ONRR%20-%20IAAF%202023.pptx
       - name: 'Break - Transition'
         type: break
         time_start: 2023-11-08 15:15:00
@@ -1217,7 +1217,7 @@ iaaf_2023:
         time_end: 2023-11-08 16:30:00
         session_id: day2general3
         subtitle: "The Accessibility-Powered Future of Work"
-        description: This moderated closing plenary discussion will explore how the federal government can create more inclusive, accessible work environments for people with disabilities, enabled through integrated technology and universal design — and powered by the principles of diversity, equity, inclusion and accessibility (DEIA).
+        description: This moderated closing plenary discussion will explore how the federal government can create more inclusive, accessible work environments for people with disabilities, enabled through integrated technology and universal design.
         room: 'Bair Auditorium and via Webex' 
         roles: #list each roles as you intend the display on the page
           - name: Moderator #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
@@ -1252,3 +1252,256 @@ iaaf_2023:
         roles: 
           - name: #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
             who: #bio_id for this person 
+iaaf_2024: 
+  - day: 1
+    time_start: 2024-11-13 09:30:00 #YYYY-MM-DD HH:MM:SS
+    time_end: 2024-11-13 16:30:00
+    sessions: 
+      - name: 'Welcome and Opening Remarks'
+        type: welcome
+        time_start: 2024-11-13 09:30:00
+        time_end: 2024-11-13 10:00:00
+        session_id: day1welcome
+        roles: 
+          - name: #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: daniel-pomeroy #bio_id for this person
+          - name: Introduction 
+            who: andrew-nielson #bio_id for this person
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-13 10:00:00 #YYYY-MM-DD HH:MM:SS
+        time_end: 2024-11-13 11:00:00
+        session_id: day1session1
+        subtitle: Section 508 Activities Update by GSA
+        description: Accessibility experts from the U.S. Access Board (USAB) and the General Services Administration (GSA) will update attendees on current developments in the implementation and interpretation of the Section 508 Standards, including activities, achievements, milestones, and progress in assessing conformance across government.
+        roles: 
+          - name: Presenter
+            who: michael-horton #bio_id for this person 
+          - name: Presenter
+            who: krause-merrick
+          - name: Presenter
+            who: miller-laura
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: andrew-nielson #bio_id for this person 
+          - name: Presenter
+            who: smith-oconnor-kristen #bio_id for this person 
+          - name: Presenter
+            who: wilson-alex #bio_id for this person 
+        downloads:
+          - link_name: GSA Section 508 Activities Update - IAAF 2024 (PPTX) 
+            file_name: GSA%20Section%20508%20Activities%20Update%20-%20IAAF%202024.pptx
+      - name: 'Break'
+        type: break
+        time_start: 2024-11-13 11:00:00
+        time_end: 2024-11-13 11:15:00
+        session_id: day1break1
+        description: 
+        room: 
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-13 11:15:00
+        time_end: 2024-11-13 12:15:00
+        session_id: day1session2
+        subtitle: That Doesn't Need to Be a PDF
+        description: Hear how agencies can design an HTML-first approach for electronic content using “@media print” for a superior printing experience (because yes, some people do use paper) during a panel discussion with experts from FDIC, USAB, and GSA when a PDF document is the proper solution.
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: eng-kathy #bio_id for this person 
+          - name: Presenter
+            who: gillick-larry
+          - name: Presenter
+            who: michael-horton 
+        downloads:
+        - link_name: That Doesn't Need to be a PDF - IAAF 2024 (PPTX) 
+          file_name: That%20Doesn't%20Need%20to%20be%20a%20PDF%20-%20IAAF%202024.pptx
+      - name: 'Lunch'
+        type: break
+        time_start: 2024-11-13 12:15:00
+        time_end: 2024-11-13 13:15:00
+        session_id: day1break2
+        description: 
+        room: 
+      - name: 'Workshop'
+        type: keynote
+        time_start: 2024-11-13 13:15:00
+        time_end: 2024-11-13 14:15:00
+        session_id: day1session3
+        subtitle: Leveraging Browser DevTools to Aid Manual Web Accessibility Testing (Part 1)
+        description: Enhance your accessibility testing skills by learning about DevTools. Edge and Chrome have built-in web development tools, called DevTools which provide a powerful way to inspect web pages and web apps.  Participants will learn how to:<ul><li>Open and find DevTools Accessibility features</li><li>Inspect web page elements</li><li>Get accessibility information</li><li>Verify screen reader support</li></ul>
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: garmer-shawn #bio_id for this person
+        downloads:
+          - link_name: Using DevTools for Manual Accessibility Inspection - IAAF 2024 (PDF) 
+            file_name: Using%20DevTools%20for%20Manual%20Accessibility%20Inspection%20-%20IAAF%202024.pdf
+      - name: 'Break'
+        type: break
+        time_start: 2024-11-13 14:15:00
+        time_end: 2024-11-13 14:30:00
+        session_id: day1break3
+        description: 
+        room:       
+      - name: 'Workshop'
+        type: keynote
+        time_start: 2024-11-13 14:30:00
+        time_end: 2024-11-13 15:15:00
+        session_id: day1session4
+        subtitle: Leveraging Browser DevTools to Aid Manual Web Accessibility Testing (Part 2)
+        description: Enhance your accessibility testing skills by learning about DevTools. Edge and Chrome have built-in web development tools, called DevTools which provide a powerful way to inspect web pages and web apps.  Participants will learn how to:<ul><li>Open and find DevTools Accessibility features</li><li>Inspect web page elements</li><li>Get accessibility information</li><li>Verify screen reader support</li></ul>
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: garmer-shawn #bio_id for this person
+        downloads:
+          - link_name: Using DevTools for Manual Accessibility Inspection - IAAF 2024 (PDF) 
+            file_name: Using%20DevTools%20for%20Manual%20Accessibility%20Inspection%20-%20IAAF%202024.pdf
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-13 15:15:00
+        time_end: 2024-11-13 16:15:00
+        session_id: day1session5
+        subtitle: Agency View on Assessments & Memorandums
+        description: Panel conversation on how different agencies leverage memorandums and the annual assessment to inform leadership.  The memorandums help the agencies to focus on requirements and the annual assessments gives program managers the ability to gather the data points; however, there are challenges with gathering high quality data.  Each agency, and subcomponent, has a different and unique experience.  This panel will discuss the experience from different agency levels.
+        room:
+        roles: 
+          - name: Panelist
+            who: lapcewich-dennis
+          - name: Panelist #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: letalien-bethany #bio_id for this person       
+          - name: Panelist #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: kate-sweeney #bio_id for this person         
+          - name: Panelist
+            who: whittington-david
+        downloads:
+          - link_name: #File Name - IAAF 2024 (PPTX)
+            file_name: #file-name-iaaf-2024.pptx
+      - name: 'Closing' 
+        type: welcomez
+        time_start: 2024-11-13 16:15:00
+        time_end: 2024-11-13 16:30:00
+        session_id: day1close
+        description: 
+        roles: #list each roles as you intend the display on the page
+          - name: #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: andrew-nielson #use bio_id
+  - day: 2
+    time_start: 2024-11-14 09:30:00 #YYYY-MM-DD HH:MM:SS
+    time_end: 2024-11-14 16:30:00
+    sessions: 
+      - name: 'Welcome and Opening Remarks'
+        type: welcome
+        time_start: 2024-11-14 09:30:00
+        time_end: 2024-11-14 10:00:00
+        session_id: day2welcome
+        roles: 
+          - name: #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: sachin-pavithran #bio_id for this person
+          - name: Introduction 
+            who: levy-alison #bio_id for this person
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-14 10:00:00 #YYYY-MM-DD HH:MM:SS
+        time_end: 2024-11-14 11:00:00
+        session_id: day2session1
+        subtitle: Exceptions in Section 508 Regulatory Language
+        description: The Section 508 regulation introduces “General Exceptions” early in the document (202).  Why have exceptions?  What does each mean?  Why do some General Exceptions have sub-provisions, but others don’t?  Is there a difference between Exceptions and Exemptions?  Some provisions include Exceptions, are they like General Exceptions?  Is Assistive Technology exempt from 508?  What is the difference between Fundamental Alteration and Undue Burden?  Can I claim undue burden?
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: eng-kathy #bio_id for this person 
+        downloads:
+          - link_name: Exceptions in Section 508 Regulatory Language - IAAF 2024 (PPTX) 
+            file_name: Exceptions%20in%20Section%20508%20Regulatory%20Language%20(USAB)%20-%20IAAF%202024.pptx
+      - name: 'Break'
+        type: break
+        time_start: 2024-11-13 11:00:00
+        time_end: 2024-11-13 11:15:00
+        session_id: day2break1
+        description:      
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-14 11:15:00
+        time_end: 2024-11-14 12:15:00
+        session_id: day2session2
+        subtitle: Enhancing Accessibility on Social Media Platforms in Federal Agencies
+        description: This session will explore the accessibility challenges and solutions for commonly used social media platforms within the federal government. Attendees will learn how to evaluate and ensure compliance with Section 508 standards across platforms like Facebook, Twitter, and LinkedIn. The session will cover best practices for making content accessible to individuals with disabilities, including captioning, alt text for images, and user-friendly design, ensuring that federal digital communications are inclusive for all.
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: nieves-amy #bio_id for this person 
+          - name: Presenter
+            who: okeefe-david
+          - name: Presenter
+            who: jones-bryson
+          - name: Presenter
+            who: lindeman-alex
+        downloads:
+          - link_name: Social Media Presentation and Webinar Slides - IAAF 2024 (PPTX) 
+            file_name: Social%20Media%20Presentation%20and%20Webinar%20Slides%20-%20IAAF%202024.pptx
+      - name: 'Lunch'
+        type: break
+        time_start: 2024-11-14 12:15:00
+        time_end: 2024-11-14 13:15:00
+        session_id: day2break2
+        description: 
+        room: 
+      - name: 'Workshop'
+        type: keynote
+        time_start: 2024-11-14 13:15:00
+        time_end: 2024-11-14 14:15:00
+        session_id: day2session3
+        subtitle: Meet ANDI (Part 1)
+        description: Meet ANDI's creator, John Cotter, and learn how to use ANDI for manual inspection of web content for accessibility and Section 508 standards.
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: cotter-john #bio_id for this person
+        downloads:
+          - link_name: #File Name - IAAF 2024 (PPTX)
+            file_name: #file-name-iaaf-2024.pptx
+      - name: 'Break'
+        type: break
+        time_start: 2024-11-13 14:15:00
+        time_end: 2024-11-13 14:30:00
+        session_id: day2break3
+        description:      
+      - name: 'Workshop'
+        type: keynote
+        time_start: 2024-11-14 14:30:00
+        time_end: 2024-11-14 15:15:00
+        session_id: day2session4
+        subtitle: Meet ANDI (Part 2)
+        description: Meet ANDI's creator, John Cotter, and learn how to use ANDI for manual inspection of web content for accessibility and Section 508 standards.
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: cotter-john #bio_id for this person
+        downloads:
+          - link_name: #File Name - IAAF 2024 (PPTX)
+            file_name: #file-name-iaaf-2024.pptx        
+      - name: 'General Session'
+        type: general
+        time_start: 2024-11-14 15:15:00
+        time_end: 2024-11-14 16:15:00
+        session_id: day2session5
+        subtitle: How to Build an Effective 508 Program
+        description: GSA's Technology Accessibility Playbook provides a framework for the integration of strategic, business and technology management to ensure US Federal Government technology is accessible for people with disabilities. The Playbook contains twelve key “plays” drawn from successful practices in the government and private sector.
+        room:
+        roles: 
+          - name: Presenter #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: frith-chet #bio_id for this person       
+        downloads:
+          - link_name: Section 508 Playbook (Draft) - IAAF 2024 (PPTX) 
+            file_name: Section%20508%20Playbook%20(Draft)%20-%20IAAF%202024.pptx
+      - name: 'Closing' 
+        type: welcome
+        time_start: 2024-11-14 16:15:00
+        time_end: 2024-11-14 16:30:00
+        session_id: day2close
+        description: 
+        roles: #list each roles as you intend the display on the page
+          - name: #use in order, case-sensitive: [blank], Moderator, Speaker, Introduction, Presenter, Instructor, Panelist 
+            who: andrew-nielson #use bio_id
+          - name: 
+            who: otts-katherine

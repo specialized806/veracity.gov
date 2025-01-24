@@ -5,9 +5,19 @@ permalink: iaaf/archives/agenda-2022/
 type: page
 title: Interagency Accessibility Forum (IAAF) Event Agenda - 2022
 created: 1600981839
+topic: "Events (events)"
+sub-topic: "Accessibility Standards, Procedures, Guidance, Best Practices"
+audience:
+- "federal employee (fedemp)"
+- "508 Program Manager (508pm)"
+- "Public (public)"
+- "Content Creators (creator)"
+- "Developers and Testers (dev-test)"
+resource-type: "Training"
+format: "HTML (html)"
 ---
 
-<h1><a href="{{site.baseurl}}/iaaf/"><img alt="Annual Interagency Accessibility Forum. October 11 - 13, 2022. Unlocking the Power of Accessibility." src="https://assets.section508.gov/files/images/iaaf-2022-web-banner.png" style="width:100%" class="border-base radius-lg border-0px"></a></h1>
+<h1><a href="{{site.baseurl}}/iaaf/"><img alt="Annual Interagency Accessibility Forum." src="https://assets.section508.gov/files/images/iaaf-2024-web-banner.jpg" style="width:100%" class="border-base radius-lg border-0px"></a></h1>
 
 <div class="program-header margin-bottom-2" style="margin-top: 2em;">
   <b><span class="text-large">PROGRAM</span> Day 1/Tuesday, October 11th | <a href="#day2" title="Skip to Day 2 Program">Day 2/Wednesday, October 12th</a> | <a href="#day3" title="Skip to Day 3 Program">Day 3/Thursday, October 13th</a></b>
@@ -66,7 +76,7 @@ created: 1600981839
                     </div>
                     {% for download in track.downloads %}
                       <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                        <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                        <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2022/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                       </div>
                     {% endfor %}
                   {% endif %}
@@ -103,7 +113,7 @@ created: 1600981839
                   </div>
                   {% for download in track.downloads %}
                     <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                      <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                      <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2022/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                     </div>
                   {% endfor %}
                 {% endif %}
@@ -142,7 +152,7 @@ created: 1600981839
                 </div>
                 {% for download in session.downloads %}
                   <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                    <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                    <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2022/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                   </div>
                 {% endfor %}
               {% endif %}

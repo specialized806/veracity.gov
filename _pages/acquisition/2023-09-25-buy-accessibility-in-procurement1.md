@@ -6,12 +6,21 @@ type: acquisition
 title: 'Accessibility In Procurement I: Pre-Soliciation'
 contributors: proctor, gsatts
 description: Accessibility in Procurement guide developed by TTS to ensure accessibility considerations are taken into account when purchasing ICT; including pre-soliciation activities. 
+topic: "Acquisition/Buy (buy)"
+sub-topic: "Accessible Acquisition Info, Guidance & Best Practices"
+audience:
+- "Acquisition (acq)"
+- "Chief Acquisition Officer (cao)"
+- "Agency Senior Procurement Executive (spe)"
+- "Agency Senior Procurement Executive (spe)"
+resource-type: "Process/How-to"
+format: "HTML (html)"
 ---
 
 ## Purpose
 This guide focuses on Accessibility in procurement. Contracting Officers (COs)/Contract Specialists (CSs) play an integral role in the Information and Communication Technology (ICT) lifecycle. Including them early on in the process will ensure optimal results in ensuring products are fully accessible. The procurement process is very dynamic and can be very overwhelming. 
 
-The purpose of this guide is to align acquisition professionals within Technology Transformation Services (TTS) with its process and mission; provide a user-friendly approach to incorporating accessibility into the lifecycle of ICT projects; and provide a tool to support the inclusion of procurement personnel throughout the process. This guide follows agile principles and should be iterated on, as needed. It can be applied to any part of the General Services Administration (GSA) and other federal agencies.
+The purpose of this guide is to align acquisition professionals within Technology Transformation Services (TTS) with its process and mission; provide a user-friendly approach to incorporating accessibility into the lifecycle of ICT projects; and provide a tool to support the integration of procurement personnel throughout the process. This guide follows agile principles and should be iterated on, as needed. It can be applied to any part of the General Services Administration (GSA) and other federal agencies.
 
 ## Compliance
 ICT must be accessible to people with physical, sensory, and cognitive disabilities. Access to ICT is addressed by <a href="https://www.access-board.gov/ict.html" target="_blank" class="usa-link--external">US Acess Board</a> standards and guidelines under section 508 of the Rehabilitation Act and Section 255 of the Communications Act. These ICT Accessibility standards include requirements that ensure compatibility with assistive technology (AT) used by people with disabilities. Federal Acquisition Regulation (FAR) <a href="https://www.acquisition.gov/far/subpart-39.2" target="_blank" class="usa-link--external">Subpart 39. Information and Communication Technology</a> also governs the procurement of Accessible technology.

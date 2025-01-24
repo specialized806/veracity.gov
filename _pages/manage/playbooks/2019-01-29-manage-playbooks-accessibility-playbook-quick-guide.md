@@ -1,12 +1,22 @@
 ---
+sidenav: true
 layout: page 
-sidenav: false 
 permalink: manage/playbooks/accessibility-playbook-quick-guide/ 
 type: manage 
 title: 'Quick Guide to IT Accessibility for Program Managers' 
-created: 1548787236
+created: 2019-01-29
+updated: 2024-07-11
 redirect_from:
-- tools/playbooks/accessibility-playbook-quick-guide/ 
+- tools/playbooks/accessibility-playbook-quick-guide/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Manager/Exec (exec)
+- Federal employee (fedemp)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 Learn how to build an effective information technology (IT) accessibility program, and ensure that the technology your
@@ -256,7 +266,7 @@ agency buys, builds, and uses, is accessible for all.
       <a href="{{site.baseurl}}/create/universal-design">Universal Design</a>
   </li>
   <li>
-      <a href="https://accessibility.digital.gov/">Accessibility for Teams</a>
+      <a href="https://digital.gov/guides/accessibility-for-teams/">Accessibility for Teams</a>
   </li>
 </ul>
 
@@ -395,6 +405,4 @@ agency buys, builds, and uses, is accessible for all.
   Contact <a href="mailto:section.508@gsa.gov">GSA’s Government-wide IT Accessibility Team</a> for additional training and assistance.
 </p>
 
-<p dir="ltr">
-  <strong>Reviewed/Updated</strong>: November 2022
-</p>
+**Reviewed/Updated:** July 2024

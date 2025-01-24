@@ -1,4 +1,5 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play04/
 type: manage
 layout: page
@@ -6,6 +7,16 @@ title: 'Play 4: Establish a Section 508 Policy'
 created: 1526408633
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play04/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 The cornerstone of an accessibility program is an agency-wide Section 508 policy. The policy must identify how the agency will manage accessibility compliance through technology acquisition, development, authoring, configuration, deployment, and maintenance activities. The policy must define clear roles and responsibilities. The policy must clarify the authorities and shared responsibility with other agency stakeholders for implementing Section 508 across the agency.
@@ -45,6 +56,7 @@ The cornerstone of an accessibility program is an agency-wide Section 508 policy
   * [Example: Veterans Administration Accessibility Policy][3]
   * [Example: SSA Internet Accessibility Policy][4]
   * [Example: Department of Justice Model Section 508 Complaint Process][5]
+  * [Example: Best Practices For Establishing And Maintaining a Formal Section 508 Complaint   Process][6]
   
   
 &nbsp;
@@ -58,8 +70,11 @@ The cornerstone of an accessibility program is an agency-wide Section 508 policy
     </a>
 </div>
 
+**Reviewed/Updated:** November 2024
+
  [1]: https://obamawhitehouse.archives.gov/sites/default/files/omb/procurement/memo/strategic-plan-508-compliance.pdf
  [2]: https://assets.section508.gov/files/Directive_139.2_Final_10-28-2008.doc
  [3]: https://assets.section508.gov/files/VA508Directive6221_12_2008.pdf
  [4]: https://assets.section508.gov/files/SSA_Internet_Accessibility_Policy.pdf
  [5]: https://assets.section508.gov/files/DOJ%20Section%20508%20Model%20Complaint%20Process.doc
+ [6]: {{site.baseurl}}/manage/laws-and-policies/Section-508-complaints-best-practices/

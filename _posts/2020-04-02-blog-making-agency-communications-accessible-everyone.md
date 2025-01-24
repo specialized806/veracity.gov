@@ -6,6 +6,16 @@ title: 'Making Agency Communications Accessible to Everyone'
 created: 1585848520
 tags: Design-and-Develop
 description: During an emergency, it is more important than usual for all people to have equal and timely access to urgent communications. Emergencies often disproportionately impact individuals with disabilities, so take extra care to ensure that your digital content conforms to Section 508.&nbsp;
+topic: "Content creation (create)"
+sub-topic: "Various Electronic Content (i.e. Multiple)"
+audience:
+- "federal employee (fedemp)"
+- "508 Program Manager (508pm)"
+- "Public (public)"
+- "Product Managers (prodmgr)"
+- "Information Technology Program and Project Managers (itpm)"
+resource-type: "Blog article (blog)"
+format: "HTML (html)"
 ---
 
 During an emergency, it is more important than usual for all people to have equal and timely access to urgent communications. Emergencies often disproportionately impact individuals with disabilities, so take extra care to ensure that your digital content conforms to Section 508.&nbsp;
@@ -41,7 +51,7 @@ The following tips will help you to create accessible digital content.
   * Describe meaningful images by including alternative (ALT) text with an equivalent description (or use ALT=&rdquo;&rdquo; where an image is ornamental).
   * Include column and row headings on data tables.
   * Visit our [Guide to Accessible Web Design & Development][3] for further guidance.
-  * The [US Web Design System][4] can also help you create more accessible customer experiences.
+  * The [U.S. Web Design System][4] can also help you create more accessible customer experiences.
 
 ## Videos and Virtual Meetings
 

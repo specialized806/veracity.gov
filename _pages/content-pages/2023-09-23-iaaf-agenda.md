@@ -3,13 +3,23 @@ layout: wide
 sidenav: false
 permalink: iaaf/archives/agenda-2023/
 redirect_from: iaaf/agenda-2023/
-redirect_from: iaaf-agenda/
 type: page
 title: Interagency Accessibility Forum (IAAF) Event Agenda - 2023
 created: 2023-09-23
+topic: "Events (events)"
+sub-topic: "Accessibility Standards, Procedures, Guidance, Best Practices"
+audience:
+- "federal employee (fedemp)"
+- "508 Program Manager (508pm)"
+- "Public (public)"
+- "Content Creators (creator)"
+- "Developers and Testers (dev-test)"
+resource-type: "Training"
+format: "HTML (html)"
 ---
 
-<h1><a href="{{site.baseurl}}/iaaf/"><img alt="Annual Interagency Accessibility Forum. November 7 - 9, 2023. Beyond Compliance: Building a Culture of Digital Accessibility" src="https://assets.section508.gov/files/images/iaaf-2023-web-banner-1.png" style="width:100%" class="border-base radius-lg border-0px"></a></h1>
+<h1><a href="{{site.baseurl}}/iaaf/"><img alt="Annual Interagency Accessibility Forum." src="https://assets.section508.gov/files/images/iaaf-2024-web-banner.jpg" style="width:100%" class="border-base radius-lg border-0px"></a></h1>
+
 
 <div class="program-header margin-bottom-2" style="margin-top: 2em;">
   <b><span class="text-large">PROGRAM</span> Day 1/Tuesday, November 7th | <a href="#day2" title="Skip to Day 2 Program">Day 2/Wednesday, November 8th</a> | <a href="#day3" title="Skip to Day 3 Program">Day 3/Thursday, November 9th</a> | <a href="#exhibitors" title="Skip to Exhibitors Program">Exhibitors</a></b>
@@ -68,7 +78,7 @@ created: 2023-09-23
                     </div>
                     {% for download in track.downloads %}
                       <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                        <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                        <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                       </div>
                     {% endfor %}
                   {% endif %}
@@ -114,7 +124,7 @@ created: 2023-09-23
                   </div>
                   {% for download in track.downloads %}
                     <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                      <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                      <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                     </div>
                   {% endfor %}
                 {% endif %}
@@ -153,7 +163,7 @@ created: 2023-09-23
                 </div>
                 {% for download in session.downloads %}
                   <div class="speaker-info padding-top-1 padding-left-sm padding-right-sm">
-                    <span class="speaker-name"><a href="https://assets.section508.gov/files/presentations/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
+                    <span class="speaker-name"><a href="https://training.section508.gov/assets/files/iaaf/2023/{{download.file_name}}" target="_blank">{{ download.link_name }}</a></span>
                   </div>
                 {% endfor %}
               {% endif %}
@@ -170,24 +180,24 @@ created: 2023-09-23
 <p>The following vendors will be exhibiting outside of the Bair Auditorium on one of two days, Wednesday or Thursday, during the conference. Exhibitor participation was performed through an open registration and selected on a first-come, first-serve basis. The GSA, USAB, Federal CIO Council, FDIC, VA, partner and contributing agencies do not endorse the products, services, and claims of participating vendors.</p>
 <p>Explore products and services designed to support and enhance the lives of people with disabilities and others.</p>
 <ul>
-  <li><strong><a href="https://accessibilitytrack.com/">Accessibility Track Consulting, LLC.</a></strong> | Innovative projects with and for the accessibility community. For more information, contact: <a href="mailto:chrismlaw@accessibilitytrack.com">Chris Law</a>.</li>
-  <li><strong><a href="https://www.adobe.com/">Adobe</a></strong> | For more information, contact: <a href="mailto:esakati@adobe.com">Elizabeth Sakati</a>.</li>
-  <li><strong><a href="https://allyant.com/">Allyant</a></strong> | We make accessibility simple, seamless, and efficient for organizations—ensuring equitable access to digital, document, and printed information for people with disabilities. For more information, contact: <a href="mailto:dherr@allyant.com">David Herr</a>.</li>
-  <li><strong><a href="http://www.ava.me/">Ava</a></strong> | Ava, www.ava.me provides AI & professionally-made real-time captioning services. For more information, contact: <a href="mailto:thibault@ava.me">Thibault Duchemin</a>.</li>
-  <li><strong><a href="https://www.CCmaker.com">ClosedCaption Maker</a></strong> | We add subtitles to video to meet Section 508. For more information, contact: <a href="mailto:wgallant@ccmaker.com">Walter Gallant</a>.</li>
-  <li><strong><a href="https://crawfordtech.com/industries/government/">Crawford Technologies</a></strong> | CrawfordTech Government Solutions offers simple, fast and affordable solutions for Section 508, ADA and WCAG 2.0 accessibility compliance/conformance. Unlike other companies, we bring cutting-edge accessibility solutions to both the government and public sectors without requiring complex, lengthy service engagements.  Our team of experts is committed to getting your company compliant and keeping you compliant, no matter how often your content changes. They are here to streamline document accessibility, reducing the cost, risk, time and complexity of conformance. For more information, contact: <a href="mailto:kwoedy@crawfordtech.com">Keith Woedy</a>.</li>
-  <li><strong><a href="https://www.dotincorp.com/">Dot Inc.</a></strong> | For more information, contact: <a href="mailto:ahrum@dotincorp.con">Ahrum Choi</a>.</li>
-  <li><strong><a href="https://e-govmarket.com/">e-GovMarket</a></strong> | For instant pricing, tracking and payment of Section 508 document remediation, try e-GovMarket's <a href="www.e-508.com">e-508.com</a>!  This year, we introduced a small business marketplace to search for qualified firms with various socioeconomic categories. Also new is document status change emails and texts.  Pay with purchase cards and/or through BPA invoices. e-508, e-editor and e-translators are within an AWS FedRAMP cloud.  Try us today! For more information, contact: <a href="mailto:info@e-govmarket.com">Tracye Turner</a>.</li>
-  <li><strong><a href="https://www.iaccessible.com">iAccessible</a></strong> | <a href="https://optimalsolutionsgroup.com/">Optimal Solutions Group, LLC</a> has developed iAccessible to scan, test, analyze and report on website accessibility, readability and usability. With our robust microservice offerings, dashboards, role-based access and FedRAMP compliance, we can help organizations efficiently improve their digital experience! For more information, contact: <a href="mailto:info@optimalsolutionsgroup.com">Mark Turner</a>.</li>
-  <li><strong><a href="https://www.microassist.com/">Microassist</a></strong> | For more information, contact: <a href="mailto:gspohn@microassist.com">George Sphon</a>.</li>
-  <li><strong><a href="https://www.neweditions.net/services/accessibility-services">New Editions Consulting, Inc.</a></strong> | New Editions Consulting, Inc., is an award winning, customer-focused, woman-owned small business with a demonstrated history of managing Federal contracts related to disability and accessibility. With more than 20 years of experience, we help clients understand Section 508 Standards, Web Content Accessibility Guidelines (WCAG) 2.1 Level A, AA, and AAA Success Criteria, and the legal, technical, and policy framework of digital accessibility. For more information, contact: <a href="mailto:CRyan@neweditions.net">Cindy Ryan</a>.</li>
-    <li><strong><a href="https://rioglobal.io/">Rio Global</a></strong> | For more information, contact: <a href="mailto:chandra@rioglobal.io">Chandra Sabbavarpu</a>.</li>
-  <li><strong><a href="https://www.siteimprove.com/">Siteimprove Inc</a></strong> | For more information, contact: <a href="mailto:rbur@siteimprove.com">Ryan Burs</a> or <a href="mailto:bst@siteimprove.com">Brian Stewart</a>.</li>
-  <li><strong><a href="https://www.splashbox.com/">Splash Box</a></strong> | For more information, contact: <a href="mailto:ryanshade@splashbox.com">Ryan Shade</a> or <a href="mailto:jennywoldt@splashbox.com">Jenny Woldt</a>.</li>
-  <li><strong><a href="https://www.storm-interface.com/">Storm Interface</a></strong> | Storm’s Assistive Technology Products are ADA compliant, designed to offer system navigation by means of audible content description. They allow users with impaired vision, reading difficulties or impaired fine motor skills to navigate through information typically presented visually on a touch screen. Designed for use as the tactile/audio interface for any accessible self-service application such as kiosks, ticketing machines etc. For more information, contact: <a href="mailto:nickys@storm-keypads.com">Nicky Shaw</a>.</li>
-  <li><strong><a href="https://www.tcsaccess.com">TCS Access</a></strong> | At TCS Access (TCSA), our mission is to create inclusive workplaces by empowering organizations with tailored assistive technology solutions, personalized training, and accessibility testing to unlock the potential of their diverse workforce. For more information, contact: <a href="mailtomatt.belcher@tcsteams.com">Matt Belcher</a>.</li>
-  <li><strong><a href="https://vispero.com/">Vispero - TPGi</a></strong> | For more information, contact: <a href="mailto:jmarindin@vispero.com">Jerry Marindin</a>.</li>
-  <li><strong><a href="https://wordwizardsinc.com/">Word Wizards</a></strong> | For more information, contact: <a href="mailto:ben@wordwizardsinc.com">Benjamin Gordon</a>.</li>
+  <li><strong><a href="https://www.adobe.com/" target="_blank">Adobe</a></strong> | For more information, contact: <a href="mailto:esakati@adobe.com">Elizabeth Sakati</a>.</li>
+  <li><strong><a href="https://allyant.com/" target="_blank">Allyant</a></strong> | We make accessibility simple, seamless, and efficient for organizations—ensuring equitable access to digital, document, and printed information for people with disabilities. For more information, contact: <a href="mailto:dherr@allyant.com">David Herr</a>.</li>
+  <li><strong><a href="http://www.ava.me/" target="_blank">Ava</a></strong> | Ava, www.ava.me provides AI & professionally-made real-time captioning services. For more information, contact: <a href="mailto:thibault@ava.me">Thibault Duchemin</a>.</li>
+  <li><strong><a href="https://www.CCmaker.com" target="_blank">ClosedCaption Maker</a></strong> | We add subtitles to video to meet Section 508. For more information, contact: <a href="mailto:wgallant@ccmaker.com">Walter Gallant</a>.</li>
+  <li><strong><a href="https://crawfordtech.com/industries/government/" target="_blank">Crawford Technologies</a></strong> | CrawfordTech Government Solutions offers simple, fast and affordable solutions for Section 508, ADA and WCAG 2.0 accessibility compliance/conformance. Unlike other companies, we bring cutting-edge accessibility solutions to both the government and public sectors without requiring complex, lengthy service engagements.  Our team of experts is committed to getting your company compliant and keeping you compliant, no matter how often your content changes. They are here to streamline document accessibility, reducing the cost, risk, time and complexity of conformance. For more information, contact: <a href="mailto:kwoedy@crawfordtech.com">Keith Woedy</a>.</li>
+  <li><strong><a href="https://www.dotincorp.com/" target="_blank">Dot Inc.</a></strong> | For more information, contact: <a href="mailto:ahrum@dotincorp.con">Ahrum Choi</a>.</li>
+  <li><strong><a href="https://e-govmarket.com/" target="_blank">e-GovMarket</a></strong> | For instant pricing, tracking and payment of Section 508 document remediation, try e-GovMarket's <a href="www.e-508.com">e-508.com</a>!  This year, we introduced a small business marketplace to search for qualified firms with various socioeconomic categories. Also new is document status change emails and texts.  Pay with purchase cards and/or through BPA invoices. e-508, e-editor and e-translators are within an AWS FedRAMP cloud.  Try us today! For more information, contact: <a href="mailto:info@e-govmarket.com">Tracye Turner</a>.</li>
+  <li><strong><a href="https://www.iaccessible.com" target="_blank">iAccessible</a></strong> | <a href="https://optimalsolutionsgroup.com/">Optimal Solutions Group, LLC</a> has developed iAccessible to scan, test, analyze and report on website accessibility, readability and usability. With our robust microservice offerings, dashboards, role-based access and FedRAMP compliance, we can help organizations efficiently improve their digital experience! For more information, contact: <a href="mailto:info@optimalsolutionsgroup.com">Mark Turner</a>.</li>
+  <li><strong><a href="https://www.microassist.com/" target="_blank">Microassist</a></strong> | For more information, contact: <a href="mailto:gspohn@microassist.com">George Sphon</a>.</li>
+  <li><strong><a href="https://www.neweditions.net/services/accessibility-services" target="_blank">New Editions Consulting, Inc.</a></strong> | New Editions Consulting, Inc., is an award winning, customer-focused, woman-owned small business with a demonstrated history of managing Federal contracts related to disability and accessibility. With more than 20 years of experience, we help clients understand Section 508 Standards, Web Content Accessibility Guidelines (WCAG) 2.1 Level A, AA, and AAA Success Criteria, and the legal, technical, and policy framework of digital accessibility. For more information, contact: <a href="mailto:CRyan@neweditions.net">Cindy Ryan</a>.</li>
+  <li><strong><a href="https://rioglobal.io/" target="_blank">Rio Global</a></strong> | For more information, contact: <a href="mailto:chandra@rioglobal.io">Chandra Sabbavarpu</a>.</li>
+  <li><strong><a href="https://www.siteimprove.com/" target="_blank">Siteimprove Inc</a></strong> | For more information, contact: <a href="mailto:rbur@siteimprove.com">Ryan Burs</a> or <a href="mailto:bst@siteimprove.com">Brian Stewart</a>.</li>
+  <li><strong><a href="https://www.splashbox.com/" target="_blank">Splashbox Marketing, LLC</a></strong> | Splash Box Marketing is a 508 compliance company that offers a full range of accessibility services for the hard-of-sight community. We believe it’s not just the law, it’s the right thing to do. For more information, contact: <a href="mailto:ryanshade@splashbox.com">Ryan Shade</a> or <a href="mailto:kennythomas@splashbox.com">Kenny Thomas</a>.</li>
+  <li><strong><a href="https://standardari.org/" target="_blank">Standard Accessibility Reporting, Inc.</a></strong> | We are a nonprofit membership organization of industry professionals, developing industry consensus standards relating to the scoring and accessibility reporting of website and mobile apps, as well as everyday consumer technology products. For more information, contact: <a href="mailto:chrismlaw@accessibilitytrack.com" target="_blank">Chris Law</a> or <a href="mailto:chair-ceo@accessready.org">Doug Towne</a>.</li>
+  <li><strong><a href="https://www.storm-interface.com/" target="_blank">Storm Interface</a></strong> | Storm’s Assistive Technology Products are ADA compliant, designed to offer system navigation by means of audible content description. They allow users with impaired vision, reading difficulties or impaired fine motor skills to navigate through information typically presented visually on a touch screen. Designed for use as the tactile/audio interface for any accessible self-service application such as kiosks, ticketing machines etc. For more information, contact: <a href="mailto:nickys@storm-keypads.com">Nicky Shaw</a>.</li>
+  <li><strong><a href="https://www.tcsaccess.com" target="_blank">TCS Access</a></strong> | At TCS Access (TCSA), our mission is to create inclusive workplaces by empowering organizations with tailored assistive technology solutions, personalized training, and accessibility testing to unlock the potential of their diverse workforce. For more information, contact: <a href="mailtomatt.belcher@tcsteams.com">Matt Belcher</a>.</li>
+  <li><strong><a href="https://vispero.com/" target="_blank">Vispero - TPGi</a></strong> | For more information, contact: <a href="mailto:jmarindin@vispero.com">Jerry Marindin</a>.</li>
+  <li><strong><a href="https://wordwizardsinc.com/" target="_blank">Word Wizards</a></strong> | For more information, contact: <a href="mailto:ben@wordwizardsinc.com">Benjamin Gordon</a>.</li>
   <!-- <li><strong><a href=""></a></strong> | For more information, contact: <a href="mailto:"></a>.</li> -->
 </ul>
 

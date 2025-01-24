@@ -1,11 +1,22 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play08/
 type: manage
 layout: page
-title: 'Play 8: Integrate accessibility needs into market research and acquisition processes'
+title: 'Play 8: Integrate Accessibility Needs into Market Research and Acquisition Processes'
 created: 1526408818
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play08/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 The following play identifies how to ensure accessibility needs are identified and addressed in the planning, requirements gathering, research, evaluation, and acceptance components of the acquisition process.
@@ -87,6 +98,8 @@ The following play identifies how to ensure accessibility needs are identified a
       href="{{site.baseurl}}/manage/playbooks/technology-accessibility-playbook-intro/play09"> Play 9 >
     </a>
 </div>
+
+**Reviewed/Updated:** November 2024
 
  [1]: #Footnote2
  [2]: https://www.federalregister.gov/documents/2000/12/21/00-32017/electronic-and-information-technology-accessibility-standards

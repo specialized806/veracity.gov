@@ -1,16 +1,16 @@
 [
     {
         "formElements":[
-            
         { 
             "elementType":"radioButtonGroup",
             "controlName": "sol-type",
             "formSection": "Solicitation Phase",
+            "formsectionText":"",
             "title": "",
             "label": "Select one of the options below",
             "description": "",
             "placeholder":"",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":" You must select at least one option under Solicitation Phase to proceed with the form"},
             "validations": ["required"],
             "next":"",
             "hidden":false,
@@ -22,9 +22,11 @@
                     "label":"Project Planning",
                     "description":"I want to identify the applicable Section 508 standards I need to address during project planning",
                     "value":"red", 
-                    "validations":[],
+                    "validations":["required"],
                     "next":"ict-group",
-                    "formSection":""
+                    "formSection": "",
+                    "formsectionText":"",
+                    "additionalNext": [ "exemptions-group", "elec-group", "soft-criteria-group","hardware-group","support-doc-group" ]
                 },
                 {
                     "elementType":"radioButton",
@@ -32,9 +34,10 @@
                     "label":"Market Research",
                     "description":"I want to obtain product documentation and/or capability statements to determine the availability of accessible products and services using a Request for information (RFI).",
                     "value":"green",
-                    "validations":[],
+                    "validations":["required"],
                     "next":"ict-mark-research-group",
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"radioButton",
@@ -42,11 +45,13 @@
                     "label":"Solicitation Development",
                     "description":"I want to obtain Section 508 requirements to include in my statement of work",
                     "value":"blue",
-                    "validations":[],
+                    "validations":["required"],
                     "next":"ict-group",
-                    "formSection":""}
+                    "formSection": "",
+                    "formsectionText":"",
+                    "additionalNext": [ "exemptions-group", "elec-group", "soft-criteria-group","hardware-group","support-doc-group" ]
+                }
             ]
-      
         },
         {
             "elementType": "checkboxGroup",
@@ -56,25 +61,27 @@
             "hidden":true,
             "placeholder": "For example, 123 45 6789",
             "description": "",
-            "errorMessages": { "maxlength": "Select at leas one option" },
+            "errorMessages": { "maxlength": " You must select at least one option under ICT Type to proceed with the form" },
             "validations": [
               "required"
             ],
             "next": "",
             "formSection": "ICT Type",
+            "formsectionText":"",
             "value": "",
             "options": [
               {
                 "elementType": "checkbox",
                 "controlName": "it-prod",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "title": "Project Planning",
                 "label": "ICT Products",
                 "placeholder": "",
                 "description": "I am purchasing ICT Products (example: web and non-web-based electronic content, software, licenses, hardware)",
                 "errorMessages": {},
                 "validations": [],
-                "next": "exemptions-group",
+                "next": "",
                 "value": false,
                 "options": []
               },
@@ -87,8 +94,9 @@
                 "description": "I am purchasing ICT Services (example: cloud services; contractor services to develop, modify, install, configure, integrate, maintain, or host ICT)",
                 "errorMessages": {},
                 "validations": [],
-                "next": "exemptions-group",
+                "next": "",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -101,8 +109,9 @@
                 "errorMessages": {},
                 "controlName": "it-none",
                 "validations": [],
-                "next": "exemptions-group",
+                "next": "",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "value": false,
                 "options": [],
                 "onlyOption": true
@@ -117,18 +126,20 @@
             "hidden":true,
             "placeholder": "For example, 123 45 6789",
             "description": "",
-            "errorMessages": { "maxlength": "Select at leas one option" },
+            "errorMessages": { "maxlength": "Select at leas one option for ICT" },
             "validations": [
               "required"
             ],
             "next": "",
             "formSection": "ICT Type",
+             "formsectionText":"",
             "value": "",
             "options": [
               {
                 "elementType": "checkbox",
                 "controlName": "it-prod-mr",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "title": "Project Planning",
                 "label": "ICT Products",
                 "placeholder": "",
@@ -150,6 +161,7 @@
                 "validations": [],
                 "next": "done",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -164,6 +176,7 @@
                 "validations": [],
                 "next": "done",
                 "formSection": "What is the name of your procurement?",
+                "formsectionText":"",
                 "value": false,
                 "options": [],
                 "onlyOption": true
@@ -174,12 +187,13 @@
             "elementType":"checkboxGroup",
             "controlName": "exemptions-group",
             "formSection": "Exemptions & Exceptions",
+             "formsectionText":"",
             "title": "",
             "hidden":true,
             "label": "",
             "description": "",
             "placeholder":"",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select at least one option under Exemptions & Exceptions to proceed with the form"},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -191,8 +205,9 @@
                     "value":false, 
                     "controlName":"excep-none",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"",
                     "formSection":"",
+                    "formsectionText":"",
                     "onlyOption": true
                 },
                 {
@@ -202,8 +217,9 @@
                     "value":false, 
                     "controlName":"excep-idk",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"",
                     "formSection":"",
+                    "formsectionText":"",
                     "onlyOption": true
                 },
                 {
@@ -214,9 +230,10 @@
                     "value":false, 
                     "controlName":"excep-nat-sec",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"excep-nbr",
                     "additionalNext": ["excep-nbr"],
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -225,9 +242,10 @@
                     "value":false, 
                     "controlName":"excep-mon-spa",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"excep-nbr",
                     "additionalNext": ["excep-nbr"],
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -236,9 +254,9 @@
                     "value":false, 
                     "controlName":"excep-alter",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"excep-nbr",
                     "additionalNext": ["excep-nbr"],
-                    "formSection":""},
+                    "formSection":"","formsectionText":""},
                 {
                     "elementType":"checkbox",
                     "label":"Federal Contracts Exception",
@@ -246,9 +264,10 @@
                     "value":false, 
                     "controlName":"excep-fed-con",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"excep-nbr",
                     "additionalNext": ["excep-nbr"],
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -257,13 +276,12 @@
                     "value":false, 
                     "controlName":"excep-und-bur",
                     "validations":[],
-                    "next":"elec-group",
+                    "next":"excep-nbr",
                     "additionalNext": ["excep-nbr"],
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 }
-                
             ]
-      
         },
         { 
             "elementType":"text",
@@ -277,19 +295,22 @@
             "validations": [],
             "next":"",
             "formSection": "",
+             "formsectionText":"",
             "value": "",
-            "options": []
+            "options": [],
+            "maxLength":9
         },   
         { 
             "elementType":"radioButtonGroup",
-            "formSection": "Does your solicitation include electronic content?",
+            "formSection": "Electronic Content",
+             "formsectionText":"Does your solicitation include electronic content?",
             "menuItem": "Electronic Content",
             "label": "I.e. Electronic forms, surveys, web, multimedia, document templates, etc.",
             "title": "",
             "hidden":true,
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select at least one option under Electronic Content to proceed with the form"},
             "controlName": "elec-group",
             "validations": ["required"],
             "next":"",
@@ -303,7 +324,9 @@
                     "controlName":"elec-yes",
                     "validations":[],
                     "next":"elec-web-group",
-                    "formSection":""},
+                    "formSection":"",
+                    "formsectionText":""
+                },
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -311,11 +334,11 @@
                     "value":"elec-no",
                     "controlName":"elec-no",
                     "validations":[],
-                    "next":"soft-criteria-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
                 }
             ]
-      
         },
         { 
             "elementType":"radioButtonGroup",
@@ -324,11 +347,12 @@
             "placeholder":"",
             "hidden":true,
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You muset select Yes or No for content availability website to proceed with the form."},
             "controlName": "elec-web-group",
             "validations": ["required"],
             "next":"",
             "formSection": "",
+            "formsectionText":"",
             "value": "",
             "options": [
                 {
@@ -338,8 +362,10 @@
                     "value":"content-website-yes", 
                     "controlName":"content-website-yes",
                     "validations":[],
-                    "next":"soft-criteria-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
+                },
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -348,10 +374,10 @@
                     "controlName":"content-website-no",
                     "validations":[],
                     "next":"content-group",
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 }
             ]
-      
         },
         { 
             "elementType":"radioButtonGroup",
@@ -360,11 +386,12 @@
             "placeholder":"",
             "hidden":true,
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select Yes or No for Public Facing to proceed with the form."},
             "controlName": "content-group",
             "validations": ["required"],
             "next":"",
             "formSection": "",
+            "formsectionText":"",
             "value": "",
             "options": [
                 {
@@ -374,20 +401,22 @@
                     "value":"content-public-yes", 
                     "controlName":"content-public-yes",
                     "validations":[],
-                    "next":"soft-criteria-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
+                },
                 {
                     "elementType":"radioButton",
                     "label":"No",
                     "description":"",
                     "value":"content-public-no",
-                    "controlName":"content-public-yes",
+                    "controlName":"content-public-no",
                     "validations":[],
                     "next":"agency-comm",
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 }
             ]
-      
         },
         { 
             "elementType":"radioButtonGroup",
@@ -396,11 +425,12 @@
             "placeholder":"",
             "hidden":true,
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select Yes or No for Agency Official Communication to proceed with the form."},
             "controlName": "agency-comm",
             "validations": ["required"],
             "next":"",
             "formSection": "",
+            "formsectionText":"",
             "value": "",
             "options": [
                 {
@@ -410,8 +440,10 @@
                     "value":"comm-yes", 
                     "controlName":"comm-yes",
                     "validations":[],
-                    "next":"soft-criteria-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
+                },
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -419,24 +451,25 @@
                     "value":"comm-no",
                     "controlName":"comm-no",
                     "validations":[],
-                    "next":"soft-criteria-group",
+                    "next":"",
                     "formSection":"",
+                    "formsectionText":"",
                     "info": "Electronic content that is not public facing shall conform to the accessibility requirements specified in E205.4."
                 }
             ]
-      
         },
         { 
             "elementType":"checkboxGroup",
             "controlName": "soft-criteria-group",
-            "formSection": "Does the software meet any of the following criteria?",
+            "formsectionText":"Does the software meet any of the following criteria?",
+            "formSection":"Software" ,
             "menuItem": "Software",
             "title": "",
             "label": "",
             "hidden":true,
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select one option for Software Criteria to proceed with the form."},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -448,8 +481,8 @@
                     "value":false, 
                     "controlName":"soft-no-user-interface",
                     "validations":[],
-                    "next":"hardware-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"","formsectionText":""},
                 {
                     "elementType":"checkbox",
                     "label":"Principal function is assistive technology",
@@ -457,8 +490,8 @@
                     "value":false,
                     "controlName":"soft-assistive",
                     "validations":[],
-                    "next":"hardware-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"","formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -469,7 +502,7 @@
                     "validations":[],
                     "onlyOption": true,
                     "next":"software-group",
-                    "formSection":""},
+                    "formSection":"","formsectionText":""},
                 {
                     "elementType":"checkbox",
                     "label":"None of the above",
@@ -478,22 +511,22 @@
                     "controlName":"soft-none",
                     "validations":[],
                     "next":"software-group",
-                    "formSection":"",
+                    "formSection":"","formsectionText":"",
                     "onlyOption": true
                 }
             ]
-      
         },
         {
             "elementType": "checkboxGroup",
             "controlName": "software-group",
             "formSection": "",
+            "formsectionText":"",
             "title": "Are you purchasing any software items, deliverables, or licenses?",
             "hidden":true,
             "label": "<i>Programs, procedures, rules, and related data and documentation that direct the use and operation of ICT and instruct it to perform a given task or function. Software includes, but is not limited to, applications, non-Web software, and platform software.</i><br><br>(Check all that apply)",
             "placeholder": "",
             "description": "",
-            "errorMessages": { "maxlength": "Select at leas one option" },
+            "errorMessages": { "maxlength": "You must select at leas one option for Software Purchase to proceed with the form" },
             "validations": [ "required"],
             "next": "",
             "value": "",
@@ -510,6 +543,7 @@
                 "validations": [],
                 "next": "soft-serv-group",
                 "formSection": "",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -525,6 +559,7 @@
                 "validations": [],
                 "next": "soft-serv-group",
                 "formSection": "",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -540,6 +575,7 @@
                 "validations": [],
                 "next": "soft-serv-group",
                 "formSection": "",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -555,6 +591,7 @@
                 "validations": [],
                 "next": "soft-serv-group",
                 "formSection": "",
+                "formsectionText":"",
                 "value": false,
                 "options": []
               },
@@ -568,8 +605,9 @@
                 "errorMessages": {},
                 "controlName": "software-none",
                 "validations": [],
-                "next": "hardware-group",
+                "next": "",
                 "formSection": "",
+                "formsectionText":"",
                 "value": false,
                 "options": [],
                 "onlyOption": true
@@ -580,12 +618,13 @@
             "elementType":"checkboxGroup",
             "controlName": "soft-serv-group",
             "formSection": "",
+            "formsectionText":"",
             "title": "Will the software be provided through any of the following types of cloud services agreements? (Check all that apply)",
             "label": "",
             "hidden":true,
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"ou must select at least one option for Cloud Service Agreements to proceed with the form."},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -598,7 +637,7 @@
                     "controlName":"soft-serv-saas",
                     "validations":[],
                     "next":"soft-web-group",
-                    "formSection":""},
+                    "formSection":"", "formsectionText":""},
                 {
                     "elementType":"checkbox",
                     "label":"Platform as a Service (PaaS)",
@@ -607,7 +646,8 @@
                     "controlName":"soft-serv-paas",
                     "validations":[],
                     "next":"soft-web-group",
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -617,7 +657,7 @@
                     "controlName":"soft-serv-other",
                     "validations":[],
                     "next":"soft-web-group",
-                    "formSection":""},
+                    "formSection":"", "formsectionText":""},
                 {
                     "elementType":"checkbox",
                     "label":"I don’t know",
@@ -627,6 +667,7 @@
                     "validations":[],
                     "next":"soft-web-group",
                     "formSection":"",
+                    "formsectionText":"",
                     "onlyOption": true
                 },
                 {
@@ -636,23 +677,24 @@
                     "value":false,
                     "controlName":"soft-serv-none",
                     "validations":[],
-                    "next":"hardware-group",
+                    "next":"",
                     "formSection":"",
+                    "formsectionText":"",
                     "onlyOption": true
                 }
             ]
-      
         },
         { 
             "elementType":"radioButtonGroup",
             "controlName": "soft-web-group",
             "formSection": "",
+            "formsectionText":"",
             "title": "Will this software be accessible through a web browser?",
             "label": "",
             "hidden":true,
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select Yes or No for Accessiblility Through Web Browser to procced with the form."},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -665,7 +707,7 @@
                     "controlName":"soft-web-yes",
                     "validations":[],
                     "next":"soft-create-group",
-                    "formSection":""},
+                    "formSection":"", "formsectionText":""},
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -674,22 +716,22 @@
                     "controlName":"soft-web-no",
                     "validations":[],
                     "next":"soft-create-group",
-                    "formSection":""
+                    "formSection":"",
+                    "formsectionText":""
                 }
             ]
-      
         },
-
         { 
             "elementType":"radioButtonGroup",
             "controlName": "soft-create-group",
+            "formsectionText":"",
             "formSection": "",
             "title": "Will this software be used to create electronic content (e.g. an authoring tool that is used to create HTML pages, reports, surveys, charts, dashboards, etc.)?",
             "label": "",
             "hidden":true,
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select Yes or No for Electronic Content to proceed with the form."},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -701,8 +743,8 @@
                     "value":"soft-create-yes", 
                     "controlName":"soft-create-yes",
                     "validations":[],
-                    "next":"hardware-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"", "formsectionText":""},
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -710,25 +752,26 @@
                     "value":"soft-create-no",
                     "controlName":"soft-create-no",
                     "validations":[],
-                    "next":"hardware-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
                 }
             ]
-      
         },
         { 
             "elementType":"checkboxGroup",
             "menuItem": "Hardware",
+            "formsectionText":"Are you purchasing any hardware items, deliverables, or licenses?",
             "title": "",
             "hidden":true,
             "label": "Where components of ICT are hardware and transmit information or have a user interface, such components shall conform to the requirements in Chapter 4. Hardware is considered a tangible device, equipment, or physical component of ICT, such as telephones, computers, multifunction copy machines, and keyboards.<br><br> Please select all that apply.",
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select one option for Hardware purchase to proceed with the form."},
             "controlName": "hardware-group",
             "validations": ["required"],
             "next":"",
-            "formSection": "Are you purchasing any hardware items, deliverables, or licenses?",
+            "formSection": "Hardware",
             "value": "",
             "options": [
                 {
@@ -738,8 +781,9 @@
                     "value":false, 
                     "controlName":"hardware-computer",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+            "formsectionText":"",
+            "formSection":""},
                 {
                     "elementType":"checkbox",
                     "label":"Tablet",
@@ -747,8 +791,9 @@
                     "value":false,
                     "controlName":"hardware-tablet",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -757,8 +802,9 @@
                     "value":false,
                     "controlName":"hardware-printer",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -767,8 +813,10 @@
                     "value":false, 
                     "controlName":"hardware-multi-func",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
+                },
                 {
                     "elementType":"checkbox",
                     "label":"Peripheral Equipment (i.e. keyboard, mouse)",
@@ -776,8 +824,9 @@
                     "value":false,
                     "controlName":"hardware-peripheral",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -786,8 +835,10 @@
                     "value":false,
                     "controlName":"hardware-kiosk",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
+                },
                 {
                     "elementType":"checkbox",
                     "label":"Mobile phones",
@@ -795,8 +846,10 @@
                     "value":false, 
                     "controlName":"hardware-mobile",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
+                },
                 {
                     "elementType":"checkbox",
                     "label":"Video Teleconference Equipment",
@@ -804,8 +857,9 @@
                     "value":false,
                     "controlName":"hardware-video-telecon",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+                    "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -814,8 +868,9 @@
                     "value":false,
                     "controlName":"hardware-video-monitor",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+            "formsectionText":"",
+            "formSection":""},
                 {
                     "elementType":"checkbox",
                     "label":"Servers",
@@ -824,7 +879,8 @@
                     "controlName":"hardware-server",
                     "validations":[],
                     "next":"server-iaas-group",
-                    "formSection":""
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -833,8 +889,9 @@
                     "value":false,
                     "controlName":"hardware-other",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -844,23 +901,23 @@
                     "controlName":"hardware-none",
                     "onlyOption": true,
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 }
             ]
-      
         },
-
         { 
             "elementType":"radioButtonGroup",
             "controlName": "server-iaas-group",
             "formSection": "",
+            "formsectionText":"",
             "title": "Will the server require physical installation or is provided through an Infrastructure as a Service (IaaS) agreement?",
             "hidden":true,
             "label": "",
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select Yes or No for Physical Installation or IaaS to proceed with the form."},
             "validations": ["required"],
             "next":"",
             "value": "",
@@ -872,8 +929,9 @@
                     "value":"server-iaas-yes", 
                     "controlName":"server-iaas-yes",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""},
+                    "next":"",
+            "formsectionText":"",
+            "formSection":""},
                 {
                     "elementType":"radioButton",
                     "label":"No",
@@ -881,8 +939,9 @@
                     "value":"server-iaas-no",
                     "controlName":"server-iaas-no",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"radioButton",
@@ -891,23 +950,25 @@
                     "value":"server-iaas-idk",
                     "controlName":"server-iaas-idk",
                     "validations":[],
-                    "next":"support-doc-group",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 }
             ]
         },
         { 
             "elementType":"checkboxGroup",
-            "title": "",
+            "title": "What ICT support documentation or service are your procuring?",
             "menuItem":"Support Documentation & Services",
             "hidden":true,
-            "label": "What ICT support documentation or service are your procuring?",
+            "label": "",
             "placeholder":"",
             "description": "",
-            "errorMessages": {"required":"Select one option."},
+            "errorMessages": {"required":"You must select one option for Support Documentation to proceed with the form."},
             "controlName": "support-doc-group",
             "validations": ["required"],
             "next":"",
+            "formsectionText":"",
             "formSection": "Support Documentation & Services",
             "value": "",
             "options": [
@@ -918,8 +979,9 @@
                     "value":false, 
                     "controlName":"support-tech",
                     "validations":[],
-                    "next":"done",
-                    "formSection":""},
+                    "next":"",
+            "formsectionText":"",
+            "formSection":""},
                 {
                     "elementType":"checkbox",
                     "label":"Help Desk or Call service center",
@@ -928,7 +990,8 @@
                     "controlName":"support-call",
                     "validations":[],
                     "next":"done",
-                    "formSection":""
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -937,8 +1000,9 @@
                     "value":false,
                     "controlName":"support-doc",
                     "validations":[],
-                    "next":"done",
-                    "formSection":""
+                    "next":"",
+                    "formSection":"",
+            "formsectionText":""
                 },
                 {
                     "elementType":"checkbox",
@@ -947,8 +1011,9 @@
                     "value":false, 
                     "controlName":"support-train",
                     "validations":[],
-                    "next":"done",
-                    "formSection":""},
+                    "next":"",
+            "formsectionText":"",
+            "formSection":""},
                 {
                     "elementType":"checkbox",
                     "label":"None of the above",
@@ -956,15 +1021,13 @@
                     "value":false,
                     "controlName":"support-none",
                     "validations":[],
-                    "next":"done",
+                    "next":"",
                     "formSection":"",
+            "formsectionText":"",
                     "onlyOption": true
                 }
-                
             ]
-      
         }
-
     ],
         "formButtons": {"submit":"Get 508 Results"},
         "clearForm": true,

@@ -6,11 +6,19 @@ redirect_from: iaaf/biographies-2023/
 type: page
 title: 'Interagency Accessibility Forum (IAAF) Speaker and Presenter Biographies'
 created: 2023-09-23
+topic: "Events (events)"
+sub-topic: "N/A"
+audience:
+- "federal employee (fedemp)"
+- "508 Program Manager (508pm)"
+- "Public (public)"
+- "Content Creators (creator)"
+- "Developers and Testers (dev-test)"
+resource-type: "Training"
+format: "HTML (html)"
 ---
 
-<p style="text-align:center;"><a href="{{site.baseurl}}/iaaf/">
-  <img alt="Annual Interagency Accessibility Forum. November 7 - 9, 2023. Beyond Compliance: Building a Culture of Digital Accessibility" src="https://assets.section508.gov/files/images/iaaf-2023-web-banner-1.png" style="width:100%" style="width:100%" class="border-base radius-lg border-0px" /></a>
-</p>
+<h1><a href="{{site.baseurl}}/iaaf/"><img alt="Annual Interagency Accessibility Forum." src="https://assets.section508.gov/files/images/iaaf-2024-web-banner.jpg" style="width:100%" class="border-base radius-lg border-0px"></a></h1>
 
 <p style="text-align:center;" id="top">
   {% assign last_initial = "" %}

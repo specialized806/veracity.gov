@@ -1,11 +1,22 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play01/
 type: manage
 layout: page
-title: 'Play 1:  Establish a Section 508 Program Manager to lead compliance efforts'
+title: 'Play 1:  Establish a Section 508 Program Manager to Lead Compliance Efforts'
 created: 1526408449
 redirect_from: 
 - tools/playbooks/technology-accessibility-playbook-intro/play01/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 Achieving Section 508 compliance requires a comprehensive, programmatic approach to managing compliance activities throughout an agency. The scope of agency technology dependence is broad and continuously growing. Agencies need a well-qualified Section 508 Program Manager [[1]][1] who has the ability, visibility, and authority to lead agency compliance activities to ensure digital services and technology solutions are accessible to disabled users.
@@ -74,6 +85,8 @@ Achieving Section 508 compliance requires a comprehensive, programmatic approach
       Play 2 >
     </a>
 </div>
+
+**Reviewed/Updated:** November 2024
 
  [1]: #Footnote1
  [2]: https://assets.section508.gov/files/508_Leadership_Core_Competency_Model.pdf
