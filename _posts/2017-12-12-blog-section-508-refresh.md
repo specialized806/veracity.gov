@@ -6,6 +6,15 @@ title: 'Watch the Video! New Requirements: Section 508 Refresh'
 created: 1512526462
 tags: Policy-and-Management
 description: The Americans with Disabilities Act, the Architectural Barriers Act, and the Rehabilitation Act collectively make the ins and outs of everyday life more accessible for people with disabilities.
+topic: Law (law)
+sub-topic: Accessibility Standards, Procedures, Guidance, Best Practices
+audience:
+- federal employee (fedemp)
+- 508 Program Manager (508pm)
+- Manager/Exec (exec)
+- Information Technology Program and Project Managers (itpm)
+resource-type: Blog article (blog)
+format: HTML (html)
 ---
 
 December 12, 2017 - The Americans with Disabilities Act, the Architectural Barriers Act, and the Rehabilitation Act collectively make the ins and outs of everyday life more accessible for people with disabilities.
@@ -33,6 +42,6 @@ Contact the Government-wide Accessibility Team at [section.508@gsa.gov][5] with 
 
  [1]: https://www.access-board.gov/the-board/laws/rehabilitation-act-of-1973
  [2]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule
- [3]: https://assets.section508.gov/files/2017_508-Refresh-Fact-sheet-updated.pdf
+ [3]: https://assets.section508.gov/assets/files/2017_508-Refresh-Fact-sheet-updated.pdf
  [4]: {{site.baseurl}}/buy
  [5]: mailto:section.508@gsa.gov

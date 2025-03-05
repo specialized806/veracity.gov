@@ -39,21 +39,29 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicons
     ================================================== -->
-  <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}" />
-  <link rel="icon" type="image/png" href="{% asset favicon @path %}" />
+  <link rel="shortcut icon" type="image/ico" href="{{site.baseurl}}/assets/images/favicon.ico" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/favicon.ico" />
 
-  <link rel="icon" type="image/png" sizes="192x192" href="{% asset android-chrome-192x192 @path %}" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{% asset apple-touch-icon @path %}" />
-  <link rel="icon" type="image/png" sizes="32x32" href="{% asset favicon-32x32 @path %}" />
-  <link rel="icon" type="image/png" sizes="16x16" href="{% asset favicon-16x16 @path %}" />
-  <link rel="manifest" href="{% asset site.webmanifest @path %}" />
+  <link rel="icon" type="image/png" sizes="192x192" href="{{site.baseurl}}/assets/images/android-chrome-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/images/favicon-16x16.png" />
+  <link rel="manifest" href="{{site.baseurl}}/assets/images/site.webmanifest" />
   <!-- CSS
     ================================================== -->
-  {% asset index.scss %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/index.css?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="jquery.steps.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
   <link rel="stylesheet" href="modal.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- Custom Meta Data
+    ================================================== -->
+    <meta name="topic" content="{{ page.topic }}">
+    <meta name="sub-topic" content="{{ page.sub_topic }}">
+    <meta name="audience" content="{{ page.audience | join: ', ' }}">
+    <meta name="resource_type" content="{{ page.resource_type }}">
+    <meta name="format" content="{{ page.format }}">
 </head>

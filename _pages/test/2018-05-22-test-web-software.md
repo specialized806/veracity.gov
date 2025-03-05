@@ -6,6 +6,16 @@ type: test
 title: 'Accessibility Testing for Websites and Software'
 created: 1527026399
 contributors: usab
+topic: "Testing (test)"
+sub-topic: "Websites"
+audience:
+- "Developers and Testers (dev-test)"
+- "508 Program Manager (508pm)"
+- "Content Creators (creator)"
+- "Designer (design)"
+- "Website Managers/Content Managers (wcm)"
+resource-type: "Training"
+format: "HTML (html)"
 ---
 
 Web designers, developers, and content managers play a key role in ensuring websites and digital tools are accessible, and conform to the [Revised 508 Standards][1] and the [W3C Web Content Accessibility Guidelines (WCAG)][2] 2.0 Level AA.
@@ -40,12 +50,12 @@ The tools used in the Trusted Tester Test Process (and [ICT Testing Baseline][4]
 
 <div class="grid-row grid-gap">
   <div class="desktop:grid-col-3 display-flex flex-column flex-align-self-center">
-    <a href="{{site.baseurl}}/test/web-software/andi-training-videos"><img alt="Accessible Name & Description Inspector (ANDI) Tool Overview" class="img-responsive" src="https://assets.section508.gov/files/thumbnails/training-video-andi-thumb.png" style="height:124px; width:220px; border-radius: 8px;" /></a>
+    <a href="{{site.baseurl}}/training/web-software/andi-training-videos/"><img alt="Accessible Name & Description Inspector (ANDI) Tool Overview" class="img-responsive" src="{{site.baseurl}}/assets/images/thumbnails/training-video-andi-00-thumb.jpg" style="width:220px; border-radius: 8px;" /></a>
   </div>
   
   <div class="desktop:grid-col-9">
     <p>
-      <a href="{{site.baseurl}}/test/web-software/andi-training-videos"><strong>Accessible Name & Description Inspector (ANDI) Tool Overview</strong></a>
+      <a href="{{site.baseurl}}/training/web-software/andi-training-videos/"><strong>Accessible Name & Description Inspector (ANDI) Tool Overview</strong></a>
     </p>
 <p>
       Get a basic overview on how to use the Accessible Name & Description Inspector tool (ANDI) used to test websites and web-based applications for accessibility. ANDI is a free tool developed by the Social Security Administration.
@@ -60,12 +70,12 @@ The tools used in the Trusted Tester Test Process (and [ICT Testing Baseline][4]
 
 <div class="grid-row grid-gap">
   <div class="desktop:grid-col-3 display-flex flex-column flex-align-self-center">
-    <a href="{{site.baseurl}}/test/web-software/andi-training-videos/color-contrast-analyzer"><img alt="How to Test Color Contrast using the Color Contrast Analyser" class="img-responsive" src="https://assets.section508.gov/files/thumbnails/training-video-cca-thumb.png" style="height:124px; width:220px; border-radius: 8px;" /></a>
+    <a href="{{site.baseurl}}/training/web-software/andi-training-videos/color-contrast-analyzer/"><img alt="How to Test Color Contrast using the Color Contrast Analyser" class="img-responsive" src="{{site.baseurl}}/assets/images/thumbnails/training-video-andi-14-thumb.jpg" style="width:220px; border-radius: 8px;" /></a>
   </div>
   
   <div class="desktop:grid-col-9">
     <p>
-      <a href="{{site.baseurl}}/test/web-software/andi-training-videos/color-contrast-analyzer"><strong>How to Test Color Contrast using the Color Contrast Analyser</strong></a>
+      <a href="{{site.baseurl}}/training/web-software/andi-training-videos/color-contrast-analyzer/"><strong>How to Test Color Contrast using the Color Contrast Analyser</strong></a>
     </p>
 <p>
       Learn how to use <a href="https://developer.paciellogroup.com/resources/contrastanalyser/" target="_blank">The Paciello Group’s Color Contrast Analyzer (CCA)</a> to ensure the contrast ratio between text, and images of text, and it's background is sufficient. CCA is used to inspect color contrast when contrast cannot be <a href="{{site.baseurl}}/content/glossary#programmatically-determinable">programmatically identified</a> by ANDI.
@@ -101,7 +111,7 @@ A collection of tools and training from the World Wide Web Consortium (W3C).
 
 The resources on this page were created through interagency collaborative efforts sponsored under the [Accessibility Community of Practice (ACoP)][19], a committee under the Federal Chief Information Officers (CIO) Council and the Federal Chief Acquisition Officer (CAO) Council. These resources are endorsed by the ACoP for use across the US Government for validating conformance to the [Revised 508 Standards][1]. (Note, resources created and hosted by Federal agencies other than GSA are not included in this endorsement.)
 
-**Reviewed/Updated:** September 2023
+**Reviewed/Updated:** March 2024
 
  [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
  [2]: http://www.w3.org/WAI/intro/wcag.php
@@ -116,7 +126,7 @@ The resources on this page were created through interagency collaborative effort
  [11]: https://www.w3.org/WAI/Tools/
  [12]: {{site.baseurl}}/create/universal-design
  [13]: https://pages.18f.gov/accessibility/
- [14]: http://www.digitalgov.gov/services/mobile-application-testing-program/
+ [14]: https://digital.gov/services/mobile-application-testing-program/tester-information-for-the-federal-crowdsource-mobile-testing-program/
  [15]: http://www.ssa.gov/accessibility/bpl/default.htm
  [16]: http://www.ssa.gov/accessibility/files/SSA_Alternative_Text_Guide.pdf
  [17]: {{site.baseurl}}/test

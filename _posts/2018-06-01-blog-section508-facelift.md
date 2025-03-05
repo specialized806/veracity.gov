@@ -6,6 +6,16 @@ title: 'Section508.gov Gets a Facelift!'
 created: 1527870039
 tags: Policy-and-Management
 description: The newly redesigned <a href="https://section508.gov/">Section508.gov website</a> is now live! We analyzed site usage and search data, as well as feedback from our user testing initiative, to develop the new look & feel.
+topic: About the program/site (about)
+sub-topic: N/A
+audience:
+- 508 Program Manager (508pm)
+- Federal employee (fedemp)
+- Information Technology Program and Project Managers (itpm)
+- Website Managers/Content Managers (wcm)
+- Public (public)
+resource-type: Blog article (blog)
+format: HTML (html)
 ---
 
 June 1, 2018 - The newly redesigned [Section508.gov website][1] is now live! We analyzed site usage and search data, as well as feedback from our user testing initiative, to develop the new look & feel. The site is now task-oriented, and common content is easier than ever to find.
@@ -19,7 +29,7 @@ The new design is intended to give you a better user experience. Changes include
 
 The redesigned homepage features clickable icons and tiles for top customer tasks. For example, the [Create Accessible Products][2] icon takes you to a robust overview of how to create and develop several types of accessible content, including documents, PDFs, websites and more.
 
-<img alt="Screenshot of Section508.gov homepage" src="https://assets.section508.gov/files/section508-homepage.jpg" style="width:100%" /> 
+<img alt="Screenshot of Section508.gov homepage" src="{{site.baseurl}}/assets/images/section508-homepage.jpg" style="width:100%" /> 
 
 Other top tasks and tiles include:
 

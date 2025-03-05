@@ -4,7 +4,19 @@ sidenav: true
 permalink: develop/fonts-typography/
 type: develop
 title: 'Understanding Accessible Fonts and Typography for Section 508 Compliance'
+created: 2023-09-23
+updated: 2025-03-05
 contributors: usab
+topic: Design (design)
+sub-topic: Accessibility Standards, Procedures, Guidance, Best Practices
+audience:
+- Designer (design)
+- 508 Program Manager (508pm)
+- Developers and Testers (dev-test)
+- Content Creators (creator)
+- Developers and Testers (dev-test)
+resource-type: Long form article
+format: HTML (html)
 ---
 In the realm of digital content creation, people often ask, “What does it mean for an accessible font to be accessible?”
 
@@ -36,13 +48,13 @@ It’s okay to use serif fonts for headings or other emphasis.  Sans serif is mo
 Accessibility regulations specify a measurement of 3/16-inch-high minimum based on the uppercase letter “I,” which is not a metric traditionally associated with typography.  This is because the regulation must work “in the field” for third-party testing. For most typefaces, this works out to 16 pt.
 
 #### Should electronic documents use 16 pt for body text?
-Please no!  That is a minimum size when a reader cannot adjust the size.  For websites and documents, the user has control over “zoom” so use a typical font size of 11 or 12 pt.
+Please no!  That is a minimum size when a reader cannot adjust the size.  For websites and documents, the user has control over “zoom” so use a typical font size of 11 or 12pt, or 15 to 16px. Similarly, for email messages, text is typically 10 to 11pt, or 13 to 15px. 
 
 #### Is it okay to use small fonts in electronic documents?
 People with low vision typically use magnification settings optimized for the standard body text of 11 or 12 pt.  The net effect is like having a very small screen; “looking through a soda straw” is a common analogy.  Smaller fonts require the user to "zoom in” more, which breaks the reading flow. Typical use of subscripts and superscripts is not problematic, but running text at less than 9 pt, such as in a long footnote, is creating a barrier.  For a similar reason, very large fonts, such a heading, should be avoided.  Very large text forces a reader with low vision to “zoom out” and reorient to their place on the page.
 
 ## More Important Than Typeface
-While the author’s choice of a font is important, and the focus of this article, it is important to note there are factors that have a more significant impact on readability and accessibility.  The WCAG success criteria address these issues.
+While the author’s choice of a font is important, and the focus of this article, it is important to note there are factors that have a more significant impact on readability and accessibility. The WCAG success criteria address these issues.
 
 <a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0&currentsidebar=%23col_overview&levels=aaa#use-of-color" class="usa-link--external text-top"><strong>1.4.1 Use of Color:</strong></a> Color must not be the only means of conveying information.  If color signifies meaning, incorporate additional visual cues like a symbol or text to convey the information.
 
@@ -57,17 +69,17 @@ While the author’s choice of a font is important, and the focus of this articl
 <a href="https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&currentsidebar=%23col_overview&levels=aaa#text-spacing" class="usa-link--external text-top"><strong>1.4.12 Text Spacing (WCAG 2.1 AA):</strong></a> Content should not be lost if a reader uses assistive technology to make minor adjustments to paragraph, line, word, or letter spacing.
 
 ## U.S. Web Design System (USWDS)
-Federal websites are required by the 21st Century Integrated Digital Experience Act (21st Century IDEA) to utilize the U.S. Web Design System (USWDS).  This design system offers guidance, components, design tokens, and utilities for content creators, covering typography and typesetting for enhanced accessibility.  The import role of the USWDS was reinforced <a href="https://www.whitehouse.gov/omb/briefing-room/2023/09/22/fact-sheet-building-digital-experiences-for-the-american-people/" target="_blank" class="usa-link--external text-top">OMB M-23-22</a>.
+Federal websites are required by the 21st Century Integrated Digital Experience Act (21st Century IDEA) to utilize the U.S. Web Design System (USWDS).  This design system offers guidance, components, design tokens, and utilities for content creators, covering typography and typesetting for enhanced accessibility.  The import role of the USWDS was reinforced <a href="https://bidenwhitehouse.archives.gov/omb/briefing-room/2023/09/22/fact-sheet-building-digital-experiences-for-the-american-people/" target="_blank" class="usa-link--external text-top">OMB M-23-22</a>.
 
 ## Additional Reading
 Typography is a wide and deep topic.  For more information about accessible fonts and typography, we share these .gov resources:
 <ul>
     <li><a href="https://accessibility.digital.gov/visual-design/typography/" target="_blank" class="usa-link--external text-top">Typography</a> | Digital.gov</li>
     <li><a href="https://github.com/uswds/public-sans#design-principles" target="_blank" class="usa-link--external text-top">Public Sans Design Principles</a> | Digital.gov</li>
-    <li><a href="https://www.state.gov/secretary-antony-j-blinken-on-nprs-wait-wait-dont-tell-me/" target="_blank" class="usa-link--external text-top">Secretary Antony Blinken on NPR’s Wait Wait...Don’t Tell Me!</a> | State.gov - About the U.S. Department of State moving from Times New Roman to Calibri.</li>
+    <li><a href="https://2021-2025.state.gov/secretary-antony-j-blinken-on-nprs-wait-wait-dont-tell-me/" target="_blank" class="usa-link--external text-top">Secretary Antony Blinken on NPR’s Wait Wait...Don’t Tell Me!</a> | State.gov - About the U.S. Department of State moving from Times New Roman to Calibri.</li>
 </ul>
 
 ## In conclusion
 Accessible fonts and typography are indispensable components of Section 508 compliance and digital inclusivity. By considering the guidelines and recommendations outlined here, content creators can ensure their digital content is accessible to all, fostering a more inclusive and equitable online environment.
 
-**Reviewed/Updated:** September 2023
+**Reviewed/Updated:** March 2025

@@ -4,6 +4,16 @@ sidenav: true
 permalink: create/presentations/authoring-guides/
 type: create
 title: 'Presentations Authoring Guides'
+topic: Content creation (create)
+sub-topic: Presentations
+audience:
+- Content Creators (creator)
+- Developers and Testers (dev-test)
+- Federal employee (fedemp)
+- Information Technology Program and Project Managers (itpm)
+- 508 Program Manager (508pm)
+resource-type: Process/How-to
+format: Document (docx)
 ---
 ## Microsoft PowerPoint 2016
 
@@ -20,8 +30,8 @@ The resources in this section were developed by Federal agencies, and shared her
 * [How to Make Your PowerPoint 2010 Presentations 508-Compliant][5] (PDF, December 2014) - Developed by HHS/CMS
 * [Section 508 Quick Reference Guide – MS PowerPoint 2010][6] (PDF, November 2013) - Developed by HHS/CMS
 
-[1]: https://assets.section508.gov/files/MS PowerPoint 2016 Basic Authoring and Testing Guide-AED COP.docx
-[2]: https://assets.section508.gov/files/MS PowerPoint 2016 Printable Accessibility Checklist-AED COP.docx
+[1]: https://assets.section508.gov/assets/files/MS PowerPoint 2016 Basic Authoring and Testing Guide-AED COP.docx
+[2]: https://assets.section508.gov/assets/files/MS PowerPoint 2016 Printable Accessibility Checklist-AED COP.docx
 [3]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
 [4]: https://www.ssa.gov/accessibility/checklists/ppt/pptchecklist.html
 [5]: http://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/Section508/Downloads/508-How-To-Guide-Microsoft-Powerpoint.pdf

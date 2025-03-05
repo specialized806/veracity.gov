@@ -4,6 +4,16 @@ sidenav: false
 type: page
 permalink: contributors/
 title: Section508.gov Content Contribution
+topic: About the program/site (about)
+sub-topic: N/A
+audience:
+- 508 Program Manager (508pm)
+- Federal employee (fedemp)
+- Information Technology Program and Project Managers (itpm)
+- Content Creators (creator)
+- Developers and Testers (dev-test)
+resource-type: Long form article
+format: HTML (html)
 ---
 {% include banner.html %}
 <div id="main-content" class="usa-layout-docs usa-section grid-container">
@@ -26,7 +36,7 @@ title: Section508.gov Content Contribution
                 {% if contributor.contributor_type == "individual" %}
                     <div class="grid-row flex-wrap margin-y-1 padding-y-1 grid-gap-1 border-bottom-1px border-base-lighter">
                         <div class="grid-col-auto">
-                            <img class="circle-8 border-05 border-base-light shadow-1" src="{{ contributor.image_url }}" alt="Photo: {{ contributor.display_name }}" style="vertical-align:middle">
+                            <img class="circle-8 border-05 border-base-light shadow-1" src="{{ site.baseurl }}{{ contributor.image_url }}" alt="Photo: {{ contributor.display_name }}" style="vertical-align:middle">
                         </div>
                         <div class="grid-col-9 padding-y-1">
                             <a href="{{ site.baseurl }}{{ contributor.url }}{{ contributor.output_ext }}"><strong>{{ contributor.display_name }}</strong></a><br>

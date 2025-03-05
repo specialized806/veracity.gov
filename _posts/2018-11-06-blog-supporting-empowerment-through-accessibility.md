@@ -6,6 +6,16 @@ title: 'Supporting Empowerment through Accessibility'
 created: 1541532205
 tags: Events
 description: In recognition of National Disability Employment Awareness Month (NDEAM), GSA hosted the Federal Interagency Accessibility Forum (IAAF) to celebrate the contributions of workers with disabilities, and educate people about the value of a workforce inclusive of all skills and talents.
+topic: Events (events)
+sub-topic: N/A
+audience:
+- federal employee (fedemp)
+- Manager/Exec (exec)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Public (public)
+resource-type: Blog article (blog)
+format: HTML (html)
 ---
 
 <p style="margin:0in 0in 0.0001pt">
@@ -17,7 +27,7 @@ description: In recognition of National Disability Employment Awareness Month (N
 </p>
 
 <p dir="ltr">
-  <img alt="Arnetta White of NAVAIR stands at a podium, introducing panelists in front of a conference room full of forum attendees." src="https://assets.section508.gov/files/images/2018iaafKeynotes.jpeg" style="height: 300px; float: right;padding-left:10px" /> Federal agency representatives learned about federal accessibility policies and how they can adapt <a href="{{site.baseurl}}/manage/laws-and-policies"> Section 508 standards</a> to prioritize IT accessibility. Attendees had the opportunity to share information, compare products and discuss the challenges faced in today&rsquo;s digital world.
+  <img alt="Arnetta White of NAVAIR stands at a podium, introducing panelists in front of a conference room full of forum attendees." src="{{site.baseurl}}/assets/images/2018iaafKeynotes.jpeg" style="height: 300px; float: right;padding-left:10px" /> Federal agency representatives learned about federal accessibility policies and how they can adapt <a href="{{site.baseurl}}/manage/laws-and-policies"> Section 508 standards</a> to prioritize IT accessibility. Attendees had the opportunity to share information, compare products and discuss the challenges faced in today&rsquo;s digital world.
 </p>
 
 <p style="margin:0in 0in 0.0001pt">
@@ -78,7 +88,7 @@ The HUD co-host, William Lynch, Assistant General Counsel, Fair Housing Complian
 </p>
 
 <p style="margin:0in 0in 0.0001pt">
-  <img alt="Exhibitors representing the Wounded Warrior project share their accessibility products and services." src="https://assets.section508.gov/files/images/2018iaafExhibitors.jpeg" style="height: 275px; float: left; width: 400px; margin-right: 25px;" /> During lunch, participants visited with many of the 27 exhibitors showcasing their products and services. In the afternoon, subject matter experts who were on the breakout session panels addressed:
+  <img alt="Exhibitors representing the Wounded Warrior project share their accessibility products and services." src="{{site.baseurl}}/assets/images/2018iaafExhibitors.jpeg" style="height: 275px; float: left; width: 400px; margin-right: 25px;" /> During lunch, participants visited with many of the 27 exhibitors showcasing their products and services. In the afternoon, subject matter experts who were on the breakout session panels addressed:
 </p> 
 
 <ul class="padding-top-3" style="margin-left: 40px; clear:both;">

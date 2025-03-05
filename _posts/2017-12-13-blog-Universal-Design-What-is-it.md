@@ -6,6 +6,16 @@ title: 'Universal Design: What is it?'
 created: 1513216986
 tags: Design-and-Develop
 description: Part one of a two-part series about Universal Design The year is 2017. The advancement of technology, led by key players in the private sector, has introduced innovations that have made applications more accessible for people with disabilities.
+topic: Design (design)
+sub-topic: Accessibility Standards, Procedures, Guidance, Best Practices
+audience:
+- 508 Program Manager (508pm)
+- Developers and Testers (dev-test)
+- Federal employee (fedemp)
+- Information Technology Program and Project Managers (itpm)
+- Content Creators (creator)
+resource-type: Blog article (blog)
+format: HTML (html)
 ---
 
 _Part one of a two-part series about Universal Design_
@@ -22,7 +32,7 @@ With nearly [1 in 8][4] people in the U.S. known to have a disability, there is 
 
 The solution? [Universal Design][5]! This approach ensures that the complete user experience is captured at every stage of the implementation process, and it&rsquo;s gaining widespread popularity in the private sector. The result is a solution designed with all users in mind.
 
-<img alt="Universal Design is the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability" src="https://assets.section508.gov/files/universal-design-callout-1.png" style="max-width: 99%;" />
+<img alt="Universal Design is the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability" src="{{site.baseurl}}/assets/images/universal-design-callout-1.png" style="max-width: 99%;" />
 
 <div>
   While Universal Design can be applied to any product, whether that be a building, service or tool, solutions designed using this approach serve not only the needs of a single minority group, but create an environment that is accessible and convenient for all. <strong>All in all, Universal Design is a good design.</strong>

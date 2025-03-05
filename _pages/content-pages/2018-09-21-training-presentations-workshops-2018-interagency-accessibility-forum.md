@@ -5,15 +5,23 @@ permalink: training/presentations-workshops/2018-interagency-accessibility-forum
 type: page
 title: '2018 Interagency Accessibility Forum'
 created: 1537561274
+topic: "Events (events)"
+sub-topic: "Accessibility Standards, Procedures, Guidance, Best Practices"
+audience:
+- "Federal employee (fedemp)"
+- "508 Program Manager (508pm)"
+- "Content Creators (creator)"
+- "Developers and Testers (dev-test)"
+- "Designer (design)"
+resource-type: "Blog article (blog)"
+format: "HTML (html)"
 ---
 
-<p dir="ltr">
-  Federal employees (and contractors with a government email address) are invited to participate in the 2018 Interagency Accessibility Forum (IAAF) on Tuesday, October 9, 2018, in Washington, DC. This year's IAAF embraces the 2018 National Disability Employment Awareness Month (NDEAM) theme "America's Workforce - Empowering All." The <a href="https://www.dol.gov/odep/topics/ndeam/" target="_blank">NDEAM</a> has celebrated inclusion for more than 70 years and reflects a commitment to a robust and competitive American labor force.
-</p>
+Federal employees (and contractors with a government email address) are invited to participate in the 2018 Interagency Accessibility Forum (IAAF) on Tuesday, October 9, 2018, in Washington, DC. This year's IAAF embraces the 2018 National Disability Employment Awareness Month (NDEAM) theme "America's Workforce - Empowering All."
 
 This in-person Forum features inspirational keynote speakers such as Judy Brewer, Director of the Web Accessibility Initiative (WAI) from the World Wide Web Consortium (W3C), and Eve Hill, one of the nation's leading disability rights attorneys.
 
-<img alt="Photo: Vendor exhibition hall at the 2017 Interagency Accessibility Forum (IAAF)" src="https://assets.section508.gov/files/images/vendor.jpg" style="height:300px;" />  
+<img alt="Photo: Vendor exhibition hall at the 2017 Interagency Accessibility Forum (IAAF)" src="{{site.baseurl}}/assets/images/vendor.jpg" style="height:300px;" />  
 _Photo: Vendor exhibition hall at the 2017 Interagency Accessibility Forum (IAAF)_
 
 <p dir="ltr">

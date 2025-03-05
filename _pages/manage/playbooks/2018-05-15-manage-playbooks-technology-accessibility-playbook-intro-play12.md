@@ -1,11 +1,22 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play12/
 type: manage
 layout: page
-title: 'Play 12: Educate the workforce'
+title: 'Play 12: Educate the Workforce'
 created: 1526408982
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play12/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 An understanding of accessibility and Section 508 compliance should be an essential component of agency workforce development.&nbsp;&nbsp; Increasing the awareness of the needs of people with disabilities, as well as agency legal requirements to address those needs, is an important step towards gaining the support and cooperation from agency staff to implement a mature Section 508 Program.
@@ -42,11 +53,11 @@ An understanding of accessibility and Section 508 compliance should be an essent
 
 ## Resources
 
-  * [Government-wide Section 508 Training][1]
-  * [For Developers, Microsoft Active Accessibility][2]
-  * [For Developers, Apple Accessibility Programming Guide for OSX X][3]
-  * [For Developers, Dragon Naturally Speaking Application Programming Guide][4]
-  * [For Developers, Dragon Naturally Speaking HTML Programming Guide][5]
+  * [Government-wide Section 508 Training]({{site.baseurl}}/tools/)
+  * <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd373592" target="_blank" class="usa-link--external">For Developers, Microsoft Active Accessibility</a>
+  * <a href="http://developer.apple.com/library/mac/documentation/Accessibility/Conceptual/AccessibilityMacOSX/" target="_blank" class="usa-link--external">For Developers, Apple Accessibility Programming Guide for OSX X</a>
+  * <a href="http://www.nuance.com/ucmprod/groups/healthcare/documents/webasset/nd_004978.pdf" target="_blank" class="usa-link--external">For Developers, Dragon Naturally Speaking Application Programming Guide (PDF)</a>
+  * <a href="http://www.nuance.com/ucmprod/groups/healthcare/documents/webasset/nd_004979.pdf" target="_blank" class="usa-link--external">For Developers, Dragon Naturally Speaking HTML Programming Guide (PDF)</a>
 
 &nbsp;
 
@@ -56,8 +67,4 @@ An understanding of accessibility and Section 508 compliance should be an essent
     </a>
 </div>
 
- [1]: {{site.baseurl}}/tools
- [2]: https://msdn.microsoft.com/en-us/library/windows/desktop/dd373592
- [3]: http://developer.apple.com/library/mac/documentation/Accessibility/Conceptual/AccessibilityMacOSX/
- [4]: http://www.nuance.com/ucmprod/groups/healthcare/documents/webasset/nd_004978.pdf
- [5]: http://www.nuance.com/ucmprod/groups/healthcare/documents/webasset/nd_004979.pdf
+**Reviewed/Updated:** March 2025

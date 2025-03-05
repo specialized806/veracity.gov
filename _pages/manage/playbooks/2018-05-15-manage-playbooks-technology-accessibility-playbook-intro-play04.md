@@ -1,11 +1,23 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play04/
 type: manage
 layout: page
 title: 'Play 4: Establish a Section 508 Policy'
 created: 1526408633
+updated: 2025-03-05
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play04/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 The cornerstone of an accessibility program is an agency-wide Section 508 policy. The policy must identify how the agency will manage accessibility compliance through technology acquisition, development, authoring, configuration, deployment, and maintenance activities. The policy must define clear roles and responsibilities. The policy must clarify the authorities and shared responsibility with other agency stakeholders for implementing Section 508 across the agency.
@@ -40,11 +52,12 @@ The cornerstone of an accessibility program is an agency-wide Section 508 policy
 
 ## Resources
 
-  * [Strategic Plan: Improving Management of Section 508 of the Rehabilitation Act][1]
-  * [Example: Department of Homeland Security Section 508 Directive][2]
-  * [Example: Veterans Administration Accessibility Policy][3]
-  * [Example: SSA Internet Accessibility Policy][4]
-  * [Example: Department of Justice Model Section 508 Complaint Process][5]
+  * <a href="https://bidenwhitehouse.archives.gov/omb/management/ofcio/m-24-08-strengthening-digital-accessibility-and-the-management-of-section-508-of-the-rehabilitation-act/" target="_blank" class="usa-link--external">Strengthening Digital Accessibility and the Management of Section 508 of the Rehabilitation Act (M-24-08)</a>
+  * <a href="https://assets.section508.gov/assets/files/Directive_139.2_Final_10-28-2008.doc" target="_blank" class="usa-link--external">Example: Department of Homeland Security Section 508 Directive (DOC)</a>
+  * <a href="https://assets.section508.gov/assets/files/VA508Directive6221_12_2008.pdf" target="_blank" class="usa-link--external">Example: Veterans Administration Accessibility Policy (PDF)</a>
+  * <a href="https://assets.section508.gov/assets/files/SSA_Internet_Accessibility_Policy.pdf" target="_blank" class="usa-link--external">Example: SSA Internet Accessibility Policy (PDF)</a>
+  * <a href="https://assets.section508.gov/assets/files/DOJ%20Section%20508%20Model%20Complaint%20Process.doc" target="_blank" class="usa-link--external">Example: Department of Justice Model Section 508 Complaint Process (DOC)</a>
+  * [Example: Best Practices For Establishing And Maintaining a Formal Section 508 Complaint Process]({{site.baseurl}}/manage/laws-and-policies/Section-508-complaints-best-practices/)
   
   
 &nbsp;
@@ -58,8 +71,4 @@ The cornerstone of an accessibility program is an agency-wide Section 508 policy
     </a>
 </div>
 
- [1]: https://obamawhitehouse.archives.gov/sites/default/files/omb/procurement/memo/strategic-plan-508-compliance.pdf
- [2]: https://assets.section508.gov/files/Directive_139.2_Final_10-28-2008.doc
- [3]: https://assets.section508.gov/files/VA508Directive6221_12_2008.pdf
- [4]: https://assets.section508.gov/files/SSA_Internet_Accessibility_Policy.pdf
- [5]: https://assets.section508.gov/files/DOJ%20Section%20508%20Model%20Complaint%20Process.doc
+**Reviewed/Updated:** March 2025

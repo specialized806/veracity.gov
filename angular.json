@@ -120,18 +120,21 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ART:build:production"
+              "buildTarget": "ART:build:production"
             },
             "development": {
-              "browserTarget": "ART:build:development"
+              "buildTarget": "ART:build:development"
+            },
+            "staging": {
+              "buildTarget": "ART:build:staging"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "staging"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ART:build"
+            "buildTarget": "ART:build"
           }
         },
         "test": {

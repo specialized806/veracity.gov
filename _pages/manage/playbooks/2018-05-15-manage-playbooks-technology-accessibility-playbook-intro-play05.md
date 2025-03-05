@@ -1,4 +1,5 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play05/
 type: manage
 layout: page
@@ -6,6 +7,16 @@ title: 'Play 5: Develop a Section 508 Program Team'
 created: 1526408684
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play05/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 We need talented people working in government who have expertise creating and delivering accessible digital services and technology. This includes bringing in seasoned project managers, acquisition professionals, testing and validation experts, compliance analysts, Section 508 Program teams, as well as training and communication professionals. When outside help is needed, teams should work with requiring officers to ensure agency teams are paired with contractors who are good at both assessing and supporting Section 508 compliance activities. The makeup and experience requirements of a Section 508 Program Team will vary depending on the size of the agency, the maturity of the compliance program, and the agency&rsquo;s use of digital services and technology solutions.
@@ -42,8 +53,8 @@ We need talented people working in government who have expertise creating and de
 
 ## Resources
 
-  * [Section 508 standards][1]
-  * [Trusted Tester Training and certification program][2]
+  * <a href="https://www.access-board.gov/ict/" target="_blank" class="usa-link--external">Section 508 standards</a>
+  * <a href="https://www.dhs.gov/trusted-tester" target="_blank" class="usa-link--external">Trusted Tester Training and certification program</a>
 
 &nbsp;
 
@@ -56,5 +67,4 @@ We need talented people working in government who have expertise creating and de
     </a>
 </div>
 
- [1]: https://www.access-board.gov/ict/
- [2]: https://www.dhs.gov/trusted-tester
+**Reviewed/Updated:** March 2025

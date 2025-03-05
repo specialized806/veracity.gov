@@ -1,11 +1,23 @@
 ---
+sidenav: true
 permalink: manage/playbooks/technology-accessibility-playbook-intro/play07/
 type: manage
 layout: page
-title: 'Play 7: Integrate accessibility needs into requirements and design processes'
+title: 'Play 7: Integrate Accessibility Needs into Requirements and Design Processes'
 created: 1526408767
+updated: 2025-03-05
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play07/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 We must begin technology projects by identifying the needs of people with disabilities who use and support the technology, and account for the ways the technology will fit into their lives. We must understand their preferences and expectations for using our technology to ensure it works for all, not just some users. These factors should not only inform technical and design decisions, but also IT investment, acquisition, development, and deployment.
@@ -42,11 +54,10 @@ Prior to beginning a technology project, work with usability professionals and r
 
 ## Resources
 
-  * [Accessibility Basics][1]
-  * [Measuring Accessibility In The User Experience (UX) And The Searcher Experience][2]
-  * [Introduction to Screen Readers][3]
-  
-  
+  * <a href="http://www.usability.gov/what-and-why/accessibility.html" target="_blank" class="usa-link--external">Accessibility Basics</a>
+  * <a href="http://marketingland.com/measuring-accessibility-user-experience-ux-searcher-experience-139546" target="_blank" class="usa-link--external">Measuring Accessibility In The User Experience (UX) And The Searcher Experience</a>
+  * <a href="https://it.wisc.edu/" target="_blank" class="usa-link--external">Introduction to Screen Readers</a>
+
 &nbsp;
 
 <div id="prev-next-section">
@@ -58,6 +69,4 @@ Prior to beginning a technology project, work with usability professionals and r
     </a>
 </div>
 
- [1]: http://www.usability.gov/what-and-why/accessibility.html
- [2]: http://marketingland.com/measuring-accessibility-user-experience-ux-searcher-experience-139546
- [3]: https://it.wisc.edu/
+**Reviewed/Updated:** March 2025

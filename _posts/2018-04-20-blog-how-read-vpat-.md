@@ -6,6 +6,15 @@ title: 'Building Accessibility into Your Procurement Process'
 created: 1524275406
 tags: Acquisition Design-and-Develop
 description: What comes to mind when you hear the word “accessibility”? If it's “compliance,” then you're not alone. While compliance is important, and a legal requirement, consider thinking about accessible IT from a universal design standpoint first.
+topic: "Acquisition/Buy (buy)"
+sub-topic: "Accessible Acquisition Info, Guidance & Best Practices"
+audience:
+- "Acquisition (acq)"
+- "Chief Acquisition Officer (cao)"
+- "Agency Senior Procurement Executive (spe)"
+- "Contracting Officer (cor)"
+resource-type: "Process/How-to"
+format: "HTML (html)"
 ---
 
 What comes to mind when you hear the word &ldquo;accessibility&rdquo;? If it's &ldquo;compliance,&rdquo; then you're not alone. While compliance is important, and a legal requirement, consider thinking about accessible IT from a universal design standpoint first. Shifting your mindset to buy solutions that are accessible for all starts with the procurement process. Chief Information Officers (CIOs) and Chief Acquisition Officers (CAOs) are responsible for defining and communicating accessibility and usability needs to vendors. This post explores why it's important for CIOs and CAOs to ensure vendors provide the most accessible solutions, by approaching procurement from a &ldquo;universal design&rdquo; perspective.
@@ -67,9 +76,9 @@ For more information, contact <section.508@gsa.gov>
  [2]: https://www.vox.com/2017/9/1/16236506/tech-amazon-apple-gdp-spending-productivity
  [3]: {{site.baseurl}}/
  [4]: {{site.baseurl}}/buy/request-accessibility-information
- [5]: https://assets.section508.gov/files/Guidance-on-Acquisition-for-Accessible-EIT-20150921.docx
+ [5]: https://assets.section508.gov/assets/files/Guidance-on-Acquisition-for-Accessible-EIT-20150921.docx
  [6]: {{site.baseurl}}/buy/define-accessibility-criteria
- [7]: https://assets.section508.gov/files/Revised%20508%20Standards%20Applicability%20Checklist%20%287%29.docx
+ [7]: https://assets.section508.gov/assets/files/Revised%20508%20Standards%20Applicability%20Checklist%20%287%29.docx
  [8]: {{site.baseurl}}/buy/standards-exceptions
  [9]: https://www.peatworks.org/
  [10]: http://www.peatworks.org/Buy-IT

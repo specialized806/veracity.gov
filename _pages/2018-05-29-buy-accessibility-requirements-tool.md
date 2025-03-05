@@ -6,10 +6,19 @@ created: 1527569449
 layout: wide
 sidenav: false
 redirect_from:
-- /art/home/
-- /buy/art/home/
+- art/home/
+- buy/art/home/
 redirect_to:
-- /art/
+- art/
+topic: Tools (tools)
+sub-topic: Acquisition Tools
+audience:
+- Acquisition (acq)
+- Chief Acquisition Officer (cao)
+- Agency Senior Procurement Executive (spe)
+- 508 Program Manager (508pm)
+resource-type: Tool (tool)
+format: HTML (html)
 ---
 
 <a href="{{site.baseurl}}/art/" class="usa-button usa-button--accent-warm">Start Using ART</a>
@@ -60,7 +69,7 @@ To start a new procurement, you&rsquo;ll need to know:
   <ol style="font-weight: bold;">
     <li>
       <p>
-        <strong>Download</strong> the <a target="_blank" href="https://assets.section508.gov/files/ART%20Contract%20Language%20Template.pdf " style="font-weight: normal;"> ART Contract Language Template </a>
+        <strong>Download</strong> the <a target="_blank" href="https://assets.section508.gov/assets/files/ART%20Contract%20Language%20Template.pdf " style="font-weight: normal;"> ART Contract Language Template </a>
       </p>
     </li>
 <li>

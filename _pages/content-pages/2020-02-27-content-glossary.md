@@ -5,6 +5,15 @@ permalink: content/glossary/
 type: page
 title: 'Glossary of Section 508 Terms'
 created: 1582828796
+topic: "Other"
+sub-topic: "General Info and Best Practices"
+audience:
+- "Federal employee (fedemp)"
+- "Public (public)"
+- "Designer (design)"
+- "Agency Head (head)"
+resource-type: "Tool (tool)"
+format: "HTML (html)"
 ---
 
 <div class="glossary">
@@ -30,7 +39,19 @@ created: 1582828796
       <strong><span id="agency">Agency</span>:</strong> Any agency or department of the United States as defined in <a href="https://www.govinfo.gov/content/pkg/USCODE-2019-title44/html/USCODE-2019-title44-chap35-subchapI-sec3502.htm" target="_blank">44 U.S.C. 3502</a>, and the United States Postal Service. {Section 508, E103.4}
     </li>
     <li>
-      <strong><span id="agency-official-communications">Agency Official Communications</span>:</strong> Electronic content which is not public facing, constitutes official business, and is communicated by an agency through one or more of the criteria set forth in E205.3.
+      <strong><span id="agency-official-communications">Agency Official Communications</span>:</strong> Electronic content that is not public facing shall conform to the accessibility requirements specified in <a href="https://www.access-board.gov/ict/#E205.4" target="_blank" class="usa-link--external">E205</a> when such content constitutes official business and is communicated by an agency through one or more of the following:
+      <ol type="A">
+        <li>An emergency notification;</li>
+        <li>An initial or final decision adjudicating an administrative claim or proceeding;</li>
+        <li>An internal or external program or policy announcement;</li>
+        <li>A notice of benefits, program eligibility, employment opportunity, or personnel action;</li>
+        <li>A formal acknowledgement of receipt;</li>
+        <li>A survey questionnaire;</li>
+        <li>A template or form;</li>
+        <li>Educational or training materials; or</li>
+        <li>Intranet content designed as a Web page.</li>
+      </ol>
+      EXCEPTION: Records maintained by the National Archives and Records Administration (NARA) pursuant to Federal recordkeeping statutes shall not be required to conform to the Revised 508 Standards unless public facing.
     </li>
     <li>
       <strong><span id="alteration">Alteration</span>:</strong> A change to existing ICT that affects interoperability, the user interface, or access to information or data.
@@ -110,7 +131,10 @@ created: 1582828796
       <strong><span id="complex-data-table">Complex data table</span>:</strong> A table that organizes data using more than a simple row/column structure. For example, categories of data may have subcategories, or data may belong to more than two categories (contrast with <a href="#simple-data-table">simple data table</a>).
     </li>
     <li>
-      <strong><span id="conformance-section-508">Conformance (Section 508)</span>:</strong> When electronic and information technology meets all of the applicable standards; for example, where a webpage meets W3C WCAG 2.0, Level A and AA guidelines.
+      <strong><span id="compliance-section-508">Compliance (Section 508)</span>:</strong> When a <em>person or organization</em> meets all information and communication technology (ICT) legal requirements; for example, Section 508 of the Rehabilitation Act of 1973, as amended.
+    </li>
+    <li>
+      <strong><span id="conformance-section-508">Conformance (Section 508)</span>:</strong> When an electronic and information and communication technology (ICT) <em>product or service</em> meets all of the applicable standards; for example, where a webpage meets W3C WCAG 2.0, Level A and AA guidelines incorporated by reference in the Section 508 Standards.
     </li>
     <li>
       <strong><span id="content">Content</span>:</strong> Electronic information and data, as well as the encoding that defines its structure, presentation, and interactions.
@@ -292,6 +316,10 @@ created: 1582828796
   <ul>
     <li>
       <strong><span id="menu">Menu</span>:</strong> A set of selectable options
+    </li>
+    <li>
+      <strong><span id="micro-purchase">Micro-purchase</span>:</strong><p>As defined in the <a href="https://www.acquisition.gov/far/part-2/#FAR_2_101__d75e1694" target="_blank" class="usa-link--external">FAR Subpart 2.2</a>, a micro-purchase is an acquisition of supplies or services using simplified acquisition procedures, the aggregate amount of which does not exceed the micro-purchase threshold.</p>
+      <p>The micro-purchase threshold is $10,000. Always check FAR Subpart 2.2 for the current micro-purchase threshold information and any exceptions that may apply to your procurement.</p>
     </li>
     <li>
       <strong><span id="multimedia">Multimedia (synchronized media)</span>:</strong> The combined use of several media, such as audio and visual (e.g., video or animation) to convey information or a live event, such as a television broadcast.
@@ -543,8 +571,6 @@ created: 1582828796
       </p>
     </div>
   </div>
-  
-  <p>
-    <strong>Updated:</strong> November 2022
-  </p>
 </div>
+
+**Reviewed/Updated:** October 2024

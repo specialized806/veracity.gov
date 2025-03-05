@@ -1,11 +1,24 @@
 ---
-permalink: manage/playbooks/technology-accessibility-playbook-intro/play11/
-type: manage
 layout: page
-title: 'Play 11: Track and resolve accessibility issues'
+sidenav: true
+type: manage
+title: 'Play 11: Track and Resolve Accessibility Issues'
+permalink: manage/playbooks/technology-accessibility-playbook-intro/play11/
+disclaimer: true
 created: 1526408939
+updated: 2025-03-05
 redirect_from:
 - tools/playbooks/technology-accessibility-playbook-intro/play11/
+topic: Manage (program)
+sub-topic: Manage a 508 Program
+audience:
+- Chief Information Officer (cio)
+- 508 Program Manager (508pm)
+- Information Technology Program and Project Managers (itpm)
+- Federal employee (fedemp)
+- Developers and Testers (dev-test)
+resource-type: Playbook
+format: HTML (html)
 ---
 
 Play 10 describes how to test and validate Section 508 conformance. Testing will produce a list of issues that need to be tracked, prioritized, and resolved over the long term. End users may also report technology accessibility issues that need to be assessed, tracked, prioritized, and resolved. Regardless of the source of the problem, the resolution may pose a cost to the agency. If the issue is non-conformance with Section 508, the agency has to guard against perpetuating the error in future upgrades and procurements.
@@ -50,8 +63,8 @@ Play 10 describes how to test and validate Section 508 conformance. Testing will
 
 ## Resources
 
-  * [For Help Desk, Freedom Scientific popular screen reader][1]
-  * [For Help Desk, Ai Squared popular screen magnification][2]
+  * <a href="https://support.freedomscientific.com/support" target="_blank" class="usa-link--external">For Help Desk, Freedom Scientific popular screen reader</a>
+  * <a href="https://support.freedomscientific.com/support" target="_blank" class="usa-link--external">For Help Desk, Freedom Scientific popular screen and text magnification</a>
 
 &nbsp;
 <div id="prev-next-section">
@@ -63,6 +76,4 @@ Play 10 describes how to test and validate Section 508 conformance. Testing will
     </a>
 </div>
 
-
- [1]: http://www.freedomscientific.com/Support
- [2]: https://support.zendesk.com/hc/en-us?_ga=2.218071126.1124779054.1631404887-836831031.1631404887
+**Reviewed/Updated:** March 2025
