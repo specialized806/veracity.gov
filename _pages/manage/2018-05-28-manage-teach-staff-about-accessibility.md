@@ -1,10 +1,26 @@
 ---
 layout: page
 sidenav: true
-permalink: manage/teach-staff-about-accessibility/
 type: manage
-title: 'Teach Staff about Accessibility'
-created: 1527553139
+title: Teach Staff about Accessibility
+permalink: manage/teach-staff-about-accessibility/
+description: Find Section 508 resources and strategies to teach staff about accessibility, including training methods, tools, and best practices to build inclusive digital skills.
+audience: 
+- Content Creators
+- Federal Employees
+- IT Program & Project Managers
+- Manager & Supervisor
+- Section 508 Program Managers
+topic: 
+- Manage
+subtopic: 
+- Training
+resource-type: 
+- Article
+format: HTML
+created: 2018-05-28
+updated: 2026-07-10
+exclude-changelog: true
 ---
 
 Accessibility is not just a legal mandate, it is also good for business. Use these quick tips to help content creators, developers and other stakeholders adhere to the  [Revised 508 Standards][1], while delivering better content, products and systems to your customers.
@@ -25,8 +41,8 @@ Accessibility is not just a legal mandate, it is also good for business. Use the
 
   * **Establish accessibility review guidelines.** Determine a review process for each department responsible for publishing covered electronic content. Insert accessibility reviews into existing development and publication lifecycles.
 
-    *  [Play 7: Integrate accessibility needs into requirements and design processes][6]
-    *  [Play 9: Integrate accessibility needs into development processes][7]
+    *  [Play 7: Integrate Accessibility Needs into Requirements and Design Processes][6]
+    *  [Play 9: Integrate Accessibility Needs into Development Processes][7]
 
 ## Related Resources
 
@@ -34,16 +50,11 @@ Accessibility is not just a legal mandate, it is also good for business. Use the
 
 This guidance was developed by the U.S. Federal Government Revised 508 Standards Transition Workgroup. Members include the U.S. Federal CIO Council Accessibility Community of Practice, the U.S. Access Board, and the General Services Administration.
 
-  
-
-
-**Reviewed/Updated:** May 2018
-
  [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
- [2]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E205-content
+ [2]: https://www.access-board.gov/ict/#E205-content
  [3]: {{site.baseurl}}/blog/infographic-the-case-for-universal-design
  [4]: {{site.baseurl}}/training/
  [5]: {{site.baseurl}}/test
- [6]: {{site.baseurl}}/tools/playbooks/technology-accessibility-playbook-intro/play07/
- [7]: {{site.baseurl}}/tools/playbooks/technology-accessibility-playbook-intro/play09/
+ [6]: {{site.baseurl}}/manage/playbooks/technology-accessibility-playbook/7/
+ [7]: {{site.baseurl}}/manage/playbooks/technology-accessibility-playbook/9/
  [8]: {{site.baseurl}}/manage/support-accessible-content

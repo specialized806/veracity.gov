@@ -6,6 +6,16 @@ title: 'Infographic: The Case for Universal Design '
 created: 1519692723
 tags: Design-and-Develop
 description: Current trends in accessibility and technology promote universal design as a principle that leads to greater innovation, cost-savings, higher employee engagement, and talent retention.
+topic: "Design"
+sub-topic: "Roles & Responsibilities"
+audience:
+- "Chief Information Officers (CIO)"
+- "Section 508 Program Managers"
+- "Developers"
+- "Content Creators"
+- "IT Program & Project Managers"
+resource-type: "Blog"
+format: "HTML"
 ---
 
 <div>
@@ -30,11 +40,11 @@ description: Current trends in accessibility and technology promote universal de
   </p>
   
   <div>
-    <img alt="Infographic supporting the case for Universal Design. Explains 3 key benefits of saving money, driving innovation, and engaging the workforce." src="https://assets.section508.gov/files/Universal%20Design%20Business%20Case%20Infographic.jpg" style="width:60%" />
+    <img alt="Infographic supporting the case for Universal Design. Explains 3 key benefits of saving money, driving innovation, and engaging the workforce." src="{{site.baseurl}}/assets/images/Universal%20Design%20Business%20Case%20Infographic.jpg" style="width:60%" />
   </div>
   
   <p>
-    <a href="https://assets.section508.gov/files/Universal%20Design%20Business%20Case%20Infographic.pdf">Click here to download a PDF version of the infographic</a>
+    <a href="https://www.section508.gov/~assets/files/universal-design-business-case-infographic.pdf">Click here to download a PDF version of the infographic</a>
   </p>
   
   <p>

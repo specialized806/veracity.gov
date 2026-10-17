@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/how-to-use-the-framework/ict-accessibility-policy-matrix/
+description: "Learn how to use the ICT Accessibility Policy Need/Engagement Matrix to prioritize agency policies for remediation based on their sufficiency and importance to accessibility."
 type: manage
 title: "IT Accessibility Policy Framework - ICT Accessibility Policy Matrix"
 created: December 09, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 <h2 id="standards">
   ICT Accessibility Policy Need/Engagement Matrix

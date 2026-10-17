@@ -1,15 +1,15 @@
 # Global owners
-* @drewnielson @alexwilsongsa @michaelhortongsa
+* @drewnielson @alexwilsongsa @michaelhortongsa @kmsoc @Lboniello
 
 # Layouts and Includes and other Jekyll structural changes
-/_assets/css/ @drewnielson
-/_assets/js/ @drewnielson
-/_plugins/ @drewnielson
-/_includes/ @drewnielson @michaelhortongsa
-/_layouts/ @drewnielson @michaelhortongsa
+/_assets/css/ @drewnielson @michaelhortongsa @KMSOC
+/_assets/js/ @drewnielson @michaelhortongsa @KMSOC
+/_plugins/ @drewnielson @michaelhortongsa @KMSOC
+/_includes/ @drewnielson @michaelhortongsa @KMSOC
+/_layouts/ @drewnielson @michaelhortongsa @KMSOC
 
 # Site content changes
-/_pages/ @drewnielson @michaelhortongsa @alexwilsongsa
-/_posts/ @drewnielson @michaelhortongsa @alexwilsongsa
-/blog/ @drewnielson @michaelhortongsa @alexwilsongsa
-*.md @drewnielson @michaelhortongsa @alexwilsongsa
+/_pages/ @drewnielson @michaelhortongsa @alexwilsongsa @kmsoc @Lboniello
+/_posts/ @drewnielson @michaelhortongsa @alexwilsongsa @kmsoc @Lboniello
+/blog/ @drewnielson @michaelhortongsa @alexwilsongsa @kmsoc @Lboniello
+*.md @drewnielson @michaelhortongsa @alexwilsongsa @kmsoc @Lboniello

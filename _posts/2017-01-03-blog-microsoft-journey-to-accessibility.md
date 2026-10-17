@@ -6,6 +6,16 @@ title: 'Microsoft’s Journey to Accessibility'
 tags: Design-and-Develop
 created: 1483454666
 description: On December 6, 2016, Accessibility Program Managers from the Microsoft Engineering Team facilitated an all-day training event for Federal Section 508 Program Managers, to showcase accessibility features in Microsoft products.
+topic: "Testing"
+sub-topic: "Other"
+audience:
+- "Section 508 Program Managers"
+- "Developers"
+- "Content Creators"
+- "Members of the Public"
+- "Chief Information Officers (CIO)"
+resource-type: "Blog"
+format: "HTML"
 ---
 
 January 3, 2017 - On December 6, 2016, Accessibility Program Managers from the Microsoft Engineering Team facilitated an all-day training event for Federal Section 508 Program Managers, to showcase accessibility features in Microsoft products. Acknowledging that accessibility impacts everyone, Microsoft shared their journey of &ldquo;embracing accessibility by design.&rdquo;
@@ -28,7 +38,7 @@ The goal of Microsoft Engineering teams is to make Microsoft assistive technolog
 
 <div>
   <p>
-    Section 508 Program Managers from Microsoft&rsquo;s Engineering team shared recent accessibility improvements in Office 365 and Windows 10. The team gave demonstrations of products designed to test accessibility of computer hardware product, software, and website. Called Voluntary Product Accessibility Templates (VPATs<sup>&trade;</sup>), Microsoft&rsquo;s guiding principle for modern VPATs<sup>&trade;</sup> is to be transparent and accurate, and they&rsquo;ve <a href="https://www.microsoft.com/508vpats"><u>published over 100 new modern VPATs<sup>&trade;</sup></u></a>. January 3, 2017 - They demonstrated several other features using Job Access With Speech (JAWS), Narrator, Internet Explorer (IE) and Edge. The Microsoft team also gave participants a preview of upcoming products that can be used to innovate across the Federal government and make technology more accessible to everyone.
+    Section 508 Program Managers from Microsoft&rsquo;s Engineering team shared recent accessibility improvements in Office 365 and Windows 10. The team gave demonstrations of products designed to test accessibility of computer hardware product, software, and website. Called Voluntary Product Accessibility Templates (VPATs®), Microsoft&rsquo;s guiding principle for modern VPATs® is to be transparent and accurate, and they&rsquo;ve <a href="https://www.microsoft.com/508vpats"><u>published over 100 new modern VPATs®</u></a>. January 3, 2017 - They demonstrated several other features using Job Access With Speech (JAWS), Narrator, Internet Explorer (IE) and Edge. The Microsoft team also gave participants a preview of upcoming products that can be used to innovate across the Federal government and make technology more accessible to everyone.
   </p>
   
   <div>

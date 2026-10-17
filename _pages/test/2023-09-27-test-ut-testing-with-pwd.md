@@ -2,11 +2,22 @@
 layout: page
 sidenav: true
 permalink: test/usability-testing-with-people-with-disabilities/
+description: "Learn how to include people with disabilities in usability testing to improve accessibility, inclusive design, and user experience."
 type: test
 title: 'Tips for Usability Testing with People with Disabilities'
 contributors: martin-beth, opm
 created: 2023-09-27
 updated:
+topic: Testing
+sub-topic: Best Practices
+audience:
+- Section 508 Program Managers
+- Web Content Managers
+- IT Program & Project Managers
+- Content Creators
+- Developers
+resource-type: Article
+format: HTML
 ---
 ## What is Usability Testing?
 Usability testing (UT), a type of user experience (UX) research method, helps you gather quantitative and qualitative data from representative users. You can leverage UT to improve UX through iterative design based on the observations of real users. Once you identify interaction and design problems of a product or service, you can then test ways to solve those problems.
@@ -59,5 +70,3 @@ It is up to the facilitator to determine the method of capture and analysis of f
 * <a href="https://www.w3.org/WAI/test-evaluate/involving-users/#ut-access" target="_blank" class="usa-link--external">Involving Users in Evaluating Web Accessibility</a>
 * <a href="https://digital.gov/2015/04/10/usability-testing-with-people-who-have-vision-impairment-is-difficult-reality-or-perception/" target="_blank" class="usa-link--external">Usability Testing with People Who Have Vision Impairment</a>
 * <a href="https://www.w3.org/TR/coga-usable/usability_testing.html#:~:text=It%20is%20important%20that%20usability,communication%20disability%2C%20and%20intellectual%20disability." target="_blank" class="usa-link--external">Usability Testing, Focus Groups and Feedback</a>
-
-**Reviewed/Updated:** September 2023

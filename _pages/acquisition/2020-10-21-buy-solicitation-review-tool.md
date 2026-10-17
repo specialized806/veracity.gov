@@ -1,54 +1,73 @@
 ---
 layout: page
 sidenav: true
-permalink: buy/solicitation-review-tool/
 type: acquisition
-title: 'Solicitation Review Tool (SRT)'
-created: 1603286031
+title: Solicitation Review Tool (SRT) Overview
+permalink: buy/solicitation-review-tool/
+description: Streamline your federal procurement process with the Solicitation Review Tool from Section508.gov. Ensure accessibility compliance in IT solicitations quickly and effectively.
+redirect_from:
+- srt/
+audience:
+- Buyers
+- Contracting Officers (CO & COR)
+- Federal Employees
+- IT Program & Project Managers
+- Section 508 Program Managers
+topic:
+- Buy
+subtopic:
+- Tools
+resource-type:
+- Tool
+format: HTML
+created: 2020-10-21
+updated: 2026-09-10
+exclude-changelog: true
 ---
+<div class="desktop:grid-col-4 radius-lg" style="float:right; padding-left:10px;">
+  <ul class="usa-card-group">
+    <li class="usa-card tablet-lg:grid-col-6 widescreen:grid-col-4">
+      <div class="usa-card__container">
+        <div class="usa-card__body">
+          <p>Simplify your federal procurement process and ensure proper ICT acquisition using SRT.</p>
+        </div>
+        <div class="usa-card__footer">
+          <a href="https://srt.app.cloud.gov/" target="_blank" class="usa-button">Start Using SRT</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-<a href="https://srt.app.cloud.gov/" class="usa-button usa-button--accent-warm">Start Using SRT</a>
+The <a href="https://srt.app.cloud.gov/" target="_blank" class="usa-link--external">Solicitation Review Tool (SRT)</a> was developed to help agencies assess and improve the accessibility compliance of solicitations—and in the future, it will also support reviews for cybersecurity and other regulatory requirements.
 
-<p class="intro" style="clear: both;">
-  The <a href="https://srt.app.cloud.gov/" target="_blank">Solicitation Review Tool</a> (SRT) was created to help agencies evaluate and improve the overall solicitation compliance with respect to accessibility, and in the future - cyber security, and other regulations and requirements.
-</p>
+The SRT is built with open-source technology and uses artificial intelligence (AI), natural language processing, text mining, and machine learning to automatically detect whether new solicitations posted on federal acquisition platforms are for information and communication technology (ICT). If a solicitation is identified as ICT-related, the SRT then checks whether it includes adequate Section 508 compliance requirements to support accessibility in federal IT.
 
-The SRT was built using open source technology, uses artificial intelligence (AI), natural language processing, text mining, and machine learning algorithms to automatically identify whether new solicitations posted to &ldquo;Contracting Opportunities&rdquo; ([beta.SAM.gov)][1] are solicitations for Information and Communication Technology (ICT). For those that are considered ICT SRT tests if they contain sufficient compliance requirements for Section 508 Technical Requirements that will improve accessibility of federal IT.
-
-The SRT scans the [beta.SAM.gov][1] every 24 hours, across all solicitations and delivers:
+The SRT scans the <a href="https://www.sam.gov" target="_blank" class="usa-link--external"><strong>SAM.gov</strong></a> and <a href="https://www.ebuy.gov" target="_blank" class="usa-link--external"><strong>eBuy.gov</strong></a> every 24 hours, across all solicitations and delivers:
 
   * A report on all the new ICT solicitations for the previous day
   * A report of ICT solicitations flagged for manual review
   * A portal for agency SMEs to perform manual reviews of flagged solicitations
   * Trending data of flagged solicitations by agency and government-wide
 
-## **Benefits of SRT**
+## Benefits of SRT
 
-As federal acquisition staff needs to ensure that ICT solicitation documents include Section 508 requirements. The SRT will make it easier to find those solicitations that have been identified as either compliant or non-compliant by:
+Federal acquisition staff needs to ensure that ICT solicitation documents include Section 508 requirements. The SRT will make it easier to find those solicitations that have been identified as either compliant or non-compliant by:
 
-  * Automating the review process
+  * Providing pre-publication support for ICT solicitation review via the upload tool
+  * Automating the review process of published solicitations
   * Ensuring accessibility requirements are properly defined in ICT solicitations
-  * Influencing training offerings
-  * Supporting IT Accessibility PMs&nbsp;
-  * Improving GSA&rsquo;s ability to support agencies
-  * Providing timely analytics&nbsp;
+  * Informing the need for Section 508 training offerings
+  * Supporting IT Accessibility PMs
+  * Improving GSA's ability to support agencies
+  * Providing timely analytics
 
 With SRT, agencies will have the information to inform decisions on which solicitations warrant additional Section 508 requirements, those that warrant amending the solicitations to add requirements before selection decisions are made by the agency.
 
-## **How to Access SRT**
+## How to Access SRT
 
-The SRT is available to agency procurement officials and Section 508 Program Managers by sending a request to <srt@gsa.gov>. Once approved, you will be sent instructions on accessing SRT using your Office of Management and Budget MAX.gov account, which are available to federal employees with a .gov or .mil email address.
+The SRT is available to agency procurement officials and Section 508 Program Managers. It can also be used by local, county and state officials as well as those involved with procurement for educational institutions. A Login.gov account tied to your .gov, .mil, or .edu email address is required.  Request access to SRT by visiting <a href="https://srt.app.cloud.gov/auth" target="_blank" class="usa-link--external"><strong>Solicitation Review Tool</strong></a> and choosing "Sign in with Login.gov".  Access will be granted within 24 hours, excluding weekends and holidays.
 
-If you have questions while using the application or have tool improvement recommendations, use the Contact Us link at the top of the page to send a message to the system administrators.&nbsp;
+If you encounter issue, **send a request to <srt@gsa.gov>** for assistance. Once approved, you will receive an email confirming your account has been activated.
 
-<div class="border-base radius-lg border-1px" style="margin-top: 1.5em;">
-  <div class="padding-1">
-    <strong>Before You Go</strong> 
-<p>We're always working to improve the information and resources on this website. To suggest a new resource for this or another page, please <a href="mailto:section.508@gsa.gov">contact us</a>.
-    </p>
-  </div>
-</div>
-
-**Reviewed/Updated:** March 2022
-
- [1]: https://sam.gov/
+If you have questions or suggestions for improving the tool, click the Contact Us link on the SRT homepage to message the system administrators.

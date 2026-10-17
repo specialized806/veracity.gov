@@ -1,0 +1,43 @@
+---
+layout: wide_events
+title: "Section 508 Assessment Office Hours #8 | May 19, 2023"
+start-date: #only fill in start date if the events spans multiple days (YYYY-MM-DD)
+end-date: 2023-05-19 #otherwise use end-date (YYYY-MM-DD)
+permalink: /event/gwaa-office-hours-19may2023/
+description: "The Office of Management and Budget (OMB), General Services Administration (GSA) and the U.S. Access Board (USAB) will be hosting “office hours” meetings, or times when your agency’s point of contact can meet with our teams to discuss the criteria or other questions related to completing the assessment."
+topic: Events
+sub-topic: 
+- Annual Assessment
+image:
+image-alt: 
+event-registration: https://teams.microsoft.com/registration/9ZNg_F7lk0-yzybQgiIByQ,XW44C1SSm0iZnv-orU953g,UY57odKjB0Sk60-gfI-uPg,j0SGLB34y0masNHZeXiyUg,Z5CDSUV2xkOdacQvyGc-WA,JSr-6MpNDUW1mSbnYra1hQ?mode=read&tenantId=fc6093f5-e55e-4f93-b2cf-26d0822201c9
+created: 2023-05-01
+---
+The Office of Management and Budget (OMB), General Services Administration (GSA) and the U.S. Access Board (USAB) will be hosting “office hours” meetings, or times when your agency’s point of contact can meet with the team to discuss questions related to completing the assessment.
+
+Prior to participating in an office hours event, please ensure that you are familiar with the guidance resources below, which will allow us to address questions not fully covered by these resources: 
+- [Instructions][1]
+- [Assessment Criteria][2] 
+- [Frequently Asked Questions (FAQ)][4]
+- [Definition of Terms][5]
+
+## Event Details
+**DATE:** May 19, 2023  
+**TIME:** 2:00 PM - 3:00 PM (EST)  
+**WHERE:** Virtual  
+**WHO:** Agency points of contact designated to support the annual Government-wide Section 508 Assessment  
+
+## Registration
+Registration for this event has closed.
+
+This virtual meeting is supported by Microsoft Teams. Please feel free to attend via your personal device.  
+
+**Note: You must join the meeting using your first and last name. Agency affiliation is optional. Nicknames and phone numbers will not be given access*
+
+
+[1]: {{site.baseurl}}/manage/section-508-assessment/
+[2]: {{site.baseurl}}/manage/section-508-assessment/      
+[4]: {{site.baseurl}}/manage/section-508-assessment/
+[5]: {{site.baseurl}}/tools/glossary/
+[6]: {{site.baseurl}}/events/
+[7]: https://teams.microsoft.com/registration/9ZNg_F7lk0-yzybQgiIByQ,XW44C1SSm0iZnv-orU953g,UY57odKjB0Sk60-gfI-uPg,j0SGLB34y0masNHZeXiyUg,Z5CDSUV2xkOdacQvyGc-WA,JSr-6MpNDUW1mSbnYra1hQ?mode=read&tenantId=fc6093f5-e55e-4f93-b2cf-26d0822201c9

@@ -6,6 +6,15 @@ title: 'Building Accessibility into Your Procurement Process'
 created: 1524275406
 tags: Acquisition Design-and-Develop
 description: What comes to mind when you hear the word “accessibility”? If it's “compliance,” then you're not alone. While compliance is important, and a legal requirement, consider thinking about accessible IT from a universal design standpoint first.
+topic: "Buy"
+sub-topic: "Guidance"
+audience:
+- "Buyers"
+- "Chief Acquisition Officers (CAO)"
+- "Executive Leadership (CXO)"
+- "Contracting Officers (CO & COR)"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 
 What comes to mind when you hear the word &ldquo;accessibility&rdquo;? If it's &ldquo;compliance,&rdquo; then you're not alone. While compliance is important, and a legal requirement, consider thinking about accessible IT from a universal design standpoint first. Shifting your mindset to buy solutions that are accessible for all starts with the procurement process. Chief Information Officers (CIOs) and Chief Acquisition Officers (CAOs) are responsible for defining and communicating accessibility and usability needs to vendors. This post explores why it's important for CIOs and CAOs to ensure vendors provide the most accessible solutions, by approaching procurement from a &ldquo;universal design&rdquo; perspective.
@@ -20,7 +29,7 @@ If you understand your accessibility and usability needs, it&rsquo;s easier to s
 
 ### 1. Research, research, research!
 
-Technology companies spend more on [research and development][2] than any other industry in the US. Given the rapid advancements in technology today, it&rsquo;s important to research vendors to understand what their products offer. You should also request accessibility templates, such as a Voluntary Product Accessibility Template (VPAT&reg;), from vendors to show how their products meet relevant Section 508 standards and accessibility guidelines. [Section508.gov][3] has great resources to help you in this step of your procurement process.
+Technology companies spend more on [research and development][2] than any other industry in the US. Given the rapid advancements in technology today, it&rsquo;s important to research vendors to understand what their products offer. You should also request accessibility templates, such as a Voluntary Product Accessibility Template (VPAT®), from vendors to show how their products meet relevant Section 508 standards and accessibility guidelines. [Section508.gov][3] has great resources to help you in this step of your procurement process.
 
 Resources include:
 
@@ -44,7 +53,7 @@ Additionally, the [Partnership on Employment and Accessible Technology][9] (PEAT
 
   * Solicitation
       * [Step 3: Issuing Your Solicitation][13]
-      * [Step 4: Evaluating Proposals & VPATs<sup>&trade;</sup>][14]
+      * [Step 4: Evaluating Proposals & VPATs®][14]
   * ​Post-Award
       * [Step 5: Negotiating Contracts][15]
       * [Step 6: Testing & Validation][16]
@@ -67,9 +76,9 @@ For more information, contact <section.508@gsa.gov>
  [2]: https://www.vox.com/2017/9/1/16236506/tech-amazon-apple-gdp-spending-productivity
  [3]: {{site.baseurl}}/
  [4]: {{site.baseurl}}/buy/request-accessibility-information
- [5]: https://assets.section508.gov/files/Guidance-on-Acquisition-for-Accessible-EIT-20150921.docx
+ [5]: https://www.section508.gov/~assets/files/guidance-on-acquisition-for-accessible-eit-20150921.docx
  [6]: {{site.baseurl}}/buy/define-accessibility-criteria
- [7]: https://assets.section508.gov/files/Revised%20508%20Standards%20Applicability%20Checklist%20%287%29.docx
+ [7]: https://www.section508.gov/~assets/files/revised-508-standards-applicability-checklist.docx
  [8]: {{site.baseurl}}/buy/standards-exceptions
  [9]: https://www.peatworks.org/
  [10]: http://www.peatworks.org/Buy-IT

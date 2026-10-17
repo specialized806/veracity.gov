@@ -6,25 +6,25 @@ This will be displayed on the homepage. Ideally, you want to highlight key goals
 
 <section class="usa-hero margin-bottom-6">
   <div class="grid-container">
-    <div class="usa-hero__callout radius-lg">
-      <h2 class="usa-hero__heading h2color text-normal font-body-xl">2023 Interagency Accessibility Forum</h2>
-      <p class="text-black">The 2023 Interagency Accessibility Forum (IAAF) celebrates accessibility as the foundation for the Federal Government to serve as a model where all employees are treated with dignity and respect. Join us for keynote addresses, presentations and panel discussions that help us move <em>Beyond Compliance: Building a Culture of Digital Accessibility.</em></p>
-      <a class="usa-button primary-background-color" href="{{site.baseurl}}/iaaf/">2023 IAAF Information</a>
+    <div class="usa-hero__callout radius-lg border-2px border-primary">
+      <h2 class="usa-hero__heading h2color text-normal font-body-l">Check your solicitation for Section 508 compliance</h2>
+      <p class="text-black">Explore the updated Solicitation Review Tool (SRT) &mdash; a dedicated platform that checks draft &mdash; and published &mdash; federal solicitations to make sure they include the required Section 508 accessibility language.</p>
+      <a class="usa-button primary-background-color" href="{{site.baseurl}}/blog/introducing-the-new-srt">Introducing the New and Improved SRT</a>
     </div>
   </div>
 </section>
 
 <section class="usa-hero mission">
   <div class="grid-container">
-    <div class="mission__callout radius-lg padding-4">
+    <div class="mission__callout radius-lg padding-4"> <!--ADJUST HERO WIDTH USING .usa-hero__callout-->
       <h2 class="font-body-lg margin-0">Our Mission</h2>
       <div class="grid-row grid-gap">
         <div class="desktop:grid-col-8">
         <p>On January 18, 2017, the <span class="text-underline"><a href="https://www.access-board.gov/" target="_blank">U.S. Access Board</span></a> published a <span class="text-underline"><a href ="https://www.access-board.gov/ict/" target="_blank">final rule</a></span> updating accessibility requirements for information and communication technology (ICT) covered by  <span class="text-underline"><a href = "https://www.access-board.gov/law/ra.html" target="_blank"> Section 508 of the Rehabilitation Act</a></span>   and Section 255 of the Communications Act.</p>
-        <p> The U.S. General Services Administration (GSA) Office of Government-wide Policy (OGP) is tasked under this law to provide technical assistance to help Federal agencies comply with these requirements, and ensure that covered ICT is accessible to, and usable by, individuals with disabilities.</p>
+        <p>The U.S. General Services Administration (GSA) Office of Government-wide Policy (OGP) is tasked under this law to provide technical assistance to help Federal agencies comply with these requirements, and ensure that covered ICT is accessible to, and usable by, individuals with disabilities.</p>
         </div>
         <div class="desktop:grid-col-4">
-          {% asset mission.png alt="A portion of a computer keyboard with shining Accessibility text and symbol in place of the enter key" %}
+            <img src="{{ site.baseurl }}/assets/images/mission.png" alt="A portion of a computer keyboard with shining Accessibility text and symbol in place of the enter key" />
         </div>
         <div class="grid-col-12">
         <a class="usa-button secondary-background-color usa-button--big" href="{{site.baseurl}}/about-us" aria-label="About Us in Our Mission">About Us</a>

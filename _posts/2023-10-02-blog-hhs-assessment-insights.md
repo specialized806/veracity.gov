@@ -7,6 +7,15 @@ tags: Policy-and-Management
 created: 2023-10-02
 description: The level of detail in the Section 508 Assessment questionnaire criteria certainly came as a surprise to many of us. However, we quickly learned how it would help us understand our program’s maturity and make recommendations to program managers on areas they can improve. This and other insights from a Program Manager after navigating the annual Section 508 Assessment.
 contributors: sweeney-kate, hhs
+topic: Law
+sub-topic: Statute & Regulation
+audience:
+- Section 508 Program Managers
+- Manager & Supervisor
+- Chief Information Officers (CIO)
+- Members of the Public
+resource-type: Blog
+format: HTML
 ---
 The level of detail in the Section 508 Assessment questionnaire criteria certainly came as a surprise to many of us. However, we quickly learned how it would help us understand our program’s maturity and make recommendations to program managers on areas they can improve. To make it more easily digestible, we grouped the criteria into four areas:
  
@@ -36,4 +45,3 @@ R. Buckminster Fuller said, "You can't change the way people think, all you can 
  
 Through metrics, like those in the annual assessments, we can work continuously to improve the quality of the products we buy, build and use, ensuring employees and members of the public with disabilities have access to information comparable to the access available to others.
 
-**Reviewed/Updated**: October 2023

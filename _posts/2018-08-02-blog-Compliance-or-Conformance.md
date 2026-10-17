@@ -6,6 +6,13 @@ title: 'Compliance or Conformance?'
 created: 1533227088
 tags: Policy-and-Management
 description: You've likely heard the terms "compliance" and "conformance" when people talk about IT accessibility. What's the difference?
+topic: "Policy"
+sub-topic: "Best Practices"
+audience:
+- "Federal Employees"
+- "Members of the Public"
+resource-type: "Blog"
+format: "HTML"
 ---
 
 You've likely heard the terms "compliance" and "conformance" when people talk about IT accessibility. These words are often used interchangeably (and incorrectly) in relation to Section 508 law and standards and it's easy to get them confused.
@@ -17,7 +24,7 @@ To set the record straight, we've defined what both words mean, in terms of IT a
 
 ## Compliance
 
-Under [Section 508 of the Rehabilitation Act (29 U.S.C. &sect; 794 d)][1], all federal agencies must ensure that any Information and Communication Technology (ICT) they &ldquo;develop, procure, maintain or use&rdquo; is accessible. Agencies need to provide disabled employees and members of the public access to information comparable to the access available to others.
+Under [Section 508 of the Rehabilitation Act (29 U.S.C. &sect; 794 d)][1], all federal agencies must ensure that any information and communication technology (ICT) they &ldquo;develop, procure, maintain or use&rdquo; is accessible. Agencies need to provide disabled employees and members of the public access to information comparable to the access available to others.
 
 ## Conformance
 
@@ -38,6 +45,6 @@ With good business processes in place to address conformance to accessibility st
  [1]: https://www.gpo.gov/fdsys/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap16-subchapV-sec794d.htm
  [2]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule
  [3]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
- [4]: {{site.baseurl}}/buy
- [5]: {{site.baseurl}}/buy
- [6]: {{site.baseurl}}/create/software-websites
+ [4]: {{site.baseurl}}/buy/
+ [5]: {{site.baseurl}}/buy/
+ [6]: {{site.baseurl}}/develop/software-websites/

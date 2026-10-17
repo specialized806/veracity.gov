@@ -1,0 +1,34 @@
+--- 
+layout: page
+sidenav: true
+type: training
+title: Events
+permalink: events/
+description: Explore upcoming digital accessibility events, webinars, and federal community meetings on Section 508, including training, best practices, and governmentwide forums.
+topic: Training
+sub-topic: "Design, Develop, Testing for Accessibility Training or Tools"
+audience:
+- "Federal employee (fedemp)"
+- "Content Creators (creator)"
+- "Designer (design)"
+resource-type: Training
+format: "HTML (html)"
+created: 2018-05-10
+hide-date: true
+---
+<h2 class="margin-top-3">Current and Upcoming Events</h2>
+
+{% include upcoming-events.html %}
+
+<div class="fade_line"></div>
+
+<h2 class="margin-top-3">Recurring Events</h2>
+
+{% include recurring-events.html %}
+
+<div class="fade_line"></div>
+
+<h2>Past Events</h2>
+
+{% include past-events.html %}
+

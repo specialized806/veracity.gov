@@ -1,0 +1,114 @@
+---
+layout: page
+sidenav: true
+type: create
+title: 'Create Accessible PDFs'
+permalink: create/pdfs/
+redirect_from:
+- create/pdfs/authoring-guides/
+- content/pdfs/
+description: Learn how to create accessible Portable Document Format (PDF) documents that meet the Revised 508 Standards. This comprehensive guide includes step-by-step training videos, document authoring tips, downloadable testing guides, and agency-developed resources. Ideal for document authors, accessibility testers, and federal staff.
+topic: "Create"
+sub-topic: "PDFs"
+audience:
+- "Federal Employees"
+- "Members of the Public"
+- "Designers"
+resource-type: "Process & How-To"
+format: "HTML"
+created: 2018-05-10
+updated: 2025-08-05
+exclude-changelog: true
+---
+Learn how to create accessible Portable Document Format (PDF) documents that conform to the <a href="https://www.access-board.gov/ict/" target="_blank" class="usa-link--external">Section 508 Standards</a>.
+
+<div class="grid-col-12 border-base radius-lg padding-1" style="border: 1px solid black; background-color: #f5f9fc;">
+  <ul class="margin-0 padding-0">
+    <li class="usa-icon-list__item">
+      <div class="usa-icon-list__icon text-gold" style="display: flex; align-items: center; justify-content: center; width:20rem;">
+        <svg class="usa-icon" aria-hidden="true" style="width:3em; height:3em;" role="img">
+          <use href="{{site.baseurl}}/assets/img/sprite.svg#warning"></use>
+        </svg>
+      </div>
+      <div class="usa-icon-list__content">
+      PDFs are still used across government, but they are often not the most accessible or mobile-friendly option. <a href="https://bidenwhitehouse.archives.gov/omb/management/ofcio/m-24-08-strengthening-digital-accessibility-and-the-management-of-section-508-of-the-rehabilitation-act/#anchorD" target="_blank" class="usa-link--external">Federal policy</a> requires agencies to prioritize HTML and use PDFs only when necessary. Choose formats that support accessibility, responsiveness, mobile-friendliness, and a digital-first user experience.
+      </div>
+    </li>
+  </ul>
+</div>
+
+## Authoring Guides
+<div class="usa-accordion usa-accordion--bordered">
+  <!-- Adobe Acrobat DC Section - Open by default -->
+  <h3 class="usa-accordion__heading">
+    <button class="usa-accordion__button" aria-expanded="true" aria-controls="pdf1">Portable Document Format (PDF) - 2019</button>
+  </h3>
+  <div id="pdf1" class="usa-accordion__content usa-prose" hidden="false">
+    <ul>
+      <li><a href="https://www.section508.gov/~assets/files/pdf-testing-and-remediation-guide-adobe-acrobat-dc-pro-aed-cop.docx" target="_blank" class="usa-link--external">PDF Testing and Remediation Guide (DOCX)</a></li>
+      <li><a href="https://www.section508.gov/~assets/files/pdf-printable-accessiblility-checklist.docx" target="_blank" class="usa-link--external">PDF Testing Checklist (DOCX)</a></li>
+    </ul>
+  </div>
+  <!-- Adobe Acrobat Pro Older Versions Section - Closed by default -->
+  <h3 class="usa-accordion__heading">
+    <button class="usa-accordion__button" aria-expanded="false" aria-controls="pdf2">Portable Document Format (PDF) - 2017</button>
+  </h3>
+  <div id="pdf2" class="usa-accordion__content usa-prose" hidden>
+    <ul>
+      <li><a href="https://www.section508.gov/~assets/files/pdf-baseline-test-process.docx" target="_blank" class="usa-link--external">PDF Baseline Test Process (DOCX)</a></li>
+      <li><a href="https://www.section508.gov/~assets/files/pdf-detailed-508-accessibility-checklist.docx" target="_blank" class="usa-link--external">PDF Detailed Checklist</a></li>
+      <li><a href="https://www.section508.gov/~assets/files/pdf-printable-checklist.docx" target="_blank" class="usa-link--external">PDF Printable Checklist (DOCX)</a></li>
+    </ul>
+  </div>
+</div>
+
+## Training Videos
+---
+
+<div class="grid-row grid-gap">
+    <div class="desktop:grid-col-3 display-flex flex-column flex-align-self-center">
+      <a href="{{site.baseurl}}/create/pdfs/training-videos/"><img  alt="How to Test and Remediate PDFs for Accessibility Using Adobe Acrobat DC"  src="{{site.baseurl}}/assets/images/thumbnails/training-video-pdf-series.jpg" style="width:100%" class="radius-lg" /></a>
+    </div>
+<div class="desktop:grid-col-9">
+      <p class="video-title">
+        <a href="{{site.baseurl}}/create/pdfs/training-videos/">How to Test and Remediate PDFs for Accessibility Using Adobe Acrobat DC</a>
+      </p>
+    <p>
+        The Accessible Electronic Document Community of Practice (AED CoP) created this series of videos to explain and demonstrate the minimum steps needed to ensure your PDF is Section 508 conformant.
+      </p>
+    <p>
+        Duration 63m 51s | 5-part Video Series
+      </p>
+    </div>
+  </div>
+
+---
+
+## Agency-Developed Guidance
+The resources in this section were developed by Federal agencies, and shared here for your convenience. Note, much of this guidance predates the [Revised 508 Standards][1].
+
+  * [Resources for Developers and Document Authors][7] - Guidance on how to develop and author accessible electronic content  
+  * [Alternate Text For Images][8]&nbsp;(PDF, July 2011) - Developed by SSA  
+  * [Making a diagram screen reader friendly](https://blog-nrrd.doi.gov/beyond-auto/) - ONRR.gov  
+
+## Related Resources
+  * [Create Accessible Digital Products][9]
+  * Review [WebAIM Alternative Text][10] for appropriate use of alternative text.
+  * Review [W3C's Alt Decision Tree][11] for guidance on how to describe images.
+  * [Adobe Acrobat accessibility support][12]
+  * [Web Accessibility Tutorials and Presentations][13] - Guidance from the World Wide Web Consortium (W3C)
+
+ [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
+ [2]: https://www.section508.gov/~assets/files/pdf-testing-and-remediation-guide-adobe-acrobat-dc-pro-aed-cop.docx
+ [3]: https://www.section508.gov/~assets/files/pdf-printable-accessiblility-checklist.docx
+ [4]: https://www.section508.gov/~assets/files/pdf-baseline-test-process.docx
+ [5]: https://www.section508.gov/~assets/files/pdf-detailed-508-accessibility-checklist.docx
+ [6]:https://www.section508.gov/~assets/files/pdf-printable-checklist.docx
+ [7]: https://www.ssa.gov/accessibility/developer_resources.html
+ [8]: http://www.ssa.gov/accessibility/files/SSA_Alternative_Text_Guide.pdf
+ [9]: {{site.baseurl}}/create
+ [10]: https://webaim.org/techniques/alttext/
+ [11]: https://www.w3.org/WAI/tutorials/images/decision-tree/
+ [12]: https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html
+ [13]: https://www.w3.org/WAI/train
+ [14]: https://www.w3.org/TR/WCAG20-TECHS/pdf

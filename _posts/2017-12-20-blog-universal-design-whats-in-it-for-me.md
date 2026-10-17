@@ -6,6 +6,16 @@ title: "Universal Design: What's in it for Me?"
 created: 1513821339
 tags: Design-and-Develop
 description: Part two of a two-part series about Universal Design
+topic: Design
+sub-topic: Guidance
+audience:
+- Section 508 Program Managers
+- Developers
+- Federal Employees
+- IT Program & Project Managers
+- Content Creators
+resource-type: Blog
+format: HTML
 ---
 
 _Part two of a two-part series about Universal Design_
@@ -16,7 +26,7 @@ Universal Design is an approach being adopted by the tech world to ensure that p
 
 In private and public spaces, the role of the CIO is morphing in line with changing technologies and priorities. Today, CIOs now operate more as business managers or brokers, responsible for defining information technology (IT) strategy and administering and implementing digital services.
 
-<img alt="Picture containing the text &quot;78% of state CIOs said the CIO is responsible for leading or participating in digital services policy setting" src="https://assets.section508.gov/files/universal-design-whats-in-it-for-me.png" style="width: 248px; height: 240px; float: right;" /> A recent survey conducted by the National Association of State Chief Information Officers (NASCIO) highlighted that an overwhelming [78 percent][1] of respondents said the CIO is responsible for leading or participating in policy setting when it comes to digital services. CIOs have the power to shape IT accessibility policy in the digital services conversation. For the CIO, prioritizing accessibility and Universal Design will instill a process where tools are designed with the user experience at the forefront, enabling agencies to build economical, innovative and empowering solutions.
+<img alt="Picture containing the text &quot;78% of state CIOs said the CIO is responsible for leading or participating in digital services policy setting" src="{{site.baseurl}}/assets/images/universal-design-whats-in-it-for-me.png" style="width: 248px; height: 240px; float: right;" /> A recent survey conducted by the National Association of State Chief Information Officers (NASCIO) highlighted that an overwhelming [78 percent][1] of respondents said the CIO is responsible for leading or participating in policy setting when it comes to digital services. CIOs have the power to shape IT accessibility policy in the digital services conversation. For the CIO, prioritizing accessibility and Universal Design will instill a process where tools are designed with the user experience at the forefront, enabling agencies to build economical, innovative and empowering solutions.
 
 ## Chief Acquisition Officers
 

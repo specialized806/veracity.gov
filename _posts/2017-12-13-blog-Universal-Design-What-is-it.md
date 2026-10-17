@@ -1,11 +1,29 @@
 ---
 layout: post
-permalink: blog/Universal-Design-What-is-it/
+sidenav: true
 type: article
-title: 'Universal Design: What is it?'
-created: 1513216986
-tags: Design-and-Develop
+title: "Universal Design: What is it?"
+permalink: blog/Universal-Design-What-is-it/
 description: Part one of a two-part series about Universal Design The year is 2017. The advancement of technology, led by key players in the private sector, has introduced innovations that have made applications more accessible for people with disabilities.
+tags: Design-and-Develop
+social_img: "assets/images/social-media-og-image-bytes.jpg"
+social_img_alt: "Accessibility Bytes. GSA logo with Section508.gov. Buy. Build. Be Accessible."
+audience: 
+- Content Creators
+- Developers
+- Federal Employees
+- IT Program & Project Managers
+- Section 508 Program Managers
+topic: 
+- Design
+subtopic: 
+- Guidance
+resource-type: 
+- Blog
+format: HTML
+created: 2017-12-14
+updated: 2026-07-10
+exclude-changelog: true
 ---
 
 _Part one of a two-part series about Universal Design_
@@ -16,13 +34,13 @@ Companies have pledged to implement accessible technology, pushing the technolog
 
   * **Creating** **design toolkits and activities checklists** to help businesses shift their design thinking toward more universal solutions and applications.
   * For individuals with color vision impairment and color blindness, **using** [**Color Universal Design (CUD)**][1] to help users edit images and ensure graphical information is conveyed accurately.
-  * **Launching accessibility initiatives** **so that customers can learn** about accessible products through whitepapers and demos, understand how to configure products to achieve an accessible output, and view Voluntary Product Accessibility Templates (VPATs<sup>&trade;</sup>) to reinforce how products meet Section 508 and [WCAG 1.0][2] and [WCAG 2.0][3] guidelines.
+  * **Launching accessibility initiatives** **so that customers can learn** about accessible products through whitepapers and demos, understand how to configure products to achieve an accessible output, and view Voluntary Product Accessibility Templates (VPATs®) to reinforce how products meet Section 508 and [WCAG 1.0][2] and [WCAG 2.0][3] guidelines.
 
 With nearly [1 in 8][4] people in the U.S. known to have a disability, there is a huge incentive for businesses, and the government, to invest in accessible technology to ensure that working environments are inclusive and available to all user groups. However, organizations often overlook key design areas related to accessibility when implementing these new technologies, which leads to overspending in the long term to rectify early design decisions.
 
 The solution? [Universal Design][5]! This approach ensures that the complete user experience is captured at every stage of the implementation process, and it&rsquo;s gaining widespread popularity in the private sector. The result is a solution designed with all users in mind.
 
-<img alt="Universal Design is the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability" src="https://assets.section508.gov/files/universal-design-callout-1.png" style="max-width: 99%;" />
+<img alt="Universal Design is the design and composition of an environment so that it can be accessed, understood and used to the greatest extent possible by all people regardless of their age, size, ability or disability" src="{{site.baseurl}}/assets/images/universal-design-callout-1.png" style="max-width: 99%;" />
 
 <div>
   While Universal Design can be applied to any product, whether that be a building, service or tool, solutions designed using this approach serve not only the needs of a single minority group, but create an environment that is accessible and convenient for all. <strong>All in all, Universal Design is a good design.</strong>
@@ -49,13 +67,13 @@ To learn more about Universal Design and how executives and agencies can benefit
  [3]: https://www.w3.org/TR/WCAG20/
  [4]: https://disabilitycompendium.org/sites/default/files/user-uploads/2016_AnnualReport.pdf
  [5]: http://universaldesign.ie/What-is-Universal-Design/
- [6]: http://universaldesign.ie/What-is-Universal-Design/The-7-Principles/7-Principals-.pdf
- [7]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p1
- [8]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p2
- [9]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p3
- [10]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p4
- [11]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p5
- [12]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p6
- [13]: http://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html#p7
+ [6]: https://universaldesign.ie/about-universal-design/the-7-principles
+ [7]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-1-equitable-use
+ [8]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-2-flexibility-in-use
+ [9]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-3-simple-and-intuitive-use
+ [10]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-4-perceptible-information
+ [11]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-5-tolerance-for-error
+ [12]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-6-low-physical-effort
+ [13]: https://universaldesign.ie/about-universal-design/the-7-principles#principle-7-size-and-space-for-approach-and-use
  [14]: https://www.w3.org/WAI/intro/wcag
  [15]: {{site.baseurl}}/blog/universal-design-whats-in-it-for-me

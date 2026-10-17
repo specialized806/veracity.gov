@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/resources-and-references/list-of-acronyms/
+description: "Review the acronyms used throughout the IT Accessibility Policy Framework and their meanings."
 type: manage
 title: "IT Accessibility Policy Framework - List of Acronyms"
 created: December 09, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 <h2 id="standards">
   List of Acronyms
@@ -156,7 +166,6 @@ created: December 09, 2023
     </a>
 </div>
 </div>
-
 
 
 

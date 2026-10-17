@@ -1,9 +1,22 @@
 ---
 layout: page
 sidenav: true
-permalink: manage/accessibility-faq/
 type: manage
 title: "ICT Accessibility Frequently Asked Questions"
+permalink: manage/accessibility-faq/
+description: Find answers to common Section 508 and ICT accessibility questions, including standards, procurement requirements, ACRs, and how to create accessible digital content.
+topic: "Manage"
+sub-topic: "Guidance"
+audience:
+- "Federal Employees"
+- "Section 508 Program Managers"
+- "Web Content Managers"
+- "IT Program & Project Managers"
+- "Content Creators"
+resource-type: "Article"
+format: "HTML"
+created: 2023-08-08
+updated: 2024-03-01
 ---
 <!-- Expand/Collapse All "Accessibility FAQ" Content -->
 <div class="margin-bottom-3">
@@ -25,8 +38,6 @@ title: "ICT Accessibility Frequently Asked Questions"
     </div>
 </div>
 {% endfor %}
-
-**Reviewed/Updated:** August 2023
 
 <!-- Expand/Collapse All Accessibility FAQ Content script -->
 <script>

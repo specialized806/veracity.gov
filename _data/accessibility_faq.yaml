@@ -2,12 +2,12 @@
   id: 1
   q: What is ICT?
   a: |
-    As defined by Section 508 of the Rehabilitation Act, Information and Communication Technology (ICT) is information technology and other equipment, systems, technologies, or processes for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data, information, and any associated content. Examples of ICT include but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; websites; videos; and electronic documents {Section 508, E103.4 Defined Terms}.
+    As defined by Section 508 of the Rehabilitation Act, information and communication technology (ICT) is information technology and other equipment, systems, technologies, or processes for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data, information, and any associated content. Examples of ICT include but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; websites; videos; and electronic documents {Section 508, E103.4 Defined Terms}.
 -  
   id: 2
   q: What is ICT Accessibility (also known as digital accessibility)?
   a: |
-    Information and Communication Technology (ICT) is considered accessible if individuals with disabilities who are federal employees or members of the public have equal or comparable access and use of information and data compared to those without a recognized disability.
+    information and communication technology (ICT) is considered accessible if individuals with disabilities who are federal employees or members of the public have equal or comparable access and use of information and data compared to those without a recognized disability.
 -  
   id: 3
   q: What is Section 508?
@@ -42,7 +42,7 @@
   id: 9
   q: I don't have much free time, can I find resources specifically targeted at my role within my agency? 
   a: |
-    Currently [section508.gov](https://www.section508.gov/) is broken down by type of content not role. However, certain content is targeted for specific roles. For instance, [the technology accessibility playbook](https://www.section508.gov/manage/playbooks/technology-accessibility-playbook-intro/) is targeted solely for designers and developers, while the [broader policy and management section](https://www.section508.gov/manage/) is primarily targeted at Section 508 Program Managers (PMs) and agency IT executives.
+    Currently [section508.gov](https://www.section508.gov/) is broken down by type of content not role. However, certain content is targeted for specific roles. For instance, [the technology accessibility playbook](https://www.section508.gov/manage/playbooks/technology-accessibility-playbook/) is targeted solely for designers and developers, while the [broader policy and management section](https://www.section508.gov/manage/) is primarily targeted at Section 508 Program Managers (PMs) and agency IT executives.
 -  
   id: 10
   q: Where can I find training on accessibility?
@@ -73,7 +73,16 @@
   id: 14
   q: I am a new 508 Program Manager and don't know where to start. Where do I start?
   a: |
-    If you are a new Section 508 Program Manager, please reach out to <section.508@gsa.gov> for our 508 PM welcome package. Additionally, please see the [Technology Accessibility Playbook](https://www.section508.gov/manage/playbooks/technology-accessibility-playbook-intro/) and the [broader Policy and Management section](https://www.section508.gov/manage/) on [Section508.gov](https://www.section508.gov/).
+    If you are a new <a href="https://www.section508.gov/tools/program-manager-listing/">Section 508 Program Manager</a> and new to digital accessibility, becoming familiar with Section 508 and the associated standards, and the roles and responsibilities of agency stakeholders is a good start. To aid in your transition to your position as Section 508 PM, we recommend the following links from this website:
+    <ul>
+      <li><a href="https://www.section508.gov/manage/laws-and-policies">IT Accessibility Laws and Policies</a></li>
+      <li><a href="https://www.section508.gov/manage/roles/">Roles and Responsibilities</a></li> 
+      <li><a href="https://www.section508.gov/tools/playbooks/technology-accessibility-playbook-intro">Technology Accessibility Playbook</a></li>
+      <li><a href="https://www.section508.gov/training">Accessibility Training</a></li>
+      <li><a href="https://www.section508.gov/manage/agency-508-reporting-requirements/">Section 508/ICT Accessibility Conformance Reporting for Federal Agencies</a></li>
+      <li><a href="https://www.section508.gov/buy">Buy Accessible Products and Services</a></li>
+      <li><a href="https://www.section508.gov/buy/accessibility-requirements-tool">Accessibility Requirements Tool</a></li>
+    </ul>
 -  
   id: 15
   q: I am an agency executive. How do I help my team set up/improve an ICT accessibility/Section 508 shop?
@@ -143,7 +152,7 @@
   id: 21
   q: How can I verify and validate the ICT product I am buying or selling is accessible?
   a: |
-    Verification that an IT product is accessible before or after purchase can usually be done using an Accessibility Conformance Report (ACR), also sometimes referred to as test/tests results or as a VPAT (Voluntary Product Accessibility Template that is essentially the template users fill out to create an ACR). Industry is expected to test its products against the applicable Section 508 Technical Standards and then report the test results indicating which standards the product supports, partially supports, or does not support. This is so agencies can consider accessibility when purchasing the product. If the product supports all the applicable Section 508 Technical Standards, the product is considered compliant with Section 508. If a product does not have an ACR, purchasers are highly encourage to request one from the vendor before purchase.
+    Verification that an IT product is accessible before or after purchase can usually be done using an Accessibility Conformance Report (ACR), also sometimes referred to as test/tests results or as a VPAT® (Voluntary Product Accessibility Template that is essentially the template users fill out to create an ACR). Industry is expected to test its products against the applicable Section 508 Technical Standards and then report the test results indicating which standards the product supports, partially supports, or does not support. This is so agencies can consider accessibility when purchasing the product. If the product supports all the applicable Section 508 Technical Standards, the product is considered compliant with Section 508. If a product does not have an ACR, purchasers are highly encourage to request one from the vendor before purchase.
 -  
   id: 22
   q: How do I know which product is the most accessible?
@@ -163,4 +172,4 @@
   id: 25
   q: What do we need in a baseline Section 508/ICT Accessibility policy?
   a: |
-    The cornerstone of an accessibility program is an agency-wide Section 508 policy. The policy must identify how the agency will manage accessibility compliance through technology acquisition, development, authoring, configuration, deployment, and maintenance activities. The policy must define clear roles and responsibilities. The policy must clarify the authorities and shared responsibility with other agency stakeholders for implementing Section 508 across the agency. For more information visit [this Section 508 policy creation guidance page on Section508.gov](https://www.section508.gov/manage/playbooks/technology-accessibility-playbook-intro/play04/).
+    The cornerstone of an accessibility program is an agency-wide Section 508 policy. The policy must identify how the agency will manage accessibility compliance through technology acquisition, development, authoring, configuration, deployment, and maintenance activities. The policy must define clear roles and responsibilities. The policy must clarify the authorities and shared responsibility with other agency stakeholders for implementing Section 508 across the agency. For more information visit [this Section 508 policy creation guidance page on Section508.gov](https://www.section508.gov/manage/playbooks/technology-accessibility-playbook/4/).

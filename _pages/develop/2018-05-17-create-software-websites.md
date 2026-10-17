@@ -1,12 +1,30 @@
 ---
 layout: page
 sidenav: true
-permalink: develop/software-websites/
 type: develop
-title: 'Create Accessible Software & Websites'
-created: 1526572632
-redirect_from:
+title: Create Accessible Software & Websites
+permalink: develop/software-websites/
+description: Guidance and best practices from Section508.gov to help federal teams plan, develop, and remediate accessible software and websites in compliance with Section 508 accessibility standards.
+redirect_from: 
 - create/software-websites/
+audience: 
+- Designers
+- Developers
+- Federal Employees
+- Members of the Public
+topic: 
+- Create
+- Develop
+- Testing
+subtopic: 
+- Software
+- Websites
+resource-type: 
+- Process & How-To
+format: HTML
+created: 2018-05-17
+updated: 2026-07-09
+exclude-changelog: true
 ---
 
 If you’re an author or developer of electronic documents, software applications, web content, operating systems, accessibility platforms, assistive technology, mobile environments, and modern development frameworks, you need to understand how the [Revised 508 Standards][1] (36 C.F.R. Part 1194) apply to your work.
@@ -22,16 +40,16 @@ The resources in this section will help you:
   * Use automated tools, manual testing, and assistive technology-based testing;
   * Examine best practices for mobile applications and web environments; and
   * Implement popular development frameworks.
+  * Document remediation and accommodation planning for defects identified during testing.
 
 Navigate through the sections below to learn more:
 
   * [Applicability & Conformance Requirements][2] 
-  * [Testing Guidance for Developers][3] 
+  * [Overview of Testing Methods for 508 Conformance][3] 
   * [Authoring Tool Requirements][4] 
   * [Accessibility Training for Developers][5] 
-  * [Develop Accessible Web Content][6] 
-
-The best practices in this section are supported by peer review and consensus among the participants in the U.S. Federal Government Authoring and Developer Transition Working Group. A single resource is listed only when the group could not identify multiple resources. Inclusion does not imply endorsement by the authors, or the Federal government, and does not mean that other equally valid or useful resources do not exist.
+  * [Develop Accessible Web Content][6]
+  * [Remediation and Accommodation Planning]({{ site.baseurl }}/manage/remediation-alternative-means-planning/)
 
 ## Additional Resources
 
@@ -43,17 +61,15 @@ The best practices in this section are supported by peer review and consensus am
 [Contact us][11] if you'd like to suggest a new resource for this page.
 
   
-**Reviewed/Updated:** July 2018
-
 
  [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
  [2]: {{site.baseurl}}/create/applicability-conformance
- [3]: {{site.baseurl}}/create/testing-for-developers
+ [3]: {{site.baseurl}}/test/testing-overview/
  [4]: {{site.baseurl}}/create/authoring-tools
  [5]: {{site.baseurl}}/create/developer-training
  [6]: {{site.baseurl}}/create/web-content
- [7]: {{site.baseurl}}/content/guide-accessible-web-design-development
- [8]: {{site.baseurl}}/create/universal-design
- [9]: https://accessibility.digital.gov/
+ [7]: {{site.baseurl}}/develop/guide-accessible-web-design-development
+ [8]: {{site.baseurl}}/develop/universal-design
+ [9]: https://digital.gov/guides/accessibility-for-teams/
  [10]: https://designsystem.digital.gov/
  [11]: {{site.baseurl}}/contact-us

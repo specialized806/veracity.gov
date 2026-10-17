@@ -21,7 +21,7 @@
 title: Section508.gov
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Information about the Section508.gov website, GSA’s Government-wide IT Accessibility Team, and guidance to Federal agencies on accessible information and communication technology (ICT).
+  Section508.gov is the official U.S. government resource for ensuring digital accessibility compliance with Section 508 of the Rehabilitation Act (29 U.S.C. 794d). It offers comprehensive guidance, tools, and training to help federal agencies and vendors create accessible information and communication technology (ICT) for individuals with disabilities.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.section508.gov" # the base hostname & protocol for your site, e.g. https://example.com.
   # Required to support the jekyll-sitemap plugin below.
@@ -91,12 +91,12 @@ primary_navigation:
 
 
 secondary_navigation:
-  - name: Blogs & Updates
-    url: /blog/
+  - name: What's New!
+    url: /whats-new/
   - name: My Agency’s 508 PM
     url: /tools/program-manager-listing/
-  - name: About Us
-    url: /content/about-us/
+  - name: Content Library
+    url: /content-library/
 
 
 # Search.gov configuration
@@ -202,16 +202,23 @@ exclude:
   - tsconfig.app.json
   - tsconfig.json
   - tsconfig.spec.json
+  - pa11y-ci-results.json
+  - pa11y-ci-readme.md
+  - CODEOWNERS
+  - scripts/update-content-library
 
-assets:
-  autoprefixer:
-    browsers:
-      - "> 2%"
-      - "last 2 versions"
-      - "IE 11"
-      - "not dead"
-  sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  sass_dir: _sass
+  load_paths:
+    - node_modules/@uswds/uswds/packages
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true

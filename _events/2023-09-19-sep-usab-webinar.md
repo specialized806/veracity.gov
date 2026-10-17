@@ -1,12 +1,16 @@
 ---
-title: "Maps for All – Building Accessible Maps | Webinar"
 layout: wide_events
+title: "Maps for All – Building Accessible Maps | Webinar"
 start-date: #only fill in start date if the events spans multiple days
-end-date: Tuesday, Sep 26 2023 14:30 #otherwise use end-date
-image:
-image-alt: 
+end-date: 2023-09-26 #otherwise use end-date
 permalink: /event/best-practices-webinar-sep2023/
 description: This session will introduce the concept, development, tools, and benefits of creating and using accessible maps. Presenters from the Federal Aviation Administration and the Minnesota Department of Natural Resources of the State of Minnesota will discuss how they create accessible maps in different formats to meet their missions of informing and educating the public.
+topic: Events
+sub-topic: 
+- Webinar
+image:
+image-alt: 
+created: 2023-09-19
 ---
 
 Maps are important tools in providing information about the world. They help us travel from one location to another, organize information and orient ourselves so that we can determine where we are and how to get to where we want to go. Federal and state agencies use maps to inform members of the public, policy makers, and to assist agency employees in conducting their missions by providing vital information. Online maps, designed without accessibility features, present barriers to individuals with disabilities.

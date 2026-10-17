@@ -1,10 +1,19 @@
 ---
 layout: page
 sidenav: true
-permalink: buy/define-accessibility-criteria/
 type: acquisition
 title: 'Define Accessibility Criteria in Contracts'
-created: 1527181796
+permalink: buy/define-accessibility-criteria/
+description: Learn how to define accessibility criteria in federal contracts to ensure ICT meets Section 508 requirements, with sample language and procurement guidance.
+audience:
+- "Section 508 Program Managers"
+- "Contracting Officers (CO & COR)"
+topic: "Buy"
+sub-topic: "Solicitation Development"
+resource-type: "Process & How-To"
+format: "HTML"
+created: 2018-05-24
+updated: 2026-03-31
 ---
 
 When preparing solicitations, statements of work, or other procurement documents, clearly define your criteria to ensure the information and communication technology (ICT) your agency buys or builds is accessible and conforms to the [Revised 508 Standards][1]. Use the sample language below in your procurement documents to mitigate Section 508 compliance risk in IT procurement and development.
@@ -14,6 +23,7 @@ When preparing solicitations, statements of work, or other procurement documents
   * Only use provisions and clauses that are appropriate for the ICT items you're purchasing.
   * Where an exception does not apply to some or all components of an ICT item, these provisions and clauses may apply.
   * Use of these provisions and clauses may increase the cost of an award. Ask offerors to separate out these costs in their proposals, particularly if your agency anticipates that conformance to particular provisions of the Revised 508 Standards may warrant an exception for undue burden.
+  * Do not forget to include Section 508 in [Quality Assurance Surveillance Plans][5].
 
 Navigate through the sections below to find sample language you can cut and paste into your procurement documents.
 
@@ -188,7 +198,7 @@ Use for ICT items that are developed, updated, configured for the agency, and wh
 
 **Sample language:**
 
-Before acceptance, the contractor shall provide an **Accessibility Conformance Report (ACR)** for each ICT item that is developed, updated, configured for the agency, and when product substitutions are offered. The ACR should be based on the latest version of the [Voluntary Product Accessibility Template (VPAT&reg;)][3]provided by the [Industry Technology Industry Council (ITIC)][4]. To be considered for award, an ACR must be submitted for each ICT Item, and must be completed according to the instructions provided by ITIC.
+Before acceptance, the contractor shall provide an **Accessibility Conformance Report (ACR)** for each ICT item that is developed, updated, configured for the agency, and when product substitutions are offered. The ACR should be based on the latest version of the [Voluntary Product Accessibility Template (VPAT®)][3]provided by the [Industry Technology Industry Council (ITIC)][4]. To be considered for award, an ACR must be submitted for each ICT Item, and must be completed according to the instructions provided by ITIC.
 
 Before acceptance, when the contractor is required to perform testing to validate conformance to the agency's accessibility requirements, the vendor shall provide a **Supplemental Accessibility Conformance Report (SAR)** that contains the following information:
 
@@ -215,11 +225,8 @@ Consider using this language only when you know the offeror has the ability to e
 
 Before final acceptance of any ICT item, including updates and replacements, if the offeror claims its products or services satisfy the applicable Revised 508 Standards specified in the statement of work, and the contracting officer determines that any furnished ICT item is not in compliance with such requirements, the contracting officer will promptly inform the offeror in writing of the noncompliance. The offeror shall, at no cost to the agency, repair or replace the non-compliant products or services within the period specified by the contracting officer.
 
-
-**Reviewed/Updated:** March 2022
-
-
- [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule
- [2]: https://www.dhs.gov/compliance-test-processes
- [3]: {{site.baseurl}}/sell/vpat
- [4]: http://www.itic.org/policy/accessibility
+[1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule
+[2]: https://www.dhs.gov/compliance-test-processes
+[3]: {{site.baseurl}}/sell/vpat
+[4]: http://www.itic.org/policy/accessibility
+[5]: {{site.baseurl}}/buy/integrate-section-508-in-qasps/

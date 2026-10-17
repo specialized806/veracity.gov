@@ -1,10 +1,23 @@
 ---
 layout: page
 sidenav: true
-permalink: manage/policy-framework/guidance-by-policy-type/approach/
 type: manage
 title: "IT Accessibility Policy Framework - Approach"
-created: December 10, 2023
+description: "Explore the ‘Approach’ section of the IT Accessibility Policy Framework. Find guidance, policy gaps, and recommended language to strengthen Section 508 compliance."
+permalink: manage/policy-framework/guidance-by-policy-type/approach/
+redirect_from:
+- manage/policy-framework/guidance-by-policy-type/
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
+created: 2023-12-10
+updated: 2025-03-05
 ---
 
 <h2 id="standards">

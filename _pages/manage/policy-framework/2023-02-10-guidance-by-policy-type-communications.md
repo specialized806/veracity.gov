@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/guidance-by-policy-type/communications/
+description: "Review policy guidance for communications to identify ICT accessibility gaps, recommended inclusions, and sample language for agency policy updates."
 type: manage
 title: "IT Accessibility Policy Framework - Communications"
 created: December 10, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 <h2 id="standards">
     Communications
@@ -43,7 +53,7 @@ The Communications policy type refers to policies pertaining to all spoken and w
 
 <ul class="footnote">
   <li>
-    <a class="hover-large" href="https://www.govinfo.gov/content/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap16-subchapV-sec794d.htm"><sup>1</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).;</a>
+    <a class="hover-large" href="{{site.baseurl}}/manage/laws-and-policies/section-508-law/"><sup>1</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).;</a>
     <a class="hover-large" href="https://www.access-board.gov/ict/ict-final-rule.pdf"><sup></sup> ICT Standards and Guidelines, 36 C.F.R. § 1194 (2017).</a>
   </li>
   <li>
@@ -69,4 +79,3 @@ The Communications policy type refers to policies pertaining to all spoken and w
     </a>
 </div>
 </div>
-

@@ -1,10 +1,23 @@
 ---
 layout: page
 sidenav: true
-permalink: manage/program-manager-responsibilities/
 type: manage
-title: ' IT Accessibility/508 Program Manager Responsibilities'
-created: 1534188326
+title: 'Section 508 Program Manager Responsibilities'
+permalink: manage/program-manager-responsibilities/
+description: Overview of Section 508 Program Manager responsibilities, skills, and stakeholders for managing federal compliance, reporting to Office of Management and Budget, and delivering accessible technology.
+topic: "Manage"
+sub-topic: "Manage a Section 508 Program"
+audience: 
+- "Section 508 Program Managers"
+- "Chief Information Officers (CIO)"
+- "Agency Heads"
+- "IT Program & Project Managers"
+- "Policy and Law Makers"
+resource-type: "Article"
+format: "HTML"
+created: 2018-08-13
+updated: 2026-03-02
+exclude-changelog: true
 ---
 
 An IT Accessibility/508 Program Manager (PM) has a complex job that requires in-depth knowledge of agency information technology (IT) business and procurement processes, appreciation for the needs of individuals with disabilities, and a clear understanding of the laws, standards and policies that govern accessibility of IT in the Federal government.
@@ -63,7 +76,8 @@ To address these needs across the agency, the PM must be a champion for accessib
   * Legal staff; and
   * Other Federal IT Accessibility/508 Program Managers.
 
-**Reviewed/Updated:** August 2018
+## Related Resources
+  * [Section 508 Program Manager Competency Guide]({{ site.baseurl }}/manage/program-manager-responsibilities/)
 
  [1]: https://www.gpo.gov/fdsys/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap16-subchapV-sec794d.htm
  [2]: {{site.baseurl}}/manage/laws-and-policies

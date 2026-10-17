@@ -6,12 +6,22 @@ title: 'Executive Guide to Federal IT Accessibility Released'
 created: 1537886806
 tags: Policy-and-Management
 description: The federal government strives to deliver a level of service comparable to that of the best private sector organizations. As more government services move online, we have a responsibility to ensure equal access to services, particularly for people living with a disability.
+topic: "Manage"
+sub-topic: "Roles & Responsibilities"
+audience:
+- "Agency Heads"
+- "Chief Information Officers (CIO)"
+- "Chief Acquisition Officers (CAO)"
+- "Manager & Supervisor"
+- "Section 508 Program Managers"
+resource-type: "Blog"
+format: "HTML"
 ---
 
 
 The federal government strives to deliver a level of service comparable to that of the best private sector organizations. As more government services move online, we have a responsibility to ensure equal access to services, particularly for people living with a disability. To that end, GSA has released an Executive Guide to Federal IT Accessibility.
 * [Read the Executive Guide to IT Accessibility]({{site.baseurl}}/tools/playbooks/exec-guide-accessibility)
-* [Executive Guide to IT Accessibility (PDF version)](https://assets.section508.gov/files/Executive%20Guide%20to%20Federal%20IT%20Accessibility.pdf#overlay-context=tools/playbooks) (August 2018)
+* [Executive Guide to IT Accessibility (PDF version)](https://www.section508.gov/~assets/files/executive-guide-to-federal-it-accessibility.pdf#overlay-context=tools/playbooks) (August 2018)
 
 ## Accessibility Is Good for Business
 

@@ -10,7 +10,8 @@ import { ArtIctLpService } from 'src/app/shared/services/art-ict-lp/art-ict-lp.s
 @Component({
     selector: 'app-summary-page',
     templateUrl: './summary-page.component.html',
-    styleUrls: ['./summary-page.component.scss']
+    styleUrls: ['./summary-page.component.scss'],
+    standalone: false
 })
 export class SummaryPageComponent implements OnInit {
 
@@ -18,7 +19,7 @@ export class SummaryPageComponent implements OnInit {
    * @description Used to trigger the ngOnChanges function to listing to any input property change
    * @type any
    */
-  resultData:any = "";
+    resultData: any = "";
 
   constructor(
     private art508LangService: Art508LangService,

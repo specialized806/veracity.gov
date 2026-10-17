@@ -1,15 +1,27 @@
 ---
 layout: page
 sidenav: true
-permalink: buy/determine-ict-exceptions/
 type: acquisition
 title: 'Step 2: Determine ICT Exceptions'
-created: 1527569078
+permalink: buy/determine-ict-exceptions/
+description: Guidance on identifying and documenting when Section 508 ICT exceptions including legacy, undue burden, national security, and best‑meet apply in federal procurements.
+audience:
+- Buyers
+- Contracting Officers (CO & COR)
+- Section 508 Program Managers
+- Federal Employees
+- IT Program & Project Managers
+topic: Buy
+sub-topic: Guidance
+resource-type: Process & How-To
+format: HTML
+created: 2018-05-29
+updated: 2025-01-24
 ---
 
 <a id="top" name="top"></a>
 
-Identifying whether you can claim an exception for [information and communication technology](https://www.section508.gov/content/glossary/#ict) (ICT) items in your Federal IT procurement or development project is the second step in determining how the [Revised 508 Standards][1] apply. (The first step is to [conduct an inventory][2].) This is important to ensure that any technology your agency buys or builds will be accessible.
+Identifying whether you can claim an exception for [information and communication technology]({{site.baseurl}}/tools/glossary/#ict) (ICT) items in your Federal IT procurement or development project is the second step in determining how the [Revised 508 Standards][1] apply. (The first step is to [conduct an inventory][2].) This is important to ensure that any technology your agency buys or builds will be accessible.
 
 A full list of exceptions is detailed in the Standards under [E202 General Exceptions][3]. Use the [Revised 508 Standards Applicability Checklist][4] (MS-Word, April 2018) to document ICT exceptions.
 
@@ -223,7 +235,7 @@ In determining best meets, consider the use of an equivalent design or technolog
           * What ICT alternatives were evaluated;
           * The lack of a fully conforming solution that meets the business needs;
           * The degree of 508 conformance of the ICT selected, as compared to the degree of conformance of the ICT that were not selected; and,
-          * The steps taken to evaluate the degree of conformance (e.g., 508 expert VPAT&reg; review, vendor 508 test results, or vendor test results)
+          * The steps taken to evaluate the degree of conformance (e.g., 508 expert VPAT® review, vendor 508 test results, or vendor test results)
       * Provide an alternative means that meets the identified needs of people with disabilities not supported by the ICT Item(s).
 
   * For &rdquo;brand name or equivalent&rdquo; COTS or GOTS solicitations, the supporting documentation used to justify the acquisition may be sufficient to fulfil the documentation requirements. If the &rdquo;brand name&rdquo; ICT item does not fully support the Revised 508 Standards, the agency is still responsible for providing individuals with disabilities access to the non-conforming functions and features of the ICT Item through an alternative means that meets their identified needs.
@@ -258,17 +270,13 @@ See the other steps in this process:
 
 Contact your agency&rsquo;s [Section 508 Coordinator][10] or email us at <section.508@gsa.gov> with questions.
 
-**Updated/Reviewed**: May 2022
-
-&nbsp;
-
- [1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
- [2]: {{site.baseurl}}/buy/inventory-your-ict
- [3]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E202-general-exceptions
- [4]: https://assets.section508.gov/files/508-standards-applicability-checklist.docx
- [5]: https://www.federalregister.gov/documents/2000/12/21/00-32017/electronic-and-information-technology-accessibility-standards
- [6]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E101-general
- [7]: {{site.baseurl}}/buy/determine-508-standards-exceptions
- [8]: {{site.baseurl}}/buy/determine-ict-standards
- [9]: {{site.baseurl}}/art/
- [10]: {{site.baseurl}}/tools/program-manager-listing/
+[1]: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
+[2]: {{site.baseurl}}/buy/inventory-your-ict
+[3]: https://www.access-board.gov/ict/#E202-general-exceptions
+[4]: https://www.section508.gov/~assets/files/508-standards-applicability-checklist.docx
+[5]: https://www.federalregister.gov/documents/2000/12/21/00-32017/electronic-and-information-technology-accessibility-standards
+[6]: https://www.access-board.gov/ict/#E101-general
+[7]: {{site.baseurl}}/buy/determine-508-standards-exceptions
+[8]: {{site.baseurl}}/buy/determine-ict-standards
+[9]: {{site.baseurl}}/art/
+[10]: {{site.baseurl}}/tools/program-manager-listing/

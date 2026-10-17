@@ -6,6 +6,16 @@ title: 'Section508.gov Is Moving to Federalist'
 created: September 09, 2021
 tags: Events
 description: August 30, 2021 - The GSA Government-wide IT Accessibility Program team is excited to announce that we are preparing a new look for Section508.gov and the Accessibility Requirements Tool (ART) as we move to <a href="https://federalist.18f.gov">Federalist</a> - a publishing platform for modern <a href="https://digital.gov/resources/21st-century-integrated-digital-experience-act/">21st Century IDEA</a> websites.
+topic: About
+sub-topic: Best Practices
+audience:
+- Members of the Public
+- Section 508 Program Managers
+- IT Program & Project Managers
+- Web Content Managers
+- Federal Employees
+resource-type: Blog
+format: HTML
 ---
 
 <h2>Updates to <span style="color:#304bc5">Section</span><span style="color:#098850">508</span><span style="color:#304bc5">.gov</span></h2>
@@ -47,5 +57,4 @@ You can expect several useful resources, such as frequently asked questions, a u
 
 We are excited to reveal the new Section508.gov and Accessibility Requirements Tool (ART) and are targeting mid- to late-September for the initial update release.
 
-**Reviewed/Updated:** September 2021
 

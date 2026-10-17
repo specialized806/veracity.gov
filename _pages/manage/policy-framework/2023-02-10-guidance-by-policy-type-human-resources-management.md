@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/guidance-by-policy-type/human-resources-management/
+description: "Review policy guidance for human resources management to identify ICT accessibility gaps, recommended inclusions, and sample language for agency policy updates."
 type: manage
 title: "IT Accessibility Policy Framework - Human Resources Management"
 created: December 10, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 
 <h2 id="standards">
@@ -49,9 +59,9 @@ The policy type Human Resources Management refers to policies that apply to the 
 <a class="hover-large nolink"><sup>2</sup>Vacancy announcements. 5 C.F.R. § 302.106 (2010).
 </a>
 <br>
-<a class="hover-large" href="https://www.govinfo.gov/content/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap16-subchapV-sec794d.htm"><sup>3</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).</a>
+<a class="hover-large" href="{{site.baseurl}}/manage/laws-and-policies/section-508-law/"><sup>3</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).</a>
 <br>
-<a class="hover-large" href="https://www.govinfo.gov/content/pkg/USCODE-2011-title29/html/USCODE-2011-title29-chap16-subchapV-sec794d.htm"><sup>4</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).</a>
+<a class="hover-large" href="{{site.baseurl}}/manage/laws-and-policies/section-508-law/"><sup>4</sup>Section 508 of the Rehabilitation Act of 1973, 29 U.S.C.§ 794d (1998).</a>
 <br>
 <a class="hover-large" href="https://www.access-board.gov/ict/ict-final-rule.pdf"><sup>5</sup>ICT Standards and Guidelines, 36 C.F.R. § 1194 (2017).</a>
 <br>

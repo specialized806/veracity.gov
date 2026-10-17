@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/how-to-use-the-framework/how-to-identify-policies/
+description: "Learn how to identify agency policies that should incorporate ICT accessibility and Section 508 requirements using the IT Accessibility Policy Framework."
 type: manage
 title: "IT Accessibility Policy Framework - How to Identify Policies"
 created: December 09, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 
 <h2 id="standards">
@@ -78,6 +88,3 @@ The following policy types are not generally recommended for review as the corre
     </a>
 </div>
 </div>
-
-
-

@@ -1,11 +1,27 @@
 ---
 layout: post
-permalink: blog/accessibility-news-the-section-508-Update/
+sidenav: true
 type: article
-title: 'Accessibility News: The Section 508 Update'
-created: 1510319868
-tags: Policy-and-Management
+title: "Accessibility News: The Section 508 Update"
+permalink: blog/accessibility-news-the-section-508-Update/
 description: In January 2017, the <a href="https://www.access-board.gov/">U.S. Access Board</a> published a <a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule">final rule</a> updating accessibility requirements for information and communication technology (ICT) covered by Section 508 of the <a href="https://www.access-board.gov/the-board/laws/rehabilitation-act-of-1973">Rehabilitation Act of 1973</a>.
+tags: Policy-and-Management
+social_img: "assets/images/social-media-og-image-bytes.jpg"
+social_img_alt: "Accessibility Bytes. GSA logo with Section508.gov. Buy. Build. Be Accessible."
+audience: 
+- Members of the Public
+- Policy and Law Makers
+- Section 508 Program Managers
+topic: 
+- Law
+subtopic: 
+- Guidance
+resource-type: 
+- Blog
+format: HTML
+created: 2017-11-10
+updated: 2026-07-10
+exclude-changelog: true
 ---
 
 In January 2017, the [U.S. Access Board][1] published a [final rule][2] updating accessibility requirements for information and communication technology (ICT) covered by Section 508 of the [Rehabilitation Act of 1973][3]. The Rehabilitation Act is a federal law which requires programs and activities funded by federal agencies to be accessible to people with disabilities, including federal employees and members of the public. [Section 508][4] covers ICT developed, procured, maintained, or used by federal agencies.
@@ -62,6 +78,6 @@ Contact the Government-wide Accessibility Team at <section.508@gsa.gov> with que
  [3]: https://www.access-board.gov/the-board/laws/rehabilitation-act-of-1973
  [4]: {{site.baseurl}}/manage/laws-and-policies
  [5]: http://www.w3.org/TR/WCAG20/
- [6]: https://gsa.gov/portal/content/104550
+ [6]: https://www.gsa.gov/about-gsa/contact-us/request-a-speaker/office-of-governmentwide-policy
  [7]: {{site.baseurl}}/tools/program-manager-listing/
  [8]: https://www.access-board.gov/ict/wcag2ict.html

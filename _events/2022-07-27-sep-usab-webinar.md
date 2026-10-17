@@ -1,12 +1,16 @@
 ---
-title: Building a Successful Document Accessibility Program - Strategies, Methods, and Workplans for Inclusive Programs | Webinar
 layout: wide_events
-start-date: #only fill in start date if the events spans multiple days
-end-date: Tuesday, Sep 27 2022 14:30 #otherwise use end-date
-image:
-image-alt: 
+title: Building a Successful Document Accessibility Program - Strategies, Methods, and Workplans for Inclusive Programs | Webinar
+start-date: #only fill in start date if the events spans multiple days (YYYY-MM-DD)
+end-date: 2022-09-27 #otherwise use end-date (YYYY-MM-DD)
 permalink: /event/best-practices-webinar-sep2022/
 description: This session will discuss some common features, work processes, and evaluation and implementation actions of successful document accessibility programs.
+topic: Events
+sub-topic: 
+- Webinar
+image:
+image-alt: 
+created: 2022-07-27
 ---
 
 Accessibility programs are essential to ensuring federal agencies are inclusive of employees with disabilities, especially within digital work environments. While there is no universal method for developing effective accessibility programs, some strategies and practices are more successful than others. In the creation of digital documents, agencies frequently produce large volumes through the collaboration of many authors across federal departments, offices, and units.

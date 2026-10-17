@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/resources-and-references/all-policy-types-and-subtypes/
+description: "Review the policy types and subtypes used in the IT Accessibility Policy Framework to help identify which agency policies may need ICT accessibility updates."
 type: manage
 title: "IT Accessibility Policy Framework - All Policy Types and Subtypes"
 created: December 09, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 
 <h2 id="standards">
@@ -930,6 +940,5 @@ The Table of Policy Types and Subtypes (<b>Table 1</b>) lists and describes all 
     </a>
 </div>
 </div>
-
 
 

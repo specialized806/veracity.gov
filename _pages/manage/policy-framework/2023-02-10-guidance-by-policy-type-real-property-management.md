@@ -2,9 +2,19 @@
 layout: page
 sidenav: true
 permalink: manage/policy-framework/guidance-by-policy-type/real-property-management/
+description: "Review policy guidance for real property management to identify ICT accessibility gaps, recommended inclusions, and sample language for agency policy updates."
 type: manage
 title: "IT Accessibility Policy Framework - Real Property Management"
 created: December 10, 2023
+topic: "Policy"
+sub-topic: "Statute & Regulation"
+audience:
+- "Policy and Law Makers"
+- "Section 508 Program Managers"
+- "Federal Employees"
+- "Manager & Supervisor"
+resource-type: "Process & How-To"
+format: "HTML"
 ---
 
 <h2 id="standards">
@@ -54,6 +64,5 @@ The policy type Real Property Management refers to policies that apply to the on
     </a>
 </div>
 </div>
-
 
 

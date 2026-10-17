@@ -1,0 +1,1609 @@
+{
+    // ==========================================================================
+    // Front Matter
+    // ==========================================================================
+    "Exclude Changelog: True": {
+        "scope": "markdown,html,yaml",
+        "prefix": "exclude-changelog--true",
+        "body": [
+            "exclude-changelog: true$0",
+        ],
+        "description": "Insert exclude-changelog: true in front matter"
+    },
+    "Disclaimer: True": {
+        "scope": "markdown,html,yaml",
+        "prefix": "disclaimer--true",
+        "body": [
+            "disclaimer: true$0",
+        ],
+        "description": "Insert disclaimer: true in front matter"
+    },
+    
+    // ==========================================================================
+    // Content Authoring
+    // ==========================================================================
+
+    // Images -------------------------------------------------------------------
+    "Image Block": {
+        "scope": "markdown,html",
+        "prefix": "image-block",
+        "body": [
+            "<div class=\"tablet:grid-col\" style=\"margin: auto; max-width: 100%; text-align: center; padding: 10px 0px\">",
+            "    <div class=\"margin-top-1\"><img src=\"{{site.baseurl}}/assets/images/${1:path}/${2:file-name.jpg}\" alt=\"${3:ALT text}\" aria-describedby=\"figure-${4:figure number}\" class=\"border-2px border-base-light shadow-2 padding-1\"></div>",
+            "    <div class=\"font-mono-3xs margin-x-auto auto\" style=\"max-width: 90%; text-align: center;\"><span id=\"figure-$4\"><strong>Figure $4.</strong> ${5:Caption text}.</span></div>",
+            "</div>",
+            "$0",
+        ],
+        "description": "Insert an image block with ALT text, caption and figure number"
+    },
+    
+    "Image Only (HTML)": {
+        "scope": "markdown,html",
+        "prefix": "image-only-html",
+        "body": [
+            "<img src=\"{{site.baseurl}}/assets/images/${1:path}/${2:file-name.jpg}\" alt=\"${3:ALT text}\">",
+            "$0",
+        ],
+        "description": "Insert an image element with ALT text"
+    },
+    
+    
+
+    // Links -------------------------------------------------------------------
+    "Email Link": {
+        "scope": "markdown,html",
+        "prefix": ["link-email","email-link"],
+        "body": [
+            "<a href=\"mailto:${1:first.last@domain.com}\">${2:Email link text}</a>$0"
+        ],
+        "description": "Insert an email link in HTML"
+    },
+
+    "External Link": {
+        "scope": "markdown,html",
+        "prefix": ["link-external","external-link"],
+        "body": [
+            "<a href=\"${1:https://example.com}\" target=\"_blank\" class=\"usa-link usa-link--external\">${2:Link text}</a>$0"
+        ],
+        "description": "Insert an external link in HTML"
+    },
+
+    "External Link: Attributes": {
+        "scope": "markdown,html",
+        "prefix": ["link-external-attributes","external-link-attributes"],
+        "body": [
+            "target=\"_blank\" class=\"usa-link usa-link--external\"",
+        ],
+        "description": "Insert an external HTML link's attributes only"
+    },
+
+    "File Assets Link": {
+        "scope": "markdown,html",
+        "prefix": ["link-file","file-link"],
+        "body": [
+            "<a href=\"${1:Paste Cloud.gov Pages PFS URL here}\" download>${2:Document title (PDF)}</a>$0"
+        ],
+        "description": "Insert a file download link in HTML"
+    },
+    
+    "Internal Link (html)": {
+        "scope": "markdown,html",
+        "prefix": ["link-internal-html","internal-link-html"],
+        "body": [
+            "<a href=\"{{site.baseurl}}/${1:path/to/page/}\">${2:Link text}</a>$0"
+        ],
+        "description": "Insert internal Section508.gov link in HTML"
+    },
+
+    "Internal Link (md)": {
+        "scope": "markdown,html",
+        "prefix": ["link-internal-md","internal-link-md"],
+        "body": [
+            "[${1:Link text}]({{site.baseurl}}/${2:path/to/page/})$0"
+        ],
+        "description": "Insert internal Section508.gov link in markdown"
+    },
+       
+    // Summary Boxes ------------------------------------------------------------
+    "Alert: Information": {
+        "scope": "markdown,html",
+        "prefix": "alert-info",
+        "body": [
+            "<div class=\"usa-alert usa-alert--info\" style=\"border-left-color:#005ea2;\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <h${1|2,3,4,5,6|} class=\"usa-alert__heading\">${2:Information heading}</h${1}>",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Information Slim Icon": {
+        "scope": "markdown,html",
+        "prefix": "alert-info--slim-icon",
+        "body": [
+            "<div class=\"usa-alert usa-alert--info usa-alert--slim\" style=\"border-left-color:#005ea2;\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Information Slim No Icon": {
+        "scope": "markdown,html",
+        "prefix": "alert-info--slim-no-icon",
+        "body": [
+            "<div class=\"usa-alert usa-alert--info usa-alert--no-icon\" style=\"border-left-color:#005ea2;\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Warning": {
+        "scope": "markdown,html",
+        "prefix": "alert-warning",
+        "body": [
+            "<div class=\"usa-alert usa-alert--warning\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <h${1|2,3,4,5,6|} class=\"usa-alert__heading\">${2:Warning heading}</h${1}>",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Success": {
+        "scope": "markdown,html",
+        "prefix": "alert-success",
+        "body": [
+            "<div class=\"usa-alert usa-alert--success\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <h${1|2,3,4,5,6|} class=\"usa-alert__heading\">${2:Success heading}</h${1}>",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Error": {
+        "scope": "markdown,html",
+        "prefix": "alert-error",
+        "body": [
+            "<div class=\"usa-alert usa-alert--error\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <h${1|2,3,4,5,6|} class=\"usa-alert__heading\">${2:Error heading}</h${1}>",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Alert: Emergency": {
+        "scope": "markdown,html",
+        "prefix": "alert-emergency",
+        "body": [
+            "<div class=\"usa-alert usa-alert--emergency\">",
+            "  <div class=\"usa-alert__body\">",
+            "    <h${1|2,3,4,5,6|} class=\"usa-alert__heading\">${2:Emergency heading}</h${1}>",
+            "    <p class=\"usa-alert__text\">",
+            "      ${3:Your text here}",
+            "    </p>",
+            "  </div>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Summary Box": {
+        "scope": "markdown,html",
+        "prefix": "summary-box",
+        "body": [
+            "<div class=\"grid-col-12 summary-box\">",
+            "    ${2:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a default summary box"
+    },
+
+    "Summary Box: ALT": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box--alt","callout-box--alt"],
+        "body": [
+            "<div class=\"grid-col-12 summary-box--alt\">",
+            "    ${1:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a summary box with alternate blue bg color"
+    },
+
+    "Summary Box: Code": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box--code","callout-box--code"],
+        "body": [
+            "<div class=\"grid-col-12 summary-box--code\">",
+            "    ${1:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a code sample summary box"
+    },
+
+    "Summary Box w/Icon: Code Text": {
+        "prefix": "summary-box--icon-code",
+        "body": [
+        "<div class=\"grid-col-12 summary-box--icon-code\">",
+        "    <ul class=\"usa-icon-list padding-right-2 force-max-width\">",
+        "        <li class=\"usa-icon-list__item\">",
+        "            <div class=\"usa-icon-list__icon\"><svg class=\"usa-icon icon-size\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{site.baseurl}}/assets/img/sprite.svg#code\"></use></svg></div>",
+        "            <div class=\"usa-icon-list__content force-max-width\">",
+        "                <div class=\"box-heading\"><strong>${1|HTML,CSS,YAML,JSON|}</strong><hr></div>",
+        "                <div class=\"box-text\">${2:Enter code text here.}</div>",
+        "            </div>",
+        "        </li>",
+        "    </ul>",
+        "</div>"
+        ],
+        "description": "Insert an code box with AI icon"
+    }
+
+    "Summary Box: AI Prompt Text": {
+        "prefix": "summary-box--icon-prompt",
+        "body": [
+        "<div class=\"grid-col-12 summary-box--icon-prompt\">",
+        "    <ul class=\"usa-icon-list padding-right-2 force-max-width\">",
+        "        <li class=\"usa-icon-list__item\">",
+        "            <div class=\"usa-icon-list__icon\"><svg class=\"usa-icon icon-size\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{site.baseurl}}/assets/img/ai-generative.svg\"></use></svg></div>",
+        "            <div class=\"usa-icon-list__content force-max-width\">",
+        "                <div class=\"box-heading\"><strong>AI PROMPT</strong><hr></div>",
+        "                <div class=\"box-text\">${1:Enter prompt text here.}</div>",
+        "            </div>",
+        "        </li>",
+        "    </ul>",
+        "</div>"
+        ],
+        "description": "Insert an AI prompt box"
+    }
+    
+    "Summary Box w/Icon: Requirement Quote": {
+        "prefix": "summary-box--icon-requirement",
+        "body": [
+        "<div class=\"grid-col-12 summary-box--icon-requirement\">",
+        "    <ul class=\"usa-icon-list padding-right-2 force-max-width\">",
+        "        <li class=\"usa-icon-list__item\">",
+        "            <div class=\"usa-icon-list__icon\"><svg class=\"usa-icon icon-size\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{site.baseurl}}/assets/img/sprite.svg#format_quote\"></use></svg></div>",
+        "            <div class=\"usa-icon-list__content force-max-width\">",
+        "                <div class=\"box-heading\"><strong>Quoted Requirement</strong><hr></div>",
+        "                <div class=\"box-text\">${1:Enter quoted requirement text here.}</div>",
+        "            </div>",
+        "        </li>",
+        "    </ul>",
+        "</div>"
+        ],
+        "description": "Insert an AI prompt box"
+    }
+
+    "Summary Box w/Icon: Suggested Language": {
+        "prefix": "summary-box--icon-suggested",
+        "body": [
+        "<div class=\"grid-col-12 summary-box--icon-suggested\">",
+        "    <ul class=\"usa-icon-list padding-right-2 force-max-width\">",
+        "        <li class=\"usa-icon-list__item\">",
+        "            <div class=\"usa-icon-list__icon\"><svg class=\"usa-icon icon-size\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{site.baseurl}}/assets/img/sprite.svg#lightbulb_outline\"></use></svg></div>",
+        "            <div class=\"usa-icon-list__content force-max-width\">",
+        "                <div class=\"box-heading\"><strong>Suggested Language</strong><hr></div>",
+        "                <div class=\"box-text\">${1:Enter suggested language text here.}</div>",
+        "            </div>",
+        "        </li>",
+        "    </ul>",
+        "</div>"
+        ],
+        "description": "Insert an AI prompt box"
+    }
+
+    "Summary Box: Left": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box--left","callout-box--left"],
+        "body": [
+            "<div class=\"grid-col-12 summary-box--left\">",
+            "    ${1:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a left-border summary box"
+    },
+
+    "Summary Box: Right": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box--right","callout-box--right"],
+        "body": [
+            "<div class=\"grid-col-12 summary-box--right\">",
+            "    ${1:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a right-border summary box"
+    },
+
+    "Summary Box Dual": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box-dual","callout-box-dual"],
+        "body": [
+            "<div class=\"callout-box-dual margin-bottom-1\">",
+            "    <h${1:Select your heading level|2,3,4,5,6|}>${2:Your heading here}</h$1>",
+            "    ${3:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov dual border callout box"
+    },
+    
+    "Summary Box Dual: ALT": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box-dual-alt","callout-box-dual-alt"],
+        "body": [
+            "<div class=\"callout-box-dual-alt margin-bottom-1\">",
+            "    <h${1:Select your heading level|2,3,4,5,6|}>${2:Your heading here}</h$1>",
+            "    ${3:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov dual border callout box"
+    },
+
+    "Summary Box Dual: Green": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box-dual-green","callout-box-dual-green"],
+        "body": [
+            "<div class=\"callout-box-dual-green margin-bottom-1\">",
+            "    <h${1:Select your heading level|2,3,4,5,6|}>${2:Your heading here}</h$1>",
+            "    ${3:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov dual border callout box"
+    },
+
+    "Summary Box Dual: Violet": {
+        "scope": "markdown,html",
+        "prefix": ["summary-box-dual-violet","callout-box-dual-violet"],
+        "body": [
+            "<div class=\"callout-box-dual-violet margin-bottom-1\">",
+            "    <h${1:Select your heading level|2,3,4,5,6|}>${2:Your heading here}</h$1>",
+            "    ${3:Your text here}",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov dual border callout box"
+    },
+
+// Accordions
+    "Accordion Controls": {
+        "scope": "markdown,html",
+        "prefix": "accordion-controls",
+        "body": [
+            "<div class=\"margin-bottom-3\">",
+            "    <button id=\"expand-all\" class=\"usa-button\" data-target=\"accordion-group-${1:Set Group Letter|a,b,c,d,e|}\" data-action=\"expand\">Expand All</button>",
+            "    <button id=\"collapse-all\" class=\"usa-button\" data-target=\"accordion-group-${1:Group Letter|a,b,c,d,e|}\" data-action=\"collapse\">Collapse All</button>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert Section508.gov accordion expand and collapse controls, allows comma separated group letters to control multiple accordion groups"
+    },
+    
+    "Accordion Group (A:1/3)": {
+        "scope": "markdown,html",
+        "prefix": "accordion-group-a",
+        "body": [
+            "<div id=\"accordion-group-a\" class=\"usa-accordion usa-accordion--multiselectable usa-accordion--bordered\" data-allow-multiple>",
+            "    <h${1:Your heading Level|2,3,4,5,6|} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-1-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"a1\">${2:Accordion 1 title}</button>",
+            "    </h${1}>",
+            "    <div id=\"a1\" class=\"usa-accordion__content\">",
+            "        ${3:Accordion 1 body}",
+            "    </div>",
+
+            "    <h${1} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-2-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"a2\">${4:Accordion 2 title}</button>",
+            "    </h${1}>",
+            "    <div id=\"a2\" class=\"usa-accordion__content\">",
+            "        ${5:Accordion 2 body}",
+            "    </div>",
+
+            "    <h${1} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-3-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"a3\">${6:Accordion 3 title}</button>",
+            "    </h${1}>",
+            "    <div id=\"a3\" class=\"usa-accordion__content\">",
+            "        ${7:Accordion 3 body}",
+            "    </div>",
+
+            "    <h${1} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-4-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"a4\">${8:Accordion 4 title}</button>",
+            "    </h${1}>",
+            "    <div id=\"a4\" class=\"usa-accordion__content\">",
+            "        ${9:Accordion 4 body}",
+            "    </div>",
+
+            "    <h${1} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-5-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"a5\">${10:Accordion 5 title}</button>",
+            "    </h${1}>",
+            "    <div id=\"a5\" class=\"usa-accordion__content\">",
+            "        ${11:Accordion 5 body}",
+            "    </div>",
+            "    $0",
+            "</div>"
+        ],
+        "description": "Insert an accordion group - Single, or 1st of 3"
+    },
+    
+    "Accordion Group (B:2/3)": {
+        "scope": "markdown,html",
+        "prefix": "accordion-group-b",
+        "body": [
+            "<div id=\"accordion-group-b\" class=\"usa-accordion usa-accordion--multiselectable usa-accordion--bordered\" data-allow-multiple>",
+            "    <h${1:Your heading Level|2,3,4,5,6|} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-1-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"b1\">${2:Accordion 1 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"b1\" class=\"usa-accordion__content\">",
+            "        ${3:Accordion 1 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-2-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"b2\">${4:Accordion 2 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"b2\" class=\"usa-accordion__content\">",
+            "        ${5:Accordion 2 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-3-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"b3\">${6:Accordion 3 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"b3\" class=\"usa-accordion__content\">",
+            "        ${7:Accordion 3 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-4-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"b4\">${8:Accordion 4 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"b4\" class=\"usa-accordion__content\">",
+            "        ${9:Accordion 4 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-5-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"b5\">${10:Accordion 5 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"b5\" class=\"usa-accordion__content\">",
+            "        ${11:Accordion 5 body}",
+            "    </div>",
+            "    $0",
+            "</div>"
+        ],
+        "description": "Insert an accordion group - 2nd of 3"
+    },
+
+    "Accordion Group (C:3/3)": {
+        "scope": "markdown,html",
+        "prefix": "accordion-group-c",
+        "body": [
+            "<div id=\"accordion-group-c\" class=\"usa-accordion usa-accordion--multiselectable usa-accordion--bordered\" data-allow-multiple>",
+            "    <h${1:Your heading Level|2,3,4,5,6|} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-1-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"c1\">${2:Accordion 1 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"c1\" class=\"usa-accordion__content\">",
+            "        ${3:Accordion 1 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-2-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"c2\">${4:Accordion 2 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"c2\" class=\"usa-accordion__content\">",
+            "        ${5:Accordion 2 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-3-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"c3\">${6:Accordion 3 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"c3\" class=\"usa-accordion__content\">",
+            "        ${7:Accordion 3 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-4-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"c4\">${8:Accordion 4 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"c4\" class=\"usa-accordion__content\">",
+            "        ${9:Accordion 4 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-5-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"c5\">${10:Accordion 5 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"c5\" class=\"usa-accordion__content\">",
+            "        ${11:Accordion 5 body}",
+            "    </div>",
+            "    $0",
+            "</div>"
+        ],
+        "description": "Insert an accordion group - 3rd of 3"
+    },
+
+    "Accordion Group (N:n/n)": {
+        "scope": "markdown,html",
+        "prefix": "accordion-group-n",
+        "body": [
+            "<div id=\"accordion-group-${1:Set Accordion Group ID|d,e,f,g,h|}\" class=\"usa-accordion usa-accordion--multiselectable usa-accordion--bordered\" data-allow-multiple>",
+            "    <h${2:Your heading Level|2,3,4,5,6|} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-1-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${1}1\">${3:Accordion 1 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"${1}1\" class=\"usa-accordion__content\">",
+            "        ${4:Accordion 1 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-2-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${1}2\">${5:Accordion 2 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"${1}2\" class=\"usa-accordion__content\">",
+            "        ${6:Accordion 2 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-3-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${1}3\">${7:Accordion 3 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"${1}3\" class=\"usa-accordion__content\">",
+            "        ${8:Accordion 3 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-4-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${1}4\">${9:Accordion 4 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"${1}4\" class=\"usa-accordion__content\">",
+            "        ${10:Accordion 4 body}",
+            "    </div>",
+
+            "    <h${2} class=\"usa-accordion__heading\">",
+            "        <button id=\"accordion-5-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${1}5\">${11:Accordion 5 title}</button>",
+            "    </h${2}>",
+            "    <div id=\"${1}5\" class=\"usa-accordion__content\">",
+            "        ${12:Accordion 5 body}",
+            "    </div>",
+            "    $0",
+            "</div>"
+        ],
+        "description": "Insert an accordion group - Nth of N"
+    },
+
+    "Accordion Item": {
+        "scope": "markdown,html",
+        "prefix": "accordion-item",
+        "body": [
+            "<h${2:Your heading Level|2,3,4,5,6|} class=\"usa-accordion__heading\">",
+            "    <button id=\"accordion-${3|a,b,c|}${4|6,7,8,9,10|}-title\" type=\"button\" class=\"usa-accordion__button\" aria-expanded=\"true\" aria-controls=\"${3}${4}\">${5:Accordion ${3}${4} title}</button>",
+            "</h${2}>",
+            "<div id=\"${3}${4}\" class=\"usa-accordion__content\">",
+            "    ${6:Accordion ${3}${4} body}",
+            "</div>$0"
+        ],
+        "description": "Insert a single accordion item"
+    },
+
+    // Footnotes ----------------------------------------------------------------
+    "Footnote Reference": {
+        "scope": "markdown,html",
+        "prefix": "footnote-ref",
+        "body": [
+            "<sup><strong><a href=\"#fn${1:1}\" id=\"fr${1}\">${1}</a></strong></sup>$0"
+        ],
+        "description": "Insert a Section508.gov footnote reference link"
+    },
+
+    "Footnote Section": {
+        "scope": "markdown,html",
+        "prefix": "footnote-footer-group",
+        "body": [
+            "<div>",
+            "    <h2 id=\"footnotes\" class=\"footnotes-title\">Footnotes</h2>",
+            "    <ol start=\"${1:Start the footer list at what number?}\">",
+            "        <li id=\"fn${2:1}\">${3:Your text here.} <a href=\"#fr${2}\" aria-label=\"Back to content\">↩</a></li>$0",
+            "    </ol>",
+            "</div>"
+        ],
+        "description": "Insert a Section508.gov footnotes section in the footer of a page"
+    },
+
+    "Footnote Item": {
+        "scope": "markdown,html",
+        "prefix": "footnote-footer-item",
+        "body": [
+            "<li id=\"fn${1:1}\">${2:Your text here.} <a href=\"#fr${1}\" aria-label=\"Back to content\">↩</a></li>$0",
+        ],
+        "description": "Insert a Section508.gov footnote item"
+    },
+    
+    // Lists ---------------------------------------------------------------
+    "Bulleted list": {
+        "scope": "markdown,html",
+        "prefix": ["unordered-list","list-unordered"]
+        "body": [
+            "<ul id=\"${1:List ID}\">",
+            "   <li>${2:List item text}</li>",
+            "   <li>${3:List item text}</li>",
+            "   <li>${4:List item text}</li>",
+            "   <li>${5:List item text}</li>",
+            "   <li>${6:List item text}</li>",
+            "</ul>$0",
+        ],
+        "description": "Insert an unordered (bulleted) list"
+    },
+    "Numbered list": {
+        "scope": "markdown,html",
+        "prefix": ["ordered-list","list-ordered"],
+        "body": [
+            "<ol id=\"${1:List ID}\" start=\"${2:Starting number}\">",
+            "   <li>${3:List item text}</li>",
+            "   <li>${4:List item text}</li>",
+            "   <li>${5:List item text}</li>",
+            "   <li>${6:List item text}</li>",
+            "   <li>${7:List item text}</li>",
+            "</ol>$0",
+        ],
+        "description": "Insert an ordered (numbered) list"
+    },
+    
+
+    "Icon List: autorenew": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-autorenew","list-icon-autorenew"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a blue autorenew icon"
+    },
+
+    "Icon List: autorenew--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-autorenew--item","list-icon-autorenew--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#autorenew\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert a row within an icon list with a blue autorenew icon"
+    },
+
+    "Icon List: bookmark": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-bookmark","list-icon-bookmark"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a blue bookmark icon"
+    },
+
+    "Icon List: bookmark--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-bookmark--item","list-icon-bookmark--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#bookmark\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert a row within an icon list with a blue bookmark icon"
+    },
+
+    "Icon List: cancel": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-cancel","list-icon-cancel"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a red cancel icon"
+    },
+
+    "Icon List: cancel--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-cancel--item","list-icon-cancel--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#cancel\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert a item within an icon list with a red cancel icon"
+    },
+
+    "Icon List: check_box": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-check_box","list-icon-check_box"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a check_box_outline_blank icon"
+    },
+
+    "Icon List: check_box--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-check_box--item","list-icon-check_box--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon \"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_box_outline_blank\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with a check_box_outline_blank icon"
+    },
+
+    "Icon List: check_circle": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-check_circle","list-icon-check_circle"],
+        "body": [
+            "<ul id=\"${1:List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a green check_circle icon"
+    },
+
+    "Icon List: check_circle--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-check_circle--item","list-icon-check_circle--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#check_circle\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with a green check_circle icon"
+    },
+
+    "Icon List: event": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-event","list-icon-event"],
+        "body": [
+            " <ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with an orange event icon"
+    },
+
+    "Icon List: event--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-event--item","list-icon-event--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-orange\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#event\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with an orange event icon"
+    },
+
+    "Icon List: Cancel ALT": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-cancel-alt","list-icon-cancel-alt"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a red highlight_off icon"
+    },
+
+    "Icon List: Cancel ALT--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-cancel-alt--item","list-icon-cancel-alt--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#highlight_off\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with a red highlight_off icon"
+    },
+
+    "Icon List: insights": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-insights","list-icon-insights"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list  with a red insights icon"
+    },
+
+    "Icon List: insights--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-insights--item","list-icon-insights--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#insights\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list  with a red insights icon"
+    },
+
+    "Icon List: link": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-link","list-icon-link"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a blue link icon"
+    },
+
+    "Icon List: link--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-link--item","list-icon-link--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#link\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with a blue link icon"
+    },
+
+    "Icon List: tag": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-tag","list-icon-tag"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a blue local_offer icon"
+    },
+
+    "Icon List: tag--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-tag--item","list-icon-tag--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#local_offer\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within an icon list with a blue local_offer icon"
+    },
+
+    "Icon List: push_pin": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-push_pin","list-icon-push_pin"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a red push_pin icon"
+    },
+
+    "Icon List: push_pin--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-push_pin--item","list-icon-push_pin--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#push_pin\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a icon list with a red push_pin icon"
+    },
+
+    "Icon List: clock": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-clock","list-icon-clock"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "     <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a blue schedule icon"
+    },
+
+    "Icon List: clock--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-clock--item","list-icon-clock--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#schedule\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a icon list with a blue schedule icon"
+    },
+
+    "Icon List: school": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-school","list-icon-school"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a green school icon"
+    },
+
+    "Icon List: school--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-school--item","list-icon-school--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#school\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a icon list with a green school icon"
+    },
+
+    "Icon List: thumb_down": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-thumb_down","list-icon-thumb_down"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a red thumb_down_alt icon"
+    },
+
+    "Icon List: thumb_down--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-thumb_down--item","list-icon-thumb_down--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-red\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_down_alt\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a icon list with a red thumb_down_alt icon"
+    },
+
+    "Icon List: thumb_up": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-thumb_up","list-icon-thumb_up"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert n item within a icon list with a blue thumb_up_alt icon"
+    },
+
+    "Icon List: thumb_up--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-thumb_up-item","list-icon-thumb_up--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-blue\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#thumb_up_alt\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a item within a icon list with a blue thumb_up_alt icon"
+    },
+
+    "Icon List: Verified": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-verified","list-icon-verified"],
+        "body": [
+            "<ul id=\"${1:Set List ID}\" class=\"usa-icon-list tablet:grid-col\">",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${4:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${5:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${6:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${7:List item text}</div>",
+            "  </li>",
+            "  <li class=\"usa-icon-list__item\">",
+            "    <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "    <div class=\"usa-icon-list__content\">${8:List item text}</div>",
+            "  </li>$0",
+            "</ul>"
+        ],
+        "description": "Insert a icon list with a green verified icon"
+    },
+
+    "Icon List: Verified--item": {
+    "scope": "markdown,html",
+        "prefix": ["icon-list-verified--item","list-icon-verified--item"],
+        "body": [
+            "<li class=\"usa-icon-list__item\">",
+            "  <div class=\"usa-icon-list__icon text-green\"><svg class=\"usa-icon\" aria-hidden=\"true\" role=\"img\"><use xlink:href=\"{{ site.baseurl }}/assets/images/sprite.svg#verified\"></use></svg></div>",
+            "  <div class=\"usa-icon-list__content\">${9:List item text}</div>",
+            "</li>$0",
+        ],
+        "description": "Insert an item within a icon list with a green verified icon"
+    },
+
+    // Lorem Ipsum --------------------------------------------------------------
+    "Lorem Ipsum": {
+        "scope": "markdown,html",
+        "prefix": "lorem-ipsum",
+        "body": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "$0",
+        ],
+        "description": "Set lorem ipsum placeholder text for a page"
+    },
+
+    // Pagination ---------------------------------------------------------------
+    "Pagination - Next Only": {
+        "scope": "markdown,html",
+        "prefix": "pagination-next-only",
+        "body": [
+            "<div id=\"prev-next-section\" style=\"justify-content: space-around;\" class=\"padding-bottom-2\">",
+            "    <a class=\"next-page\" title=\"Go to next page\" href=\"{{site.baseurl}}/${1:path/to/page/}\">Next > </a>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a centered next button navigation button"
+    },
+
+    "Pagination - Previous & Next": {
+        "scope": "markdown,html",
+        "prefix": "pagination-next-previous",
+        "body": [
+            "<div id=\"prev-next-section\">",
+            "    <a class=\"prev-page\" title=\"Go to previous page\" href=\"{{site.baseurl}}/${1:path/to/previous/page/}\"> < Previous</a>",
+            "    <a class=\"next-page\" title=\"Go to next page\" href=\"{{site.baseurl}}/${2:path/to/next/page/}\"> Next > </a>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a previous AND next navigation button"
+    },
+
+    "Pagination - Previous Only": {
+        "scope": "markdown,html",
+        "prefix": "pagination-prev-only",
+        "body": [
+            "<div id=\"prev-next-section\" style=\"justify-content: space-around;\">",
+            "    <a class=\"prev-page\" title=\"Go to previous page\" href=\"{{site.baseurl}}/${1:path/to/previous/page/}\"> < Previous</a>",
+            "</div>",
+            "$0"
+        ],
+        "description": "Insert a centered previous page navigation button"
+    },
+
+    // Process Lists ------------------------------------------------------------
+    "Process List: Default": {
+    "scope": "markdown,html",
+        "prefix": "process-list-default",
+        "body": [
+            "<ol id=\"${1:List-ID}\" class=\"usa-process-list itad-process-list--wide\">",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2|2,3,4,5,6|} class=\"usa-process-list__heading\">${3:Step 1 heading}</h${2}>",
+            "        <p class=\"margin-top-05\">${4:Step 1 description}</p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2} class=\"usa-process-list__heading\">${5:Step 2 heading}</h${2}>",
+            "        <p>${6:Step 2 description}</p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2} class=\"usa-process-list__heading\">${7:Step 3 heading}</h${2}>",
+            "        <p>${8:Step 3 description}</p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2} class=\"usa-process-list__heading\">${9:Step 4 heading}</h${2}>",
+            "        <p>${10:Step 4 description}</p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2} class=\"usa-process-list__heading\">${11:Step 5 heading}</h${2}>",
+            "        <p>${12:Step 5 description}</p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <h${2} class=\"usa-process-list__heading\">${13:Step 6 heading}</h${2}>",
+            "        <p>${14:Step 6 description}</p>",
+            "    </li>",
+            "</ol>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov USWDS process list"
+    },
+
+    "Process List: Heading-Only": {
+        "scope": "markdown,html",
+        "prefix": "process-list-heading-only",
+        "body": [
+            "<ol id=\"${1:Process List ID}\" class=\"usa-process-list\">",
+            "    <li class=\"usa-process-list__item padding-bottom-4\">",
+            "        <p class=\"usa-process-list__heading font-sans-xl line-height-sans-1\">",
+            "            ${2:Start a process.}",
+            "        </p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item padding-bottom-4\">",
+            "        <p class=\"usa-process-list__heading font-sans-xl line-height-sans-1\">",
+            "            ${3:Proceed to the second step.}",
+            "        </p>",
+            "    </li>",
+            "    <li class=\"usa-process-list__item\">",
+            "        <p class=\"usa-process-list__heading font-sans-xl line-height-sans-1\">",
+            "            ${4:Complete the step-by-step process.}",
+            "        </p>",
+            "    </li>",
+            "</ol>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov large USWDS process list"
+    },
+
+    // Tables -------------------------------------------------------------------
+    "Data Table: 5 Columns": {
+        "scope": "markdown,html",
+        "prefix": ["data-table-col-05", "table-05"],
+        "body": [
+            "<table id=\"${1:Table ID}\" class=\"usa-table usa-table--borderless striped\">",
+            "  <caption>${2:Table caption}</caption>",
+            "  <thead>",
+            "    <tr>",
+            "      <th scope=\"col\">${3:Col 1 Heading}</th>",
+            "      <th scope=\"col\">${4:Col 2 Heading}</th>",
+            "      <th scope=\"col\">${5:Col 3 Heading}</th>",
+            "      <th scope=\"col\">${6:Col 4 Heading}</th>",
+            "      <th scope=\"col\">${7:Col 5 Heading}</th>",
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
+            "  <tr>",
+            "    <th scope=\"row\">${8:Col 1 Value}</th>",
+            "    <td>${9:Col 2 Value}</td>",
+            "    <td>${10:Col 3 Value}</td>",
+            "    <td>${11:Col 4 Value}</td>",
+            "    <td>${12:Col 5 Value}</td>",
+            "  </tr>",
+            "  $0"
+            "  </tbody>",
+            "</table>"
+        ],
+        "description": "Insert a Section508.gov data table"
+    },
+
+    "Data Table: 10 Columns": {
+        "scope": "markdown,html",
+        "prefix": ["data-table-col-10", "table-10"],
+        "body": [
+            "<table id=\"${1:Table ID}\" class=\"usa-table usa-table--borderless striped\">",
+            "  <caption>${2:Table caption}</caption>",
+            "  <thead>",
+            "    <tr>",
+            "      <th scope=\"col\">${3:Col 1 Heading}</th>",
+            "      <th scope=\"col\">${4:Col 2 Heading}</th>",
+            "      <th scope=\"col\">${5:Col 3 Heading}</th>",
+            "      <th scope=\"col\">${6:Col 4 Heading}</th>",
+            "      <th scope=\"col\">${7:Col 5 Heading}</th>",
+            "      <th scope=\"col\">${8:Col 6 Heading}</th>",
+            "      <th scope=\"col\">${9:Col 7 Heading}</th>",
+            "      <th scope=\"col\">${10:Col 8 Heading}</th>",
+            "      <th scope=\"col\">${11:Col 9 Heading}</th>",
+            "      <th scope=\"col\">${12:Col 10 Heading}</th>",
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
+            "  <tr>",
+            "    <th scope=\"row\">${8:Col 1 Value}</th>",
+            "    <td>${9:Col 2 Value}</td>",
+            "    <td>${10:Col 3 Value}</td>",
+            "    <td>${11:Col 4 Value}</td>",
+            "    <td>${12:Col 5 Value}</td>",
+            "    <td>${13:Col 6 Value}</td>",
+            "    <td>${14:Col 7 Value}</td>",
+            "    <td>${15:Col 8 Value}</td>",
+            "    <td>${16:Col 9 Value}</td>",
+            "    <td>${17:Col 10 Value}</td>",
+            "  </tr>",
+            "  $0"
+            "  </tbody>",
+            "</table>"
+        ],
+        "description": "Insert a Section508.gov data table"
+    },
+
+    "Table Row: 5 Columns": {
+        "scope": "markdown,html",
+        "prefix": ["data-table-row-05", "table-row-05"],
+        "body": [
+            "<tr>",
+            "  <th scope=\"row\">${1:Col 1 Value}</th>",
+            "  <td>${2:Col 2 Value}</td>",
+            "  <td>${3:Col 3 Value}</td>",
+            "  <td>${4:Col 4 Value}</td>",
+            "  <td>${5:Col 5 Value}</td>",
+            "</tr>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov data table row"
+    },
+        "Table Row: 10 Columns": {
+        "scope": "markdown,html",
+        "prefix": ["data-table-row-10", "table-row-10"],
+        "body": [
+            "<tr>",
+            "  <th scope=\"row\">${1:Col 1 Value}</th>",
+            "  <td>${2:Col 2 Value}</td>",
+            "  <td>${3:Col 3 Value}</td>",
+            "  <td>${4:Col 4 Value}</td>",
+            "  <td>${5:Col 5 Value}</td>",
+            "  <td>${6:Col 6 Value}</td>",
+            "  <td>${7:Col 7 Value}</td>",
+            "  <td>${8:Col 8 Value}</td>",
+            "  <td>${9:Col 9 Value}</td>",
+            "  <td>${10:Col 10 Value}</td>",
+            "</tr>",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov data table row"
+    },
+
+    // ==========================================================================
+    // USWDS Components
+    // ==========================================================================
+
+    // ==========================================================================
+    // Jekyll / Liquid
+    // ==========================================================================
+
+    // ==========================================================================
+    // Accessibility Patterns
+    // ==========================================================================
+
+    // ==========================================================================
+    // YAML
+    // ==========================================================================
+
+    // Content Library Documents ------------------------------------------------
+    "Content Library Document Entry": {
+        "scope": "yaml",
+        "prefix": "content-lib-document",
+        "body": [
+            "- filename: \"${1:file-name.ext}\"",
+            "  permalink: \"${2:Paste link from PFS upload}\"",
+            "  title: \"${3:Resource title}\"",
+            "  description: \"${4:Resource description.}\"",
+            "  topic: \"${5:Topic}\"",
+            "  sub-topic: \"${6:Sub-topic}\"",
+            "  audience: \"${7:Audience}\"",
+            "  resource-type: \"${8:Resource type}\"",
+            "  format: \"${9|Document (PDF),Document (DOCX),Document (XLSX),Document (PPTX),HTML,Video,Audio,ZIP|}\"",
+            "$0"
+        ],
+        "description": "Insert a Section508.gov resource metadata entry"
+    },
+
+    // ==========================================================================
+    // JSON
+    // ==========================================================================
+}

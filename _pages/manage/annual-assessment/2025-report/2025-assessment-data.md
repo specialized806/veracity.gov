@@ -1,0 +1,46 @@
+---
+layout: page
+sidenav: true
+type: report2025
+title: "Assessment Data & Downloads"
+permalink: manage/section-508-assessment/2025/assessment-data-downloads/
+redirect_from:
+- 2025-assessment-data-downloads/
+- 2025-congressional-report-downloads/ #legacy to be changed on other pages. 
+description: The FY 2025 Governmentwide Section 508 Assessment makes all agency and component submissions publicly available as an open government data asset, providing transparency into assessment criteria, responses, and top-viewed ICT data across multiple formats, including HTML, CSV, JSON, and XLSX.
+topic: "Law"
+sub-topic: "Annual Assessment"
+audience:
+- "Section 508 Program Managers"
+- "Agency Heads"
+- "Members of the Public"
+- "Policy and Law Makers"
+- "Federal Employees"
+resource-type: "White Paper"
+format: "HTML"
+created: 2026-03-02
+updated: 2026-07-30
+exclude-changelog: true
+---
+To enhance the transparency of this report and respondent data, we have made them publicly available as an open government data asset. You can find downloadable content related to the FY 2025 Governmentwide Section 508 Assessment below, which includes:
+
+## Report
+* <a href="{{ site.baseurl }}/manage/section-508-assessment/2025/message-from-gsa-administrator/">FY 2025 Governmentwide Section 508 Assessment (HTML)</a>
+* <a href="{{ site.baseurl }}/manage/section-508-assessment/2025/reading/">FY 2025 Governmentwide Section 508 Assessment&mdash;Reading View (HTML)</a>
+
+## Assessment Criteria and Reporting Entity Responses
+
+### Agencies
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-agency-data-dictionary.xlsx" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Agency Data Dictionary (XLSX)</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-agency-response-data.csv" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Agency Response Data (CSV)</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-agency-response-data.json" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Agency Response Data (JSON)</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-agency-top-viewed-ict-response-data.csv" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Agency Top Viewed ICT Response Data (CSV)*</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-agency-top-viewed-ict-response-data.json" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Agency Top Viewed ICT Response Data (JSON)*</a>
+
+*Department of Treasury, Department of Transportation, Department of Interior, James Madison Memorial Fellowship Foundation, and Department of Homeland Security’s results were inadvertently omitted in a previously posted version. In addition, an update was made July 30th to add notations for where agencies did not test ICT or if they did not have that ICT type. 
+
+### Components
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-component-data-dictionary.xlsx" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Component Data Dictionary (XLSX)</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-component-response-data.csv" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Component Response Data (CSV)</a>
+* <a href="https://www.section508.gov/~assets/files/assessment/2025/fy25-governmentwide-section-508-assessment-component-response-data.json" target="_blank" class="usa-link--external">FY 2025 Governmentwide Section 508 Assessment Component Response Data (JSON)</a>
+
